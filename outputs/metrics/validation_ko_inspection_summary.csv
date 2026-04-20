@@ -1,0 +1,16 @@
+metric,value
+record_count,745
+column_count,14
+unique_primary_entity_types,11
+unique_all_entity_types,12
+multi_reference_count,610
+multi_reference_rate,0.8188
+missing_reference_mention_count,0
+missing_any_reference_mention_count,0
+gpt4o_missing_prediction_count,0
+gpt4o_mini_missing_prediction_count,0
+validation_vs_merged_ids_match,True
+validation_vs_gpt4o_ids_match,True
+validation_vs_gpt4o_mini_ids_match,True
+merged_gpt4o_value_mismatch_count,0
+merged_gpt4o_mini_value_mismatch_count,0

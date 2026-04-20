@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+semeval*.zip
+data/raw/
+data/human_eval/human_eval_sheet_merged.csv

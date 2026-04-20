@@ -1,0 +1,34 @@
+{
+  "locale": "ko",
+  "raw_archives": {
+    "sample": "semeval.sample.v2-3ac3a81688fe881a3107438abfc70c92.zip",
+    "validation": "semeval.validation.v2-889a1492ba6c3791baa8f4224bc8e685.zip",
+    "test": "semeval.test_hidden.v2-95720e10dd4cf884e23927f0d5f892f6.zip",
+    "predictions": "semeval.predictions.v2-348f83c7ccc3ec827a2a3ddbe220278b.zip"
+  },
+  "splits": {
+    "sample": {
+      "record_count": 73,
+      "output_jsonl": "data/processed/sample_ko.jsonl"
+    },
+    "validation": {
+      "record_count": 745,
+      "output_jsonl": "data/processed/validation_ko.jsonl",
+      "gpt4o_predictions": 745,
+      "gpt4o_mini_predictions": 745
+    },
+    "test": {
+      "record_count": 5082,
+      "output_jsonl": "data/processed/test_ko.jsonl"
+    }
+  },
+  "outputs": {
+    "merged_validation_jsonl": "data/processed/validation_ko_merged.jsonl",
+    "merged_validation_csv": "outputs/metrics/validation_ko_merged.csv",
+    "combined_analysis_jsonl": "data/processed/ko_analysis_table.jsonl",
+    "combined_analysis_csv": "outputs/metrics/ko_analysis_table.csv",
+    "analysis_subset_csv": "data/human_eval/ko_validation_analysis_subset_250.csv",
+    "annotation_template_csv": "data/human_eval/ko_annotation_template.csv"
+  },
+  "subset_size": 250
+}

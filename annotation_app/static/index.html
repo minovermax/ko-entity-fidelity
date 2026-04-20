@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EntityLens Annotation</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <section class="annotator-picker" id="annotator-picker">
+        <div class="picker-header">
+          <p class="eyebrow">EntityLens Human Evaluation</p>
+          <h1>Choose your name and start annotating.</h1>
+          <p class="subcopy">
+            Each annotator gets a fixed non-overlapping slice of the dataset. Your
+            progress and saved responses stay in your local clone.
+          </p>
+        </div>
+        <div class="picker-grid" id="picker-grid"></div>
+      </section>
+
+      <section class="workspace hidden" id="workspace">
+        <header class="workspace-header">
+          <div class="annotator-summary">
+            <img id="annotator-avatar" alt="" class="annotator-avatar" />
+            <div>
+              <p class="eyebrow">Annotator</p>
+              <h2 id="annotator-name"></h2>
+              <p class="save-path" id="save-path"></p>
+            </div>
+          </div>
+          <div class="progress-panel">
+            <div class="progress-copy">
+              <span id="progress-label">0 / 0 complete</span>
+              <span id="progress-percent">0%</span>
+            </div>
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="workspace-layout">
+          <aside class="queue-panel">
+            <div class="queue-header">
+              <h3>Assigned Examples</h3>
+              <p id="queue-summary"></p>
+            </div>
+            <div class="queue-list" id="queue-list"></div>
+          </aside>
+
+          <main class="annotation-panel">
+            <div class="annotation-toolbar">
+              <div>
+                <p class="eyebrow">Current Example</p>
+                <h3 id="example-id"></h3>
+                <p class="example-meta" id="example-meta"></p>
+              </div>
+              <div class="toolbar-actions">
+                <button id="prev-button" class="secondary-button" type="button">
+                  Previous
+                </button>
+                <button id="next-button" class="secondary-button" type="button">
+                  Next
+                </button>
+              </div>
+            </div>
+
+            <section class="quick-guide">
+              <div class="section-heading">
+                <h3>How To Annotate</h3>
+                <p>
+                  You do not need research knowledge. Just judge what would feel
+                  natural and correct to a Korean reader.
+                </p>
+              </div>
+              <div class="guide-grid">
+                <div class="guide-card">
+                  <p class="block-label">1. Read the example</p>
+                  <p>
+                    Look at the source sentence, the Korean reference, and the entity
+                    mention. Ask yourself what name or title a Korean reader would most
+                    naturally expect.
+                  </p>
+                </div>
+                <div class="guide-card">
+                  <p class="block-label">2. Decide the ideal Korean form</p>
+                  <p>
+                    Before scoring the models, decide whether this entity should usually
+                    be translated, transliterated, preserved in English, or adapted.
+                  </p>
+                </div>
+                <div class="guide-card">
+                  <p class="block-label">3. Judge each model separately</p>
+                  <p>
+                    For each model, decide whether the entity is right, what strategy it
+                    used, and whether the output feels acceptable in Korean.
+                  </p>
+                </div>
+                <div class="guide-card">
+                  <p class="block-label">4. Leave notes only when helpful</p>
+                  <p>
+                    Use notes for cases like "official Korean title exists", "English
+                    should have been kept", or "this feels awkward but still understandable".
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section class="context-band">
+              <div class="context-block">
+                <p class="block-label">Source</p>
+                <p id="source-text" class="source-text"></p>
+              </div>
+              <div class="context-grid">
+                <div class="context-block">
+                  <p class="block-label">Reference Translation</p>
+                  <p id="reference-translation"></p>
+                </div>
+                <div class="context-block">
+                  <p class="block-label">Reference Mention</p>
+                  <p id="reference-mention"></p>
+                </div>
+              </div>
+              <div class="context-grid">
+                <div class="context-block">
+                  <p class="block-label">All Reference Translations</p>
+                  <div class="chip-list" id="reference-translations"></div>
+                </div>
+                <div class="context-block">
+                  <p class="block-label">Entity Type</p>
+                  <div class="chip-list" id="entity-types"></div>
+                </div>
+              </div>
+            </section>
+
+            <section class="shared-controls">
+              <div class="section-heading">
+                <h3>Shared Decision</h3>
+                <p>Mark the ideal Korean strategy before scoring each model.</p>
+              </div>
+              <div class="form-grid">
+                <label>
+                  <span>Target Rendering Strategy</span>
+                  <select id="target_rendering_strategy"></select>
+                  <small class="help-text">
+                    Pick the best Korean way to write this entity overall. Ask:
+                    should a Korean reader normally expect a translated title, a sound-based
+                    Korean spelling, the original English, or a more adapted Korean form?
+                  </small>
+                </label>
+                <label>
+                  <span>Official Korean Title Preferred</span>
+                  <select id="official_korean_title_preferred"></select>
+                  <small class="help-text">
+                    Choose "yes" if there is a well-established Korean title or name that
+                    should be preferred here, like a common movie title, book title, or
+                    place name.
+                  </small>
+                </label>
+                <label>
+                  <span>Preserve English Preferred</span>
+                  <select id="preserve_english_preferred"></select>
+                  <small class="help-text">
+                    Choose "yes" only if keeping the English form would feel more natural
+                    to Korean readers than translating or transliterating it.
+                  </small>
+                </label>
+                <label>
+                  <span>Adaptation Needed</span>
+                  <select id="adaptation_needed"></select>
+                  <small class="help-text">
+                    Choose "yes" when a direct title or name is not enough and Korean
+                    would need a more adjusted form to sound right or be understood naturally.
+                  </small>
+                </label>
+              </div>
+            </section>
+
+            <section class="model-sections">
+              <article class="model-card model-gpt4o">
+                <div class="model-header">
+                  <div>
+                    <p class="eyebrow">Model A</p>
+                    <h3>gpt4o</h3>
+                  </div>
+                </div>
+                <div class="prediction-block">
+                  <p class="block-label">Prediction</p>
+                  <p id="gpt4o_prediction" class="prediction-text"></p>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Entity Correct</span>
+                    <select id="gpt4o_entity_correct"></select>
+                    <small class="help-text">
+                      "yes" if the entity is clearly the right one in Korean, "partly" if
+                      it is close but awkward or only partly correct, and "no" if it is the
+                      wrong entity or clearly unacceptable.
+                    </small>
+                  </label>
+                  <label>
+                    <span>Rendering Strategy</span>
+                    <select id="gpt4o_rendering_strategy"></select>
+                    <small class="help-text">
+                      What did this model actually do? Did it translate the title, write
+                      the sound in Korean, keep English, or use a more adapted form?
+                    </small>
+                  </label>
+                  <label>
+                    <span>Quality Label</span>
+                    <select id="gpt4o_quality_label"></select>
+                    <small class="help-text">
+                      Use this to describe the type of result: fully correct, acceptable
+                      alternate name, wrong strategy, wrong entity, missing entity, and so on.
+                    </small>
+                  </label>
+                  <label>
+                    <span>Metric Likely Miss</span>
+                    <select id="gpt4o_metric_likely_miss"></select>
+                    <small class="help-text">
+                      Choose "yes" if the sentence looks fine overall but a Korean reader
+                      would still feel the entity handling is wrong or unnatural.
+                    </small>
+                  </label>
+                  <label class="wide-field">
+                    <span>Notes</span>
+                    <textarea id="gpt4o_notes" rows="4"></textarea>
+                    <small class="help-text">
+                      Optional. Good notes are short and concrete, like "official Korean
+                      title exists", "should keep English", or "spelling is understandable but uncommon".
+                    </small>
+                  </label>
+                </div>
+              </article>
+
+              <article class="model-card model-gpt4o-mini">
+                <div class="model-header">
+                  <div>
+                    <p class="eyebrow">Model B</p>
+                    <h3>gpt4o-mini</h3>
+                  </div>
+                </div>
+                <div class="prediction-block">
+                  <p class="block-label">Prediction</p>
+                  <p id="gpt4o_mini_prediction" class="prediction-text"></p>
+                </div>
+                <div class="form-grid">
+                  <label>
+                    <span>Entity Correct</span>
+                    <select id="gpt4o_mini_entity_correct"></select>
+                    <small class="help-text">
+                      "yes" if the entity is clearly the right one in Korean, "partly" if
+                      it is close but awkward or only partly correct, and "no" if it is the
+                      wrong entity or clearly unacceptable.
+                    </small>
+                  </label>
+                  <label>
+                    <span>Rendering Strategy</span>
+                    <select id="gpt4o_mini_rendering_strategy"></select>
+                    <small class="help-text">
+                      What did this model actually do? Did it translate the title, write
+                      the sound in Korean, keep English, or use a more adapted form?
+                    </small>
+                  </label>
+                  <label>
+                    <span>Quality Label</span>
+                    <select id="gpt4o_mini_quality_label"></select>
+                    <small class="help-text">
+                      Use this to describe the type of result: fully correct, acceptable
+                      alternate name, wrong strategy, wrong entity, missing entity, and so on.
+                    </small>
+                  </label>
+                  <label>
+                    <span>Metric Likely Miss</span>
+                    <select id="gpt4o_mini_metric_likely_miss"></select>
+                    <small class="help-text">
+                      Choose "yes" if the sentence looks fine overall but a Korean reader
+                      would still feel the entity handling is wrong or unnatural.
+                    </small>
+                  </label>
+                  <label class="wide-field">
+                    <span>Notes</span>
+                    <textarea id="gpt4o_mini_notes" rows="4"></textarea>
+                    <small class="help-text">
+                      Optional. Good notes are short and concrete, like "official Korean
+                      title exists", "should keep English", or "spelling is understandable but uncommon".
+                    </small>
+                  </label>
+                </div>
+              </article>
+            </section>
+
+            <section class="shared-controls">
+              <div class="section-heading">
+                <h3>Final Comparison</h3>
+                <p>
+                  After you have looked at both model outputs, decide which one you would
+                  rather show to a Korean reader.
+                </p>
+              </div>
+              <div class="form-grid">
+                <label class="wide-field">
+                  <span>Preferred Model</span>
+                  <select id="preferred_model"></select>
+                  <small class="help-text">
+                    Pick the better output overall. Use tie if both feel equally acceptable,
+                    or neither if both feel wrong or awkward.
+                  </small>
+                </label>
+                <label class="wide-field">
+                  <span>Overall Comments</span>
+                  <textarea id="overall_comments" rows="3"></textarea>
+                  <small class="help-text">
+                    Optional. Write anything useful that applies to the whole example,
+                    especially if both models are wrong in different ways.
+                  </small>
+                </label>
+              </div>
+            </section>
+
+            <footer class="save-bar">
+              <p id="save-message">Choose your name to begin.</p>
+              <div class="toolbar-actions">
+                <button id="save-button" class="primary-button" type="button">
+                  Save
+                </button>
+                <button id="save-next-button" class="primary-button alt" type="button">
+                  Save and Next
+                </button>
+              </div>
+            </footer>
+          </main>
+        </div>
+      </section>
+    </div>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

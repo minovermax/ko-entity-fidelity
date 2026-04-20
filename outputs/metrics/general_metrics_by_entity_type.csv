@@ -1,0 +1,23 @@
+model_name,primary_entity_type,example_count,corpus_bleu,average_sentence_bleu,average_sentence_chrf,normalized_reference_exact_match_rate
+gpt4o,Artwork,168,16.8969,35.794,51.3075,0.1131
+gpt4o,Book,24,37.7176,51.8816,61.1399,0.1667
+gpt4o,Book series,6,12.01,21.4232,43.7514,0.0
+gpt4o,Fictional entity,56,34.2002,45.1728,59.2523,0.0893
+gpt4o,Food,33,30.9111,43.6769,55.9814,0.0909
+gpt4o,Landmark,36,36.8723,48.0316,58.3838,0.0556
+gpt4o,Movie,78,13.5319,31.976,46.338,0.0897
+gpt4o,Musical work,75,35.6335,52.9091,63.1745,0.2133
+gpt4o,Person,77,29.265,44.7936,58.7122,0.0909
+gpt4o,Place of worship,72,30.5209,47.5998,59.6564,0.0694
+gpt4o,TV series,120,22.7675,36.5861,49.2354,0.0667
+gpt4o_mini,Artwork,168,16.0767,35.9728,50.4074,0.119
+gpt4o_mini,Book,24,39.1209,51.153,59.9873,0.125
+gpt4o_mini,Book series,6,24.9167,29.6335,48.399,0.0
+gpt4o_mini,Fictional entity,56,26.4709,40.6699,55.5451,0.0714
+gpt4o_mini,Food,33,29.2295,43.211,57.134,0.0303
+gpt4o_mini,Landmark,36,29.9328,48.2198,56.6301,0.1111
+gpt4o_mini,Movie,78,11.6874,30.9672,43.2036,0.0513
+gpt4o_mini,Musical work,75,19.7,45.1916,58.1431,0.0933
+gpt4o_mini,Person,77,24.4637,41.5195,54.621,0.0779
+gpt4o_mini,Place of worship,72,21.9209,45.7398,56.7622,0.0833
+gpt4o_mini,TV series,120,19.1664,34.5525,47.8017,0.0583

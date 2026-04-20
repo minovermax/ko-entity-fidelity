@@ -1,0 +1,149 @@
+{
+  "input_path": "data/processed/validation_ko_merged.jsonl",
+  "record_count": 745,
+  "columns": [
+    "entity_types",
+    "gpt4o_mini_prediction",
+    "gpt4o_prediction",
+    "id",
+    "reference_mention",
+    "reference_mentions",
+    "reference_translation",
+    "reference_translations",
+    "source",
+    "source_locale",
+    "split",
+    "target_locale",
+    "targets",
+    "wikidata_id"
+  ],
+  "column_count": 14,
+  "unique_primary_entity_types": 11,
+  "unique_all_entity_types": 12,
+  "top_primary_entity_types": [
+    [
+      "Artwork",
+      168
+    ],
+    [
+      "TV series",
+      120
+    ],
+    [
+      "Movie",
+      78
+    ],
+    [
+      "Person",
+      77
+    ],
+    [
+      "Musical work",
+      75
+    ],
+    [
+      "Place of worship",
+      72
+    ],
+    [
+      "Fictional entity",
+      56
+    ],
+    [
+      "Landmark",
+      36
+    ],
+    [
+      "Food",
+      33
+    ],
+    [
+      "Book",
+      24
+    ],
+    [
+      "Book series",
+      6
+    ]
+  ],
+  "top_all_entity_types": [
+    [
+      "Artwork",
+      171
+    ],
+    [
+      "TV series",
+      132
+    ],
+    [
+      "Book",
+      99
+    ],
+    [
+      "Person",
+      86
+    ],
+    [
+      "Movie",
+      78
+    ],
+    [
+      "Musical work",
+      75
+    ],
+    [
+      "Place of worship",
+      72
+    ],
+    [
+      "Fictional entity",
+      68
+    ],
+    [
+      "Landmark",
+      45
+    ],
+    [
+      "Food",
+      33
+    ],
+    [
+      "Book series",
+      6
+    ],
+    [
+      "Plant",
+      3
+    ]
+  ],
+  "multi_reference_count": 610,
+  "multi_reference_rate": 0.8188,
+  "missing_reference_mention_count": 0,
+  "missing_reference_mention_rate": 0.0,
+  "missing_any_reference_mention_count": 0,
+  "missing_any_reference_mention_rate": 0.0,
+  "gpt4o_prediction_summary": {
+    "missing_count": 0,
+    "missing_ids": []
+  },
+  "gpt4o_mini_prediction_summary": {
+    "missing_count": 0,
+    "missing_ids": []
+  },
+  "alignment_report": {
+    "validation_vs_merged_ids_match": true,
+    "validation_vs_gpt4o_ids_match": true,
+    "validation_vs_gpt4o_mini_ids_match": true,
+    "validation_only_ids": [],
+    "merged_only_ids": [],
+    "gpt4o_missing_from_validation": [],
+    "gpt4o_extra_vs_validation": [],
+    "gpt4o_mini_missing_from_validation": [],
+    "gpt4o_mini_extra_vs_validation": [],
+    "merged_gpt4o_value_mismatch_count": 0,
+    "merged_gpt4o_value_mismatch_ids": [],
+    "merged_gpt4o_mini_value_mismatch_count": 0,
+    "merged_gpt4o_mini_value_mismatch_ids": []
+  },
+  "example_preview_count": 5
+}

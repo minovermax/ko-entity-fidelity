@@ -1,0 +1,43 @@
+{
+  "input_path": "data/processed/validation_ko_merged.jsonl",
+  "subset_size": 200,
+  "config": {
+    "subset_size": 200,
+    "random_seed": 42,
+    "seed_per_primary_entity_type": 6,
+    "hard_case_fraction": 0.6,
+    "easy_case_fraction": 0.2
+  },
+  "primary_entity_type_counts": {
+    "Artwork": 20,
+    "Book": 20,
+    "Fictional entity": 20,
+    "Food": 20,
+    "Landmark": 19,
+    "Movie": 19,
+    "Musical work": 19,
+    "Person": 19,
+    "Place of worship": 19,
+    "TV series": 19,
+    "Book series": 6
+  },
+  "selection_reason_counts": {
+    "multi_reference_example": 172,
+    "model_text_disagreement": 158,
+    "at_least_one_model_misses_reference_mention": 150,
+    "entity_mention_match_disagreement": 107,
+    "multiple_entity_types": 38,
+    "ascii_preservation_disagreement": 34,
+    "entity_type_coverage": 15
+  },
+  "selection_stage_counts": {
+    "seed": 66,
+    "hard_case": 54,
+    "easy_case": 40,
+    "random_fill": 40
+  },
+  "gpt_models_differ_count": 158,
+  "model_mention_match_disagree_count": 107,
+  "multi_reference_count": 172,
+  "ascii_preservation_disagreement_count": 34
+}

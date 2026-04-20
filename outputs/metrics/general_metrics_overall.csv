@@ -1,0 +1,3 @@
+model_name,scope,example_count,corpus_bleu,average_sentence_bleu,average_sentence_chrf,normalized_reference_exact_match_rate
+gpt4o,overall,745,25.8746,41.364,54.6224,0.102
+gpt4o_mini,overall,745,20.7067,39.3687,52.3392,0.0832
