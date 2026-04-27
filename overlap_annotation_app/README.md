@@ -6,6 +6,8 @@ Both Minseo and Siwan should annotate all 30 examples. The app saves their answe
 
 This is different from the first annotation round. In the first round, each person had separate examples. In this overlap round, both people annotate the exact same examples.
 
+The 30 overlap examples are fresh examples selected from the validation data outside the first 200-example annotation sheet. You should not be re-annotating your own earlier examples.
+
 ## Start From The Latest Repo
 
 From your local clone:

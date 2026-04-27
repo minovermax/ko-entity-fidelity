@@ -1,8 +1,11 @@
 {
-  "source_sheet": "data/human_eval/human_eval_sheet.csv",
+  "source_data": "data/processed/validation_ko_merged.jsonl",
+  "excluded_main_sheet": "data/human_eval/human_eval_sheet.csv",
   "output_sheet": "data/human_eval/overlap/overlap_annotation_sheet.csv",
   "overlap_size": 30,
+  "available_unused_validation_examples": 545,
+  "excluded_previously_annotated_examples": 200,
   "random_seed": 4651,
-  "note": "Both annotators should annotate every row in this overlap sheet.",
+  "note": "Both annotators should annotate every row in this overlap sheet. Rows are selected from validation examples outside the original human-eval sheet.",
   "run_app_command": "ANNOTATION_BASE_SHEET=data/human_eval/overlap/overlap_annotation_sheet.csv ANNOTATION_EXPORT_DIR=data/human_eval/overlap/annotator_exports ANNOTATION_ASSIGNMENTS_PATH=annotation_app/data/overlap_annotator_assignments.json ANNOTATION_ASSIGNMENT_MODE=all ANNOTATION_PORT=8766 python3 annotation_app/server.py"
 }
