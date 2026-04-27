@@ -23,6 +23,39 @@ Then open:
 http://127.0.0.1:8765
 ```
 
+## Optional overlap-agreement mode
+
+Use this only if the project needs an inter-annotator agreement number.
+
+First build the overlap sheet:
+
+```bash
+python3 src/analysis/build_overlap_annotation_sheet.py
+```
+
+Then run the app so both annotators receive the same 30 examples:
+
+```bash
+ANNOTATION_BASE_SHEET=data/human_eval/overlap/overlap_annotation_sheet.csv \
+ANNOTATION_EXPORT_DIR=data/human_eval/overlap/annotator_exports \
+ANNOTATION_ASSIGNMENTS_PATH=annotation_app/data/overlap_annotator_assignments.json \
+ANNOTATION_ASSIGNMENT_MODE=all \
+ANNOTATION_PORT=8766 \
+python3 annotation_app/server.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8766
+```
+
+After both overlap exports exist, compute agreement:
+
+```bash
+python3 src/analysis/compute_inter_annotator_agreement.py
+```
+
 ## Where annotations are saved
 
 Each annotator writes to a separate CSV in their own clone:

@@ -325,7 +325,7 @@ function renderPickerCards() {
       <img src="${annotator.avatar}" alt="${annotator.name} avatar" />
       <div>
         <h2>${annotator.name}</h2>
-        <p>${annotator.assigned_count} assigned examples</p>
+        <p>${annotator.assigned_count} ${state.bootstrap.app.assigned_label}</p>
         <button class="primary-button" type="button">Start as ${annotator.name}</button>
       </div>
     `;
@@ -338,6 +338,11 @@ function renderPickerCards() {
 async function bootstrap() {
   populateSelects();
   state.bootstrap = await fetchJson("/api/bootstrap");
+  document.title = state.bootstrap.app.eyebrow;
+  $("#app-eyebrow").textContent = state.bootstrap.app.eyebrow;
+  $("#app-title").textContent = state.bootstrap.app.title;
+  $("#app-subcopy").textContent = state.bootstrap.app.subcopy;
+  $("#queue-title").textContent = state.bootstrap.app.queue_title;
   renderPickerCards();
 
   $("#prev-button").addEventListener("click", () => {

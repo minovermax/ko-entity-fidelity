@@ -5,3 +5,4 @@ __pycache__/
 semeval*.zip
 data/raw/
 data/human_eval/human_eval_sheet_merged.csv
+overlap_annotation_app/data/

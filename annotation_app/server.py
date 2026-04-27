@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import threading
 from datetime import datetime, timezone
 from http import HTTPStatus
@@ -16,9 +17,35 @@ from urllib.parse import urlparse
 APP_DIR = Path(__file__).resolve().parent
 ROOT = APP_DIR.parent
 STATIC_DIR = APP_DIR / "static"
-BASE_SHEET_PATH = ROOT / "data" / "human_eval" / "human_eval_sheet.csv"
-EXPORT_DIR = ROOT / "data" / "human_eval" / "annotator_exports"
-ASSIGNMENTS_PATH = APP_DIR / "data" / "annotator_assignments.json"
+BASE_SHEET_PATH = Path(
+    os.environ.get(
+        "ANNOTATION_BASE_SHEET",
+        ROOT / "data" / "human_eval" / "human_eval_sheet.csv",
+    )
+).resolve()
+EXPORT_DIR = Path(
+    os.environ.get(
+        "ANNOTATION_EXPORT_DIR",
+        ROOT / "data" / "human_eval" / "annotator_exports",
+    )
+).resolve()
+ASSIGNMENTS_PATH = Path(
+    os.environ.get(
+        "ANNOTATION_ASSIGNMENTS_PATH",
+        APP_DIR / "data" / "annotator_assignments.json",
+    )
+).resolve()
+ASSIGNMENT_MODE = os.environ.get("ANNOTATION_ASSIGNMENT_MODE", "round_robin")
+PORT = int(os.environ.get("ANNOTATION_PORT", "8765"))
+APP_EYEBROW = os.environ.get("ANNOTATION_APP_EYEBROW", "EntityLens Human Evaluation")
+APP_TITLE = os.environ.get("ANNOTATION_APP_TITLE", "Choose your name and start annotating.")
+APP_SUBCOPY = os.environ.get(
+    "ANNOTATION_APP_SUBCOPY",
+    "Each annotator gets a fixed non-overlapping slice of the dataset. "
+    "Your progress and saved responses stay in your local clone.",
+)
+QUEUE_TITLE = os.environ.get("ANNOTATION_QUEUE_TITLE", "Assigned Examples")
+ASSIGNED_LABEL = os.environ.get("ANNOTATION_ASSIGNED_LABEL", "assigned examples")
 
 ANNOTATORS = [
     {
@@ -95,6 +122,13 @@ EXPORT_FIELDNAMES = READ_ONLY_FIELDS + EDITABLE_FIELDS + [
 WRITE_LOCK = threading.Lock()
 
 
+def relative_or_absolute(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
 def read_csv_rows(path: Path) -> list[dict[str, str]]:
     with path.open("r", encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
@@ -111,21 +145,38 @@ def write_csv_rows(path: Path, fieldnames: list[str], rows: list[dict[str, str]]
 def assignment_payload_matches_current_rows(payload: dict, base_rows: list[dict[str, str]]) -> bool:
     if "annotators" not in payload:
         return False
-    assigned_ids: list[str] = []
-    for annotator in ANNOTATORS:
-        assigned_ids.extend(payload["annotators"].get(annotator["slug"], []))
     current_ids = [row["id"] for row in base_rows]
-    return assigned_ids == current_ids
+    if payload.get("assignment_mode", "round_robin") != ASSIGNMENT_MODE:
+        return False
+    if ASSIGNMENT_MODE == "all":
+        return all(
+            payload["annotators"].get(annotator["slug"], []) == current_ids
+            for annotator in ANNOTATORS
+        )
+
+    expected = {annotator["slug"]: [] for annotator in ANNOTATORS}
+    for index, row in enumerate(base_rows):
+        annotator = ANNOTATORS[index % len(ANNOTATORS)]
+        expected[annotator["slug"]].append(row["id"])
+    return all(
+        payload["annotators"].get(annotator["slug"], []) == expected[annotator["slug"]]
+        for annotator in ANNOTATORS
+    )
 
 
 def build_assignments(base_rows: list[dict[str, str]]) -> dict:
     assignments = {annotator["slug"]: [] for annotator in ANNOTATORS}
-    for index, row in enumerate(base_rows):
-        annotator = ANNOTATORS[index % len(ANNOTATORS)]
-        assignments[annotator["slug"]].append(row["id"])
+    if ASSIGNMENT_MODE == "all":
+        for annotator in ANNOTATORS:
+            assignments[annotator["slug"]] = [row["id"] for row in base_rows]
+    else:
+        for index, row in enumerate(base_rows):
+            annotator = ANNOTATORS[index % len(ANNOTATORS)]
+            assignments[annotator["slug"]].append(row["id"])
     payload = {
         "created_at": datetime.now(timezone.utc).isoformat(),
-        "source_sheet": str(BASE_SHEET_PATH.relative_to(ROOT)),
+        "assignment_mode": ASSIGNMENT_MODE,
+        "source_sheet": relative_or_absolute(BASE_SHEET_PATH),
         "annotators": assignments,
     }
     ASSIGNMENTS_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -252,7 +303,7 @@ def session_payload(annotator_slug: str) -> dict:
         "annotator": ANNOTATOR_BY_SLUG[annotator_slug],
         "required_fields": REQUIRED_FIELDS,
         "editable_fields": EDITABLE_FIELDS,
-        "export_path": str(export_path_for(annotator_slug).relative_to(ROOT)),
+        "export_path": relative_or_absolute(export_path_for(annotator_slug)),
         "progress": progress,
         "rows": rows,
     }
@@ -277,11 +328,19 @@ class AnnotationHandler(SimpleHTTPRequestHandler):
             base_rows = read_csv_rows(BASE_SHEET_PATH)
             assignments = load_assignments(base_rows)
             payload = {
+                "app": {
+                    "eyebrow": APP_EYEBROW,
+                    "title": APP_TITLE,
+                    "subcopy": APP_SUBCOPY,
+                    "queue_title": QUEUE_TITLE,
+                    "assigned_label": ASSIGNED_LABEL,
+                    "assignment_mode": ASSIGNMENT_MODE,
+                },
                 "annotators": [
                     {
                         **annotator,
                         "assigned_count": len(assignments["annotators"][annotator["slug"]]),
-                        "export_path": str(export_path_for(annotator["slug"]).relative_to(ROOT)),
+                        "export_path": relative_or_absolute(export_path_for(annotator["slug"])),
                     }
                     for annotator in ANNOTATORS
                 ]
@@ -338,12 +397,18 @@ class AnnotationHandler(SimpleHTTPRequestHandler):
 
 
 def main() -> None:
+    if ASSIGNMENT_MODE not in {"round_robin", "all"}:
+        raise SystemExit("ANNOTATION_ASSIGNMENT_MODE must be round_robin or all")
+
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
     base_rows = read_csv_rows(BASE_SHEET_PATH)
     load_assignments(base_rows)
 
-    server = ThreadingHTTPServer(("127.0.0.1", 8765), AnnotationHandler)
-    print("Annotation app running at http://127.0.0.1:8765")
+    server = ThreadingHTTPServer(("127.0.0.1", PORT), AnnotationHandler)
+    print(f"Annotation app running at http://127.0.0.1:{PORT}")
+    print(f"Base sheet: {relative_or_absolute(BASE_SHEET_PATH)}")
+    print(f"Export dir: {relative_or_absolute(EXPORT_DIR)}")
+    print(f"Assignment mode: {ASSIGNMENT_MODE}")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

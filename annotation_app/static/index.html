@@ -10,9 +10,9 @@
     <div class="app-shell">
       <section class="annotator-picker" id="annotator-picker">
         <div class="picker-header">
-          <p class="eyebrow">EntityLens Human Evaluation</p>
-          <h1>Choose your name and start annotating.</h1>
-          <p class="subcopy">
+          <p class="eyebrow" id="app-eyebrow">EntityLens Human Evaluation</p>
+          <h1 id="app-title">Choose your name and start annotating.</h1>
+          <p class="subcopy" id="app-subcopy">
             Each annotator gets a fixed non-overlapping slice of the dataset. Your
             progress and saved responses stay in your local clone.
           </p>
@@ -44,7 +44,7 @@
         <div class="workspace-layout">
           <aside class="queue-panel">
             <div class="queue-header">
-              <h3>Assigned Examples</h3>
+              <h3 id="queue-title">Assigned Examples</h3>
               <p id="queue-summary"></p>
             </div>
             <div class="queue-list" id="queue-list"></div>
