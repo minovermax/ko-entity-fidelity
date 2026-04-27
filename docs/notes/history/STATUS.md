@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-04-19
+Last updated: 2026-04-27
 
 ## Current Project State
 
@@ -19,6 +19,9 @@ The Korean data prep stage is done:
 - local annotation web app created for clone-local teammate use
 - general metric script implemented and run
 - entity metric script implemented and run
+- both teammate annotation branches merged
+- full human annotation merged back into the shared sheet
+- metric-vs-human comparison script implemented and run
 
 Current known counts:
 
@@ -32,6 +35,8 @@ Current known counts:
 - validation rows missing reference mention: 0 / 745
 - formal analysis subset: 200 examples
 - human evaluation load for full subset: 400 model-output judgments
+- completed human annotation rows: 200 / 200
+- completed model-output judgments: 400 / 400
 
 ## What Has Been Done So Far
 
@@ -138,6 +143,41 @@ Clone-local annotation workflow:
   - `data/human_eval/annotator_exports/siwan_annotations.csv`
 - a merge script can fold those exports back into the repo sheet
 
+### Completed human evaluation
+
+Completed artifacts:
+
+- `data/human_eval/annotator_exports/minseo_annotations.csv`
+- `data/human_eval/annotator_exports/siwan_annotations.csv`
+- `data/human_eval/human_eval_sheet_merged.csv`
+- updated `data/human_eval/human_eval_sheet.csv`
+
+Annotation completion:
+
+- Minseo completed 100 / 100 assigned examples
+- Siwan completed 100 / 100 assigned examples
+- total completed subset rows: 200 / 200
+- total judged model outputs: 400
+
+Human judgment distribution highlights:
+
+- target rendering strategy:
+  - `translate`: 104
+  - `transliterate`: 66
+  - `adapt`: 25
+  - `preserve`: 5
+- `official_korean_title_preferred`:
+  - `yes`: 135
+  - `no`: 65
+- `adaptation_needed`:
+  - `yes`: 34
+  - `no`: 166
+- `preferred_model`:
+  - `gpt4o`: 96
+  - `gpt4o_mini`: 41
+  - `tie`: 41
+  - `neither`: 22
+
 ### Automatic metrics
 
 Implemented in:
@@ -165,6 +205,63 @@ Current top-line results on Korean validation:
   - `gpt4o` any-reference normalized mention match rate: `0.5007`
   - `gpt4o-mini` any-reference normalized mention match rate: `0.3678`
 
+### Metric-vs-human comparison
+
+Implemented in [compare_metrics_vs_human.py](/Users/minlee/Desktop/current-sem/CS4650/final%20project/ko-entity-fidelity/src/analysis/compare_metrics_vs_human.py).
+
+Generated artifacts:
+
+- `outputs/metrics/metric_human_comparison_by_example.csv`
+- `outputs/metrics/metric_human_summary.csv`
+- `outputs/metrics/disagreement_summary.csv`
+- `outputs/metrics/disagreement_cases.csv`
+- `outputs/metrics/metric_human_summary_by_entity_type.csv`
+- `outputs/figures/metric_human_disagreement.svg`
+
+Current top-line results on the annotated 200-example subset:
+
+- `gpt4o`
+  - human acceptable: `160 / 200`
+  - human borderline: `30 / 200`
+  - human unacceptable: `10 / 200`
+  - general chrF pass rate: `0.625`
+  - entity metric pass rate: `0.59`
+  - strategy match rate: `0.79`
+  - metric-human disagreement rate: `0.59`
+- `gpt4o_mini`
+  - human acceptable: `109 / 200`
+  - human borderline: `66 / 200`
+  - human unacceptable: `25 / 200`
+  - general chrF pass rate: `0.52`
+  - entity metric pass rate: `0.235`
+  - strategy match rate: `0.685`
+  - metric-human disagreement rate: `0.73`
+
+Most important disagreement patterns:
+
+- for `gpt4o`, the most common failures are:
+  - `general_metric_too_harsh_on_acceptable_output`: 32
+  - `entity_metric_too_harsh_on_acceptable_output`: 31
+  - `both_metrics_too_harsh_on_acceptable_output`: 21
+- for `gpt4o_mini`, the dominant issue is that many outputs are borderline or strategy-wrong even when surface overlap is decent:
+  - `borderline_human_and_metrics_fail`: 34
+  - `entity_metric_too_harsh_on_acceptable_output`: 32
+  - `both_metrics_too_harsh_on_acceptable_output`: 31
+  - `borderline_human_general_pass_entity_fail`: 31
+
+Entity types with especially high disagreement:
+
+- `gpt4o`
+  - `Book series`: `0.8333`
+  - `Food`: `0.8`
+  - `Landmark`: `0.7895`
+- `gpt4o_mini`
+  - `Landmark`: `0.8421`
+  - `Place of worship`: `0.8421`
+  - `Book series`: `0.8333`
+  - `Musical work`: `0.7895`
+  - `Fictional entity`: `0.75`
+
 ### Most recent run
 
 - reviewed `docs/notes/instructions.md`
@@ -185,71 +282,86 @@ Current top-line results on Korean validation:
 - moved the final model-comparison decision below the two model outputs in the annotation UI
 - implemented both metric runner scripts
 - ran the current baseline metrics on Korean validation
+- fetched `annotate-minseo` and `annotate-siwan` from GitHub
+- merged both annotation branches into local `main`
+- merged per-annotator export files back into the shared human evaluation sheet
+- implemented `src/analysis/compare_metrics_vs_human.py`
+- ran metric-vs-human comparison and exported summaries, disagreement cases, and a figure
 
 ## What Is Partial vs Missing
 
 ### Partial
 
-1. Human evaluation
-   - the sheet and guidelines now exist
-   - but the actual human annotation has not been done yet
+1. Results interpretation / write-up
+   - the analysis artifacts now exist
+   - but the paper-ready narrative, tables, and claim framing still need to be written
 
-2. Disagreement analysis
-   - automatic metrics now exist
-   - but metric-vs-human comparison cannot be run until annotations are filled in
+2. Optional methodology strengthening
+   - the full annotation pass is complete
+   - but there is no overlap subset, so there is no inter-annotator agreement score
 
 ### Missing
 
-- `src/analysis/compare_metrics_vs_human.py`
-- disagreement outputs and figures
+- concise report-ready result tables / figures in the exact format needed for the final write-up
+- final analysis narrative connecting:
+  - Korean rendering strategy
+  - metric failures
+  - entity-type-specific patterns
 
 ## Recommended Next Steps
 
 These should be the next implementation steps, in order.
 
-1. Run human annotation on the formal subset
-   - preferred full pass: all 200 examples
-   - minimum pass: 100 to 150 examples
-   - use the local annotation app
-   - commit per-annotator export files from each clone
+1. Review `outputs/metrics/disagreement_cases.csv`
+   - identify the strongest example cases for the report
+   - pull examples for:
+     - general metric misses
+     - entity metric misses
+     - Korean strategy mismatches
+     - acceptable alias cases
 
-2. Build `src/analysis/compare_metrics_vs_human.py`
-   - merge filled human annotations with metric outputs
-   - identify disagreement categories
-   - export disagreement cases
+2. Write a short results memo or notebook
+   - summarize top-line human outcomes
+   - summarize where metrics are too harsh vs too lenient
+   - summarize which entity types are hardest in Korean
 
-3. Produce summary figures
-   - metric scores by model
-   - metric scores by entity type
-   - human error categories by model
-   - automatic vs human disagreement breakdown
+3. Produce final report-ready tables / figures
+   - preferred model counts
+   - quality-label distribution by model
+   - disagreement breakdown by model
+   - disagreement breakdown by entity type
+
+4. Optionally add a small overlap set later
+   - 20 to 30 examples annotated by both people
+   - only if an inter-annotator agreement section becomes necessary
 
 ## Best Immediate Next Task
 
 The single best next task is:
 
-**Start human annotation on `data/human_eval/human_eval_sheet.csv`.**
+**Turn the comparison outputs into report-ready evidence.**
 
 Reason:
 
-- the analysis subset is now formalized
-- the annotation schema and instructions are ready
-- automatic metrics are already available
-- the project's next major contribution depends on human judgments
+- the annotation stage is complete
+- the metric-vs-human evidence now exists
+- the remaining work is mainly interpretation, example selection, and final presentation
 
 ## Suggested Task After That
 
-Immediately after the first human annotation pass:
+Immediately after the first pass through the disagreement outputs:
 
-**Implement `src/analysis/compare_metrics_vs_human.py` and export disagreement cases.**
+**Draft the results section structure and select 6 to 10 representative examples from `disagreement_cases.csv`.**
 
-That will turn the completed annotation work into the core evidence for the final analysis.
+That will turn the exported analysis artifacts into the clearest material for the final write-up.
 
 ## Notes For Future Runs
 
 - Do not redo dataset download or Korean filtering.
 - Treat the repo as an evaluation pipeline, not a model-training repo.
 - Prefer deterministic scripts and CSV / JSONL outputs.
+- The human annotation stage is complete for the main 200-example subset.
+- There is currently no overlap subset, so do not claim inter-annotator agreement.
 - Keep updating this file with:
   - what changed
   - what was verified

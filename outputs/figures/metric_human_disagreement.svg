@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="912" height="432" viewBox="0 0 912 432">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="28" font-family="Arial, sans-serif" font-size="18" fill="#1f2321">Metric vs Human Disagreement Cases</text>
+<text x="24" y="44" font-family="Arial, sans-serif" font-size="11" fill="#5c655f">Counts by disagreement category and model on the human-annotated subset</text>
+<text x="24" y="66" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">entity metric too harsh on acceptable output</text>
+<rect x="240" y="52" width="583.53" height="14" rx="4" fill="#d0624a"/>
+<text x="831.53" y="63" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 31</text>
+<rect x="240" y="72" width="602.35" height="14" rx="4" fill="#5b7f4a"/>
+<text x="850.35" y="83" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 32</text>
+<text x="24" y="108" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">both metrics too harsh on acceptable output</text>
+<rect x="240" y="94" width="395.29" height="14" rx="4" fill="#d0624a"/>
+<text x="643.29" y="105" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 21</text>
+<rect x="240" y="114" width="583.53" height="14" rx="4" fill="#5b7f4a"/>
+<text x="831.53" y="125" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 31</text>
+<text x="24" y="150" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">borderline human and metrics fail</text>
+<rect x="240" y="136" width="188.24" height="14" rx="4" fill="#d0624a"/>
+<text x="436.24" y="147" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 10</text>
+<rect x="240" y="156" width="640.00" height="14" rx="4" fill="#5b7f4a"/>
+<text x="888.00" y="167" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 34</text>
+<text x="24" y="192" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">general metric too harsh on acceptable output</text>
+<rect x="240" y="178" width="602.35" height="14" rx="4" fill="#d0624a"/>
+<text x="850.35" y="189" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 32</text>
+<rect x="240" y="198" width="207.06" height="14" rx="4" fill="#5b7f4a"/>
+<text x="455.06" y="209" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 11</text>
+<text x="24" y="234" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">borderline human general pass entity fail</text>
+<rect x="240" y="220" width="188.24" height="14" rx="4" fill="#d0624a"/>
+<text x="436.24" y="231" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 10</text>
+<rect x="240" y="240" width="583.53" height="14" rx="4" fill="#5b7f4a"/>
+<text x="831.53" y="251" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 31</text>
+<text x="24" y="276" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">general metric miss human rejection</text>
+<rect x="240" y="262" width="75.29" height="14" rx="4" fill="#d0624a"/>
+<text x="323.29" y="273" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 4</text>
+<rect x="240" y="282" width="112.94" height="14" rx="4" fill="#5b7f4a"/>
+<text x="360.94" y="293" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 6</text>
+<text x="24" y="318" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">borderline human general fail entity pass</text>
+<rect x="240" y="304" width="112.94" height="14" rx="4" fill="#d0624a"/>
+<text x="360.94" y="315" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 6</text>
+<rect x="240" y="324" width="18.82" height="14" rx="4" fill="#5b7f4a"/>
+<text x="266.82" y="335" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 1</text>
+<text x="24" y="360" font-family="Arial, sans-serif" font-size="12" fill="#1f2321">borderline human but metrics pass</text>
+<rect x="240" y="346" width="75.29" height="14" rx="4" fill="#d0624a"/>
+<text x="323.29" y="357" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o: 4</text>
+<rect x="240" y="366" width="0.00" height="14" rx="4" fill="#5b7f4a"/>
+<text x="248.00" y="377" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini: 0</text>
+</svg>

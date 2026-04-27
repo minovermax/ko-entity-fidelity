@@ -1,0 +1,23 @@
+model_name,primary_entity_type,example_count,acceptable_rate,general_chrf_pass_rate,entity_metric_pass_rate,disagreement_rate
+gpt4o,Artwork,20,0.65,0.75,0.65,0.5
+gpt4o,Book,20,0.85,0.55,0.55,0.5
+gpt4o,Book series,6,0.6667,0.5,0.1667,0.8333
+gpt4o,Fictional entity,20,0.75,0.8,0.55,0.5
+gpt4o,Food,20,0.65,0.55,0.2,0.8
+gpt4o,Landmark,19,0.9474,0.5789,0.3684,0.7895
+gpt4o,Movie,19,0.7895,0.5789,0.7368,0.6316
+gpt4o,Musical work,19,0.7895,0.6842,0.7895,0.5263
+gpt4o,Person,19,0.8947,0.6316,0.5263,0.4737
+gpt4o,Place of worship,19,0.8421,0.6316,0.8421,0.5263
+gpt4o,TV series,19,0.8947,0.5263,0.8421,0.5789
+gpt4o_mini,Artwork,20,0.55,0.45,0.35,0.65
+gpt4o_mini,Book,20,0.65,0.6,0.55,0.55
+gpt4o_mini,Book series,6,0.1667,0.6667,0.0,0.8333
+gpt4o_mini,Fictional entity,20,0.6,0.75,0.15,0.75
+gpt4o_mini,Food,20,0.55,0.55,0.25,0.75
+gpt4o_mini,Landmark,19,0.7368,0.5263,0.2105,0.8421
+gpt4o_mini,Movie,19,0.4737,0.3684,0.2632,0.6842
+gpt4o_mini,Musical work,19,0.7368,0.4211,0.2105,0.7895
+gpt4o_mini,Person,19,0.4737,0.4737,0.1053,0.6842
+gpt4o_mini,Place of worship,19,0.6316,0.6316,0.1579,0.8421
+gpt4o_mini,TV series,19,0.1579,0.3684,0.1579,0.7368
