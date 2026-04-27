@@ -1,0 +1,45 @@
+model_name,primary_entity_type,example_count,primary_mention_exact_match_rate,any_reference_mention_exact_match_rate,primary_mention_normalized_match_rate,any_reference_mention_normalized_match_rate,average_mention_substring_recall_proxy
+entity_aware_mt,Artwork,168,0.3571,0.381,0.3571,0.381,0.7133
+entity_aware_mt,Book,24,0.4583,0.4583,0.4583,0.4583,0.7542
+entity_aware_mt,Book series,6,0.1667,0.5,0.1667,0.5,0.75
+entity_aware_mt,Fictional entity,56,0.4821,0.4821,0.5179,0.5179,0.7303
+entity_aware_mt,Food,33,0.4545,0.5152,0.4545,0.5152,0.7081
+entity_aware_mt,Landmark,36,0.3333,0.5,0.4167,0.5833,0.7734
+entity_aware_mt,Movie,78,0.3846,0.4231,0.4231,0.4615,0.7097
+entity_aware_mt,Musical work,75,0.28,0.28,0.3333,0.3333,0.6535
+entity_aware_mt,Person,77,0.5195,0.5195,0.5325,0.5325,0.7178
+entity_aware_mt,Place of worship,72,0.5833,0.5833,0.5833,0.5833,0.8186
+entity_aware_mt,TV series,120,0.2833,0.3583,0.3,0.375,0.6539
+gpt4o,Artwork,168,0.3929,0.4167,0.4107,0.4286,0.6586
+gpt4o,Book,24,0.4167,0.5417,0.5,0.625,0.8042
+gpt4o,Book series,6,0.1667,0.1667,0.1667,0.1667,0.5555
+gpt4o,Fictional entity,56,0.4107,0.4107,0.4464,0.4464,0.651
+gpt4o,Food,33,0.3939,0.4545,0.4545,0.4545,0.7596
+gpt4o,Landmark,36,0.3333,0.4167,0.4167,0.5,0.7733
+gpt4o,Movie,78,0.3846,0.3974,0.3974,0.4103,0.5425
+gpt4o,Musical work,75,0.6667,0.68,0.6667,0.68,0.848
+gpt4o,Person,77,0.6104,0.6104,0.6104,0.6104,0.7974
+gpt4o,Place of worship,72,0.5278,0.5972,0.5833,0.6111,0.8127
+gpt4o,TV series,120,0.4,0.425,0.4167,0.4417,0.6255
+gpt4o_mini,Artwork,168,0.3214,0.3452,0.3631,0.369,0.6012
+gpt4o_mini,Book,24,0.375,0.5,0.5,0.625,0.8448
+gpt4o_mini,Book series,6,0.0,0.0,0.0,0.0,0.4667
+gpt4o_mini,Fictional entity,56,0.2857,0.2857,0.3036,0.3036,0.5682
+gpt4o_mini,Food,33,0.4242,0.4545,0.4848,0.4848,0.745
+gpt4o_mini,Landmark,36,0.3333,0.4167,0.3333,0.4167,0.7145
+gpt4o_mini,Movie,78,0.2308,0.2308,0.2308,0.2308,0.4071
+gpt4o_mini,Musical work,75,0.4,0.4133,0.4,0.4133,0.7199
+gpt4o_mini,Person,77,0.5065,0.5065,0.5065,0.5065,0.7094
+gpt4o_mini,Place of worship,72,0.3333,0.375,0.4167,0.4167,0.7331
+gpt4o_mini,TV series,120,0.225,0.25,0.2333,0.2583,0.5145
+vanilla_mt,Artwork,168,0.1071,0.125,0.1071,0.125,0.4194
+vanilla_mt,Book,24,0.0417,0.1667,0.0417,0.1667,0.5031
+vanilla_mt,Book series,6,0.0,0.0,0.0,0.0,0.1667
+vanilla_mt,Fictional entity,56,0.0536,0.0536,0.0536,0.0536,0.314
+vanilla_mt,Food,33,0.1515,0.1515,0.1515,0.1515,0.4197
+vanilla_mt,Landmark,36,0.0556,0.0556,0.0556,0.0556,0.4348
+vanilla_mt,Movie,78,0.0385,0.0385,0.0385,0.0385,0.2362
+vanilla_mt,Musical work,75,0.04,0.0533,0.04,0.0533,0.3163
+vanilla_mt,Person,77,0.2078,0.2078,0.2078,0.2078,0.4036
+vanilla_mt,Place of worship,72,0.0278,0.0278,0.0694,0.0694,0.3268
+vanilla_mt,TV series,120,0.0667,0.075,0.0667,0.075,0.2817

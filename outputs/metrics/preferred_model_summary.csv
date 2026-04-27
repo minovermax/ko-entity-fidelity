@@ -1,0 +1,5 @@
+preferred_model,count,rate
+gpt4o,96,0.48
+gpt4o_mini,41,0.205
+tie,41,0.205
+neither,22,0.11

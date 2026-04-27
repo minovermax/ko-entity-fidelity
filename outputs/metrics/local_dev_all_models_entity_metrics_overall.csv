@@ -1,0 +1,5 @@
+model_name,scope,example_count,primary_mention_exact_match_rate,any_reference_mention_exact_match_rate,primary_mention_normalized_match_rate,any_reference_mention_normalized_match_rate,average_mention_substring_recall_proxy
+entity_aware_mt,overall,595,0.4168,0.4571,0.437,0.4773,0.7285
+gpt4o,overall,595,0.4555,0.484,0.484,0.5025,0.6969
+gpt4o_mini,overall,595,0.3227,0.3479,0.3496,0.3647,0.6118
+vanilla_mt,overall,595,0.0891,0.0975,0.0941,0.1025,0.3525

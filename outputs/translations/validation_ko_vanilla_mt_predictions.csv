@@ -1,0 +1,746 @@
+id,split,source,wikidata_id,entity_types,baseline_name,hf_model_name,prediction_field,prediction
+Q1024181_0,validation,Are there any notable events or exhibitions that have taken place at Pushkin House?,Q1024181,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Pushkin House에서 개최 된 주목할만한 이벤트 또는 전시회가 있습니까?
+Q1024181_1,validation,What is the purpose or function of Pushkin House?,Q1024181,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Pushkin House의 목적이나 기능은 무엇입니까?
+Q1024181_2,validation,Can you provide any historical background on Pushkin House?,Q1024181,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Pushkin House에 대한 역사적 배경을 제공 할 수 있습니까?
+Q1044613_0,validation,What is the main function of Helsinki Central Railway Station?,Q1044613,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,헬싱키 중앙철도역의 주요 기능은 무엇입니까?
+Q1044613_1,validation,How would you describe the architecture of Helsinki Central Railway Station?,Q1044613,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,헬싱키 중앙철도역의 건축을 어떻게 묘사할 것인가?
+Q1044613_2,validation,How many platforms does Helsinki Central Railway Station have?,Q1044613,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,헬싱키 중앙철도역에는 얼마나 많은 플랫폼이 있습니까?
+Q1050014_0,validation,Is Foundation and Earth considered a work of art?,Q1050014,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,재단과 지구는 예술 작품으로 간주되는가?
+Q1050014_1,validation,Who is the author of the book Foundation and Earth?,Q1050014,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,기초와 지구의 책의 저자는 누구입니까?
+Q1050014_2,validation,What is the primary medium of Foundation and Earth?,Q1050014,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,기초와 지구의 주요 미디어는 무엇입니까?
+Q1053156_0,validation,Who are the main characters in Risou no Musuko?,Q1053156,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Risou no Musuko의 주요 캐릭터는 누구입니까?
+Q1053156_1,validation,How long is the Risou no Musuko TV series?,Q1053156,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,RISU NO MUSUKO TV 시리즈는 얼마나 오래 걸리나요?
+Q1053156_2,validation,When was Risou no Musuko first aired in Japan?,Q1053156,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,리소우 노 무수코가 일본에서 처음 방송되었을 때는 언제입니까?
+Q1067463_0,validation,2) What type of place is Koutloumousiou monastery?,Q1067463,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,2) 어떤 종류의 장소는 Koutloumousiou 수도원입니까?
+Q1067463_1,validation,1) Where is Koutloumousiou monastery located in Greece?,Q1067463,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1) 그리스에 위치한 Koutloumousiou 수도원은 어디에 있습니까?
+Q1067463_2,validation,5) What country is Koutloumousiou monastery situated in?,Q1067463,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,5) 어느 나라에 위치한 Koutloumousiou 수도원은 무엇입니까?
+Q1074831_0,validation,Is Demon Lord Dante more popular as a book series or a TV series?,Q1074831,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Demon Lord Dante는 책 시리즈 또는 TV 시리즈로 더 인기가 있습니까?
+Q1074831_1,validation,Who created the Demon Lord Dante manga and anime series?,Q1074831,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 악마 던트 맨가와 애니메이션 시리즈를 만들었습니까?
+Q1074831_2,validation,How would you describe the genre of Demon Lord Dante?,Q1074831,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 악마 주인 던테의 종류를 어떻게 묘사 할 것인가?
+Q1112125_0,validation,How would you describe the architecture of the Church of Saint Simeon Stylites?,Q1112125,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,세인트 시메온 스타일리트 교회의 건축을 어떻게 묘사할 것인가?
+Q1112125_1,validation,What is the historical significance of the Church of Saint Simeon Stylites?,Q1112125,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,세인트 시메온 스타일리트 교회의 역사적 의미는 무엇입니까?
+Q1112125_2,validation,Can visitors still access and explore the Church of Saint Simeon Stylites today?,Q1112125,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,방문객들은 여전히 오늘날 성 시메온 스타일리트 교회에 액세스하고 탐험 할 수 있습니까?
+Q111955724_0,validation,When was Karma's World TV series released?,Q111955724,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,카르마의 세계 TV 시리즈는 언제 출시되었습니까?
+Q111955724_1,validation,Who is the creator of Karma's World TV series?,Q111955724,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,카르마의 세계 TV 시리즈의 창조자는 누구입니까?
+Q111955724_2,validation,How can Karma's World TV series be categorized?,Q111955724,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떻게 카르마의 세계 TV 시리즈를 분류 할 수 있습니까?
+Q1122571_0,validation,Who are the main actors in The Unbearable Lightness of Being?,Q1122571,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 견딜 수 없는 가벼움의 주인공인가?
+Q1122571_1,validation,What year was The Unbearable Lightness of Being released?,Q1122571,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 해에 견딜 수 없는 빛이 풀려났습니까?
+Q1122571_2,validation,What is the genre of The Unbearable Lightness of Being?,Q1122571,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,무력한 존재의 빛의 종류는 무엇입니까?
+Q11271903_0,validation,Is Juice Ortiz a real person or a fictional character?,Q11271903,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Juice Ortiz는 진정한 사람이나 환상적인 캐릭터입니까?
+Q11271903_1,validation,In which television series does the fictional character Juice Ortiz appear?,Q11271903,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 TV 시리즈에서 판타지 캐릭터 Juice Ortiz가 나타납니까?
+Q11271903_2,validation,What is Juice Ortiz's role in Sons of Anarchy?,Q11271903,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아나키아의 아들들에 대한 Juice Ortiz의 역할은 무엇입니까?
+Q1133767_0,validation,Can DIN connectors be easily installed and removed?,Q1133767,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,DIN 커넥터를 쉽게 설치하고 제거할 수 있습니까?
+Q1133767_1,validation,How do DIN connectors differ from other types of connectors?,Q1133767,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,DIN 커넥터는 다른 유형의 커넥터와 어떻게 다릅니까?
+Q1133767_2,validation,What are some common uses for DIN connectors?,Q1133767,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,DIN 커넥터에 대한 일반적인 사용은 무엇입니까?
+Q1140935_0,validation,Who are the co-directors of Shallow Hal?,Q1140935,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Shallow Hal의 공동 감독은 누구입니까?
+Q1140935_1,validation,In what year was Shallow Hal released?,Q1140935,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Shallow Hal은 어떤 해에 출시되었습니까?
+Q1140935_2,validation,What is the genre of the movie Shallow Hal?,Q1140935,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Shallow Hal 영화의 종류는 무엇입니까?
+Q1141254_0,validation,Can you describe the appearance of the Heart of Gold spaceship?,Q1141254,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 골드 우주선의 심장의 출현을 설명 할 수 있습니까?
+Q1141254_1,validation,Who is the author of the novel that features the Heart of Gold spacecraft?,Q1141254,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,황금 우주선의 마음을 담은 소설의 저자는 누구입니까?
+Q1141254_2,validation,What purpose does the Heart of Gold serve in the journey of the main characters in the book?,Q1141254,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,황금의 심장은 책의 주요 캐릭터들의 여행에서 어떤 목적을 가지고 있습니까?
+Q1146619_0,validation,Which province is Hanshan Temple situated in?,Q1146619,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hanshan Temple은 어떤 지역에 위치하고 있습니까?
+Q1146619_1,validation,What type of place is Hanshan Temple?,Q1146619,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 Hanshan Temple?
+Q1146619_2,validation,What is the significance of Hanshan Temple in Chinese culture?,Q1146619,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중국 문화에서 Hanshan Temple의 의미는 무엇입니까?
+Q114729513_0,validation,What is the plot of the 2022 TV series Everything Calls for Salvation?,Q114729513,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,2022 TV 시리즈 '모든 것이 구원을 부르는 것'은 무엇입니까?
+Q114729513_1,validation,When was the Italian television series Everything Calls for Salvation released?,Q114729513,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이탈리아 텔레비전 시리즈 Everything Calls for Salvation은 언제 출시되었습니까?
+Q114729513_2,validation,Who are the main characters in the TV series Everything Calls for Salvation?,Q114729513,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈의 주요 캐릭터는 누구입니까 모든 것이 구원을 호출합니까?
+Q1147583_0,validation,What is the subject of the book No Longer Human?,Q1147583,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,더 이상 인간이 아닌 책의 주제는 무엇입니까?
+Q1147583_1,validation,Who is the author of the novel No Longer Human?,Q1147583,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,더 이상 인간이 아닌 소설의 저자는 누구입니까?
+Q1147583_2,validation,What type of artwork is No Longer Human?,Q1147583,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품은 더 이상 인간이 아닌가?
+Q1149593_0,validation,What are some notable characteristics or traits of King Duosi?,Q1149593,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,King Duosi의 몇 가지 눈에 띄는 특징이나 특징은 무엇입니까?
+Q1149593_1,validation,What role does King Duosi play in the story?,Q1149593,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,왕 듀오시가 이야기 속에서 어떤 역할을 하는가?
+Q1149593_2,validation,How does King Duosi's character contribute to the overall plot of the novel?,Q1149593,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,왕 듀오시의 캐릭터가 소설의 전체 작품에 어떻게 기여합니까?
+Q1167579_0,validation,Who are the main actors in Village of the Damned?,Q1167579,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그렇다면 마을의 주인공은 누구일까?
+Q1167579_1,validation,Who directed the 1995 movie Village of the Damned?,Q1167579,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1995년 영화 ‘악당의 마을’의 주인공은 누구인가?
+Q1167579_2,validation,When was Village of the Damned released?,Q1167579,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,시골 마을은 언제 해방되었을까?
+Q1190902_0,validation,What is the significance of Okhotny Ryad?,Q1190902,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Okhotny Ryad의 의미는 무엇입니까?
+Q1190902_1,validation,Where is the Okhotny Ryad located?,Q1190902,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Okhotny Ryad 어디에 위치하고 있습니까?
+Q1190902_2,validation,What type of landmark is Okhotny Ryad?,Q1190902,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 표지판은 Okhotny Ryad입니까?
+Q1193688_0,validation,What genre does The Hanging Tree belong to?,Q1193688,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,묶는 나무는 어떤 종류에 속하는가?
+Q1193688_1,validation,When was The Hanging Tree released?,Q1193688,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,The Hanging Tree는 언제 출시되었습니까?
+Q1193688_2,validation,Who were the main actors in The Hanging Tree?,Q1193688,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"""The Hanging Tree""의 주인공은 누구입니까?"
+Q1194336_0,validation,What type of artwork is associated with the Field of Mars?,Q1194336,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 화성 필드와 관련이 있습니까?
+Q1194336_1,validation,Where is the Field of Mars located in Russia?,Q1194336,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,러시아에 위치한 화성 필드는 어디에 있습니까?
+Q1194336_2,validation,How would you describe the shape of the Field of Mars?,Q1194336,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 화성 필드의 모양을 어떻게 묘사 할 것인가?
+Q1199794_0,validation,Who is the main character in Lost Horizon?,Q1199794,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Lost Horizon의 주인공은 누구인가요?
+Q1199794_1,validation,When was Lost Horizon first published?,Q1199794,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Lost Horizon은 언제 처음 출시되었습니까?
+Q1199794_2,validation,What type of book is Lost Horizon?,Q1199794,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 책이 Lost Horizon입니까?
+Q1202019_0,validation,What type of artwork is featured in the Temple of Literature?,Q1202019,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,문학의 성전에서 어떤 종류의 예술 작품이 나타나나요?
+Q1202019_1,validation,How many monuments are included in the Temple of Literature?,Q1202019,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,문학의 성전에는 얼마나 많은 기념물이 포함되어 있습니까?
+Q1202019_2,validation,Where is the Temple of Literature located in Hanoi?,Q1202019,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,하노이에 위치한 문학의 성전은 어디에 있습니까?
+Q129479_0,validation,What is the significance of the Tomb of Hafez in Iranian culture?,Q129479,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이란 문화에서 하페즈 무덤의 의미는 무엇입니까?
+Q129479_1,validation,Where is the Tomb of Hafez located?,Q129479,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,하페즈의 무덤은 어디에 있습니까?
+Q129479_2,validation,What type of landmark is the Tomb of Hafez?,Q129479,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 명소가 하페즈의 무덤입니까?
+Q1306291_0,validation,When was A Memory of Solferino created?,Q1306291,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Solferino의 기억은 언제 창조되었습니까?
+Q1306291_1,validation,Who created the artwork A Memory of Solferino?,Q1306291,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 아티스트 작품 A Memory of Solferino를 만들었습니까?
+Q1306291_2,validation,Is A Memory of Solferino a painting or a sculpture?,Q1306291,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,A Memory of Solferino는 그림이나 조각인가?
+Q131180_0,validation,In which section of the New Testament can the First Epistle to Timothy be found?,Q131180,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,새 언약의 어느 부분에서 티모티아에 대한 첫 번째 편지를 찾을 수 있습니까?
+Q131180_1,validation,What is the genre of the First Epistle to Timothy?,Q131180,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,티모티에게 보내는 첫 번째 편지의 종류는 무엇입니까?
+Q131180_2,validation,What is the general theme or purpose of the First Epistle to Timothy?,Q131180,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,티모티에게 보내는 첫 번째 편지의 일반적인 주제 또는 목적은 무엇입니까?
+Q132042_0,validation,When was Walt Whitman's Leaves of Grass first published?,Q132042,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Walt Whitman의 잔디 잎은 언제 처음 출판되었습니까?
+Q132042_1,validation,How would you describe the literary genre of Leaves of Grass?,Q132042,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 잔디의 잎의 문학 유형을 어떻게 묘사 할 것인가?
+Q132042_2,validation,"Can you provide a brief overview of Leaves of Grass, the famous Walt Whitman book of poetry?",Q132042,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"잔디의 잎, 유명한 월트 휘트만의 시의 책에 대한 간략한 통찰력을 제공 할 수 있습니까?"
+Q1326328_0,validation,How many episodes are there in The Irresponsible Captain Tylor?,Q1326328,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 에피소드가 The Irresponsible Captain Tylor에 있습니까?
+Q1326328_1,validation,What is the genre of The Irresponsible Captain Tylor?,Q1326328,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,무책임한 캡틴 타일러 (The Irresponsible Captain Tylor)는 무엇입니까?
+Q1326328_2,validation,When was The Irresponsible Captain Tylor first aired?,Q1326328,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,무책임한 캡틴 틸러가 언제 처음 출연되었습니까?
+Q1330443_0,validation,What instrument are featured in Rhapsody on a Theme of Paganini?,Q1330443,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Paganini의 주제에 대한 Rhapsody에서 어떤 도구가 나타나나요?
+Q1330443_1,validation,Who composed the musical work Rhapsody on a Theme of Paganini?,Q1330443,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Paganini의 주제에 대한 Rhapsody의 음악 작품을 작곡 한 사람은 누구입니까?
+Q1330443_2,validation,Can you describe the style of Rhapsody on a Theme of Paganini?,Q1330443,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Paganini의 주제에 대한 Rhapsody의 스타일을 설명할 수 있습니까?
+Q13416502_0,validation,How many seasons does the TV series The Blade and Petal have?,Q13416502,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 시즌이 TV 시리즈 The Blade and Petal을 가지고 있습니까?
+Q13416502_1,validation,When was the TV series The Blade and Petal first aired?,Q13416502,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,블레이드와 피탈(The Blade and Petal) TV 시리즈는 언제 처음 방송되었나요?
+Q13416502_2,validation,What is the genre of the TV series The Blade and Petal?,Q13416502,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,블레이드와 피탈 (The Blade and Petal) TV 시리즈의 유형은 무엇입니까?
+Q1389239_0,validation,Can you provide an example of a specific instruction from the FMA instruction set?,Q1389239,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,FMA 지침 세트에서 특정 지침의 예를 제공 할 수 있습니까?
+Q1389239_1,validation,Which company developed the FMA instruction set for x86 processors?,Q1389239,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 회사가 x86 프로세서에 대한 FMA 지침을 개발했습니까?
+Q1389239_2,validation,How does the FMA instruction set enhance the performance of x86 processors?,Q1389239,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,FMA 지침 세트가 x86 프로세서의 성능을 향상시키는 방법은 무엇입니까?
+Q140527_0,validation,What is the genre of The Three Musketeers?,Q140527,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,3 Musketeers의 종류는 무엇입니까?
+Q140527_1,validation,In what year was The Three Musketeers published?,Q140527,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어느 해에 The Three Musketeers가 출간되었습니까?
+Q140527_2,validation,Can you name any popular adaptations of The Three Musketeers?,Q140527,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 The Three Musketeers의 인기있는 적응을 언급 할 수 있습니까?
+Q140680_0,validation,Can you describe The Pink Panther Show?,Q140680,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,핑크 팬더 쇼에 대해 설명할 수 있습니까?
+Q140680_1,validation,Is The Pink Panther Show a TV series?,Q140680,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,핑크 팬더 쇼는 TV 시리즈인가요?
+Q140680_2,validation,What type of TV series is The Pink Panther Show?,Q140680,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 TV 시리즈가 핑크 팬더 쇼?
+Q1417441_0,validation,Is St Volodymyr's Cathedral in Kyiv open to the public?,Q1417441,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,키예프의 세인트 볼로디미르 성당은 대중에게 열려 있습니까?
+Q1417441_1,validation,What architectural style is St Volodymyr's Cathedral in Kyiv?,Q1417441,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,키예프의 세인트 볼로디미르 성당은 어떤 건축 스타일입니까?
+Q1417441_2,validation,How tall is St Volodymyr's Cathedral in Kyiv?,Q1417441,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,키예프의 세인트 볼로디미르 성당은 얼마나 높습니까?
+Q1419938_0,validation,How is the recipient of the Matteucci Medal selected?,Q1419938,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Matteucci 메달의 수신자는 어떻게 선택되나요?
+Q1419938_1,validation,What artistic achievements are recognized by the Matteucci Medal?,Q1419938,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 예술적 성과가 Matteucci 메달에 의해 인식되고 있습니까?
+Q1419938_2,validation,When was the Matteucci Medal first established?,Q1419938,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Matteucci 메달은 언제 처음 설립되었습니까?
+Q143042_0,validation,Where is the Studenica monastery situated in Serbia?,Q143042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,세르비아에 위치한 Studenica 수도원은 어디에 있습니까?
+Q143042_1,validation,What type of place is the Studenica monastery?,Q143042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Studenica 수도원은 어떤 종류의 장소입니까?
+Q143042_2,validation,Is the Studenica monastery a historic site?,Q143042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Studenica 수도원은 역사적인 장소입니까?
+Q1435835_0,validation,How would you describe Fountains of Rome in just a few words?,Q1435835,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,로마의 근원을 몇 단어로 어떻게 묘사할 것인가?
+Q1435835_1,validation,When was Fountains of Rome composed?,Q1435835,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,로마의 기원은 언제 구성되었습니까?
+Q1435835_2,validation,What is the subject matter of Ottorino Respighi's symphonic poem Fountains of Rome?,Q1435835,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,오토리노 Respighi의 심포닉 시인 ‘로마의 근원’의 주제는 무엇입니까?
+Q14654_0,validation,Does Unix time account for leap seconds?,Q14654,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,유닉스 시간은 점프 초를 계산합니까?
+Q14654_1,validation,How is Unix time calculated?,Q14654,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,UNIX 시간은 어떻게 계산되나요?
+Q14654_2,validation,When does Unix time start?,Q14654,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,UNIX 시간은 언제부터 시작되나요?
+Q1504526_0,validation,Is Comic Book Guy a real person or a fictional character?,Q1504526,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Comic Book Guy는 진짜 인물 또는 판타지 캐릭터입니까?
+Q1504526_1,validation,What is Comic Book Guy's occupation?,Q1504526,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Comic Book Guy의 직업은 무엇입니까?
+Q1504526_2,validation,Which television franchise does Comic Book Guy appear in?,Q1504526,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 텔레비전 프랜차이즈가 Comic Book Guy에 출연합니까?
+Q1515426_0,validation,What type of institution is the Petro Tchaikovsky National Music Academy of Ukraine?,Q1515426,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우크라이나의 Petro Tchaikovsky 국립 음악 아카데미는 어떤 종류의 기관입니까?
+Q1515426_1,validation,Where is the Petro Tchaikovsky National Music Academy of Ukraine located?,Q1515426,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우크라이나의 Petro Tchaikovsky 국립 음악 아카데미는 어디에 있습니까?
+Q1515426_2,validation,Can you provide a brief description of the Petro Tchaikovsky National Music Academy of Ukraine?,Q1515426,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우크라이나의 Petro Tchaikovsky 국립 음악 아카데미에 대한 간략한 설명을 제공 할 수 있습니까?
+Q1524969_0,validation,What is the significance of the artwork in Night on the Galactic Railroad?,Q1524969,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Galactic Railroad의 밤에 예술 작품의 의미는 무엇입니까?
+Q1524969_1,validation,Who is the author of Night on the Galactic Railroad?,Q1524969,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,갤럭시 철도에서의 밤의 저자는 누구입니까?
+Q1524969_2,validation,What genre does Night on the Galactic Railroad belong to?,Q1524969,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Galactic Railroad의 밤은 어떤 종류에 속하는가?
+Q1527383_0,validation,Who starred in The Villain?,Q1527383,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이 빌라에 누가 출연했는가?
+Q1527383_1,validation,What type of film is The Villain?,Q1527383,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 영화가 The Villain인가요?
+Q1527383_2,validation,When was The Villain released?,Q1527383,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,윌리엄은 언제 풀려났을까?
+Q154240_0,validation,What were the key years of Yemelyan Pugachev's life and actions?,Q154240,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yemelyan Pugachev의 삶과 행동의 핵심 년은 무엇입니까?
+Q154240_1,validation,When did Yemelyan Pugachev lead his peasant uprising in Russia?,Q154240,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yemelyan Pugachev는 언제 러시아에서 농민 반란을 이끌었습니까?
+Q154240_2,validation,What type of leader was Yemelyan Pugachev during the uprising?,Q154240,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,반란 기간 동안 Yemelyan Pugachev는 어떤 종류의 지도자였습니까?
+Q154563_0,validation,How would you describe the Berlin Cathedral?,Q154563,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베를린 대성당을 어떻게 묘사할 것인가?
+Q154563_1,validation,What type of place is the Berlin Cathedral?,Q154563,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베를린 대성당은 어떤 장소인가요?
+Q154563_2,validation,What city is home to the Berlin Cathedral?,Q154563,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베를린 카테고리의 집은 무엇입니까?
+Q1545841_0,validation,Who starred in the movie The Border?,Q1545841,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘경계’에서 누가 출연했는가?
+Q1545841_1,validation,What year was the movie The Border released?,Q1545841,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘ 국경’은 어떤 해에 출간되었습니까?
+Q1545841_2,validation,What is the subject of the 1982 film The Border?,Q1545841,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1982년 영화 ‘경계’의 주제는 무엇인가?
+Q16160512_0,validation,How many seasons of Ang Shim Jung are there?,Q16160512,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 Ang Shim Jung 시즌이 있습니까?
+Q16160512_2,validation,When did Ang Shim Jung first air on television?,Q16160512,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Ang Shim Jung은 언제 처음으로 텔레비전에서 비행을 했습니까?
+Q161953_0,validation,Who is the author of the Books of Chronicles?,Q161953,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,‘크로닉의 책’의 저자는 누구인가?
+Q161953_1,validation,How many Books of Chronicles are there in total?,Q161953,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 크로닉의 책이 전체에 있습니까?
+Q161953_2,validation,What themes are commonly found in the artwork depicted in the Books of Chronicles?,Q161953,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 주제가 일반적으로 Chronicles의 책에서 묘사 된 예술 작품에서 발견되나요?
+Q162002_0,validation,What is the main instrument featured in Cello Concerto No. 1?,Q162002,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Cello Concerto No. 1의 주요 도구는 무엇입니까?
+Q162002_1,validation,Who composed the Cello Concerto No. 1?,Q162002,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Cello 콘서트 번호 1을 구성했습니까?
+Q162002_2,validation,How many movements are there in Joseph Haydn's Cello Concerto No. 1?,Q162002,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Joseph Haydn의 Cello Concerto No. 1에서 얼마나 많은 움직임이 있습니까?
+Q162331_0,validation,Which famous French director's debut film is The 400 Blows?,Q162331,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 유명한 프랑스 감독의 데뷔 영화는 The 400 Blows입니까?
+Q162331_1,validation,Who directed the 1959 film The 400 Blows?,Q162331,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1959년 영화 ‘The 400 Blows’의 주인공은 누구일까?
+Q162331_2,validation,What is the subject of the 1959 film The 400 Blows by François Truffaut?,Q162331,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,프랑수아 트루파우트(François Truffaut)의 1959년 영화 ‘400 Blows’의 주제는 무엇입니까?
+Q16255596_0,validation,Who are the main actors in Eleventh Mom?,Q16255596,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,십일조 어머니의 주인공은 누구인가?
+Q16255596_1,validation,Who directed the 2007 film Eleventh Mom?,Q16255596,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,2007년 영화 ‘십일조 엄마’의 주인공은 누구일까?
+Q16255596_2,validation,What genre does the movie Eleventh Mom belong to?,Q16255596,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘11번째 엄마’는 어떤 장르에 속하는가?
+Q162935_0,validation,When was the Piano Concerto No. 1 first performed?,Q162935,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 콘서트 번호 1은 언제 처음 연주되었습니까?
+Q162935_1,validation,What is the genre of the Piano Concerto No. 1?,Q162935,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 콘서트 번호 1의 종류는 무엇입니까?
+Q162935_2,validation,How many movements are there in the Piano Concerto No. 1?,Q162935,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 콘서트 번호 1에는 얼마나 많은 움직임이 있습니까?
+Q16305809_0,validation,Do prawn crackers contain real prawns?,Q16305809,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,파우더 크레이커는 실제 파우더를 포함합니까?
+Q16305809_1,validation,How are prawn crackers made?,Q16305809,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,과연 크레이커는 어떻게 만들어진 것일까?
+Q16305809_2,validation,Where are prawn crackers popular?,Q16305809,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어디에서 푸른 크레이커가 인기가 있습니까?
+Q163775_0,validation,Who were the main composers of medieval music?,Q163775,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중세 음악의 주요 작곡가들은 누구였습니까?
+Q163775_1,validation,What is the geographical origin of medieval music?,Q163775,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중세 음악의 지리적 기원은 무엇입니까?
+Q163775_2,validation,What distinguishes medieval music from other musical styles?,Q163775,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중세 음악과 다른 음악 스타일을 구별하는 것은 무엇입니까?
+Q16385657_0,validation,What is the main theme explored in The Eye of Minds?,Q16385657,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'눈의 마음'에서 탐구한 주요 주제는 무엇입니까?
+Q16385657_1,validation,What type of artwork is inspired by The Eye of Minds?,Q16385657,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 마음의 눈에 영감을 받고 있습니까?
+Q16385657_2,validation,How would you describe the genre of the novel The Eye of Minds?,Q16385657,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 마음의 눈 (The Eye of Minds)의 장르를 어떻게 묘사 할 것인가?
+Q16386726_0,validation,Can you provide a brief description of Live by Night?,Q16386726,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Live by Night에 대한 간략한 설명을 제공 할 수 있습니까?
+Q16386726_1,validation,Who is the author of Live by Night?,Q16386726,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,밤에 살아가는 책의 저자는 누구인가?
+Q16386726_2,validation,Is Live by Night a novel?,Q16386726,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,밤에 살아가는 것은 소설인가요?
+Q164652_0,validation,What is the genre of Symphony No. 10?,Q164652,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 10의 종류는 무엇입니까?
+Q164652_1,validation,Is Symphony No. 10 a famous musical work?,Q164652,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 10은 유명한 음악 작품입니까?
+Q164652_2,validation,Can you provide a brief description of Symphony No. 10 by Dmitri Shostakovich?,Q164652,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dmitri Shostakovich의 Symphony No. 10에 대한 간략한 설명을 제공 할 수 있습니까?
+Q171384_0,validation,Are the eagle and lion in the coat of arms of Armenia ancient symbols?,Q171384,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아르메니아의 무기 덮개에있는 거북이와 사자는 고대의 상징입니까?
+Q171384_1,validation,What do the eagle and lion represent in the coat of arms of Armenia?,Q171384,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아르메니아의 무기 덮개에서 사자와 사자는 무엇을 나타냅니까?
+Q171384_2,validation,Does the coat of arms of Armenia combine new and old symbols?,Q171384,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아르메니아의 무기 코트는 새로운 상징과 오래된 상징을 결합합합니까?
+Q1764229_0,validation,How does the Battle of the Hornburg impact the fictional world it is set in?,Q1764229,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hornburg의 전투는 어떻게 그것이 설정하는 환상 세계에 영향을 미칩니 까?
+Q1764229_1,validation,Who were the key characters involved in the Battle of the Hornburg?,Q1764229,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hornburg 전투에 참여한 주요 캐릭터는 누구였습니까?
+Q1764229_2,validation,Where does the Battle of the Hornburg take place?,Q1764229,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hornburg 전투는 어디에서 일어나고 있습니까?
+Q1769466_0,validation,When was the book Mission of Gravity published?,Q1769466,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중력의 임무(Mission of Gravity)는 언제 출판되었습니까?
+Q1769466_1,validation,What is the subject matter of the book Mission of Gravity?,Q1769466,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중력의 임무(Mission of Gravity)라는 책의 주제는 무엇입니까?
+Q1769466_2,validation,How would you describe Mission of Gravity in one word?,Q1769466,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중력의 임무를 한 단어로 어떻게 묘사할 것인가?
+Q179492_0,validation,Who wrote the Voynich manuscript?,Q179492,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Voynich Manuscript을 썼습니까?
+Q179492_1,validation,How was the Voynich manuscript created?,Q179492,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Voynich Manuscript은 어떻게 만들어졌습니까?
+Q179492_2,validation,What makes the Voynich manuscript unique?,Q179492,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,무엇이 Voynich Manuscript을 독특하게 만드는가?
+Q18003141_0,validation,How would you describe the artwork in Ancillary Mercy?,Q18003141,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떻게 예술 작품을 Ancillary Mercy에서 묘사할 것인가?
+Q18003141_1,validation,Who is the author of Ancillary Mercy?,Q18003141,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Ancillary Mercy의 저자는 누구입니까?
+Q18003141_2,validation,Is Ancillary Mercy a science-fiction novel?,Q18003141,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Ancillary Mercy는 과학 판타지 소설입니까?
+Q183562_0,validation,What architectural style is the Umayyad Mosque known for?,Q183562,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 건축 스타일은 Umayyad 모스크로 알려져 있습니까?
+Q183562_1,validation,How old is the Umayyad Mosque?,Q183562,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우마야드 모스크는 얼마나 오래되었습니까?
+Q183562_2,validation,Where is the Umayyad Mosque located?,Q183562,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우마야드 모스크는 어디에 있습니까?
+Q1858336_0,validation,Can you find the definition of new words in Webster's Dictionary?,Q1858336,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Webster의 사전에서 새로운 단어의 정의를 찾을 수 있습니까?
+Q1858336_1,validation,Who developed Webster's Dictionary?,Q1858336,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Webster의 사전을 개발했습니까?
+Q1858336_2,validation,How is Webster's Dictionary different from other dictionaries?,Q1858336,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Webster의 사전은 다른 사전과 어떻게 다릅니까?
+Q1860864_0,validation,Are there any countries that currently use the silver standard?,Q1860864,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,현재 은 표준을 사용하는 국가가 있습니까?
+Q1860864_1,validation,How does the silver standard differ from the gold standard?,Q1860864,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,은 표준은 금 표준과 어떻게 다릅니까?
+Q1860864_2,validation,What role did the silver standard play in historical economies?,Q1860864,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,역사적인 경제에서 은 표준이 어떤 역할을 했습니까?
+Q187031_0,validation,What skills are important for a newspaper delivery person to have?,Q187031,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,신문을 제공하는 사람에게 중요한 기술은 무엇입니까?
+Q187031_1,validation,How early in the morning does a newspaper delivery person typically start their route?,Q187031,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 일찍 아침에 신문 배달 사람이 일반적으로 그들의 경로를 시작합니까?
+Q187031_2,validation,What challenges might a newspaper delivery person face during bad weather conditions?,Q187031,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,나쁜 날씨 조건에서 신문 배달자가 직면 할 수있는 도전은 무엇입니까?
+Q188468_0,validation,How were winners of the Ancient Olympic Games honored?,Q188468,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,고대 올림픽의 우승자들은 어떻게 존경받았습니까?
+Q188468_1,validation,When did the Ancient Olympic Games take place?,Q188468,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,옛날 올림픽은 언제 열렸을까?
+Q188468_2,validation,Who was allowed to participate in the Ancient Olympic Games?,Q188468,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 고대 올림픽에 참가할 수 있었습니까?
+Q18846_0,validation,What kind of melodies and rhythms were typical in ancient music?,Q18846,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,고대 음악에서 어떤 종류의 멜로디와 리듬이 특징이었습니까?
+Q18846_1,validation,What were some common instruments used in ancient music?,Q18846,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,고대 음악에서 사용되는 일부 일반적인 도구는 무엇입니까?
+Q18846_2,validation,Which cultures developed ancient music?,Q18846,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 문화가 고대 음악을 개발했습니까?
+Q190125_0,validation,Which students were allowed to join Dumbledore's Army?,Q190125,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 학생들이 Dumbledore의 군대에 합류 할 수 있었습니까?
+Q190125_1,validation,What was the purpose of Dumbledore's Army?,Q190125,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dumbledore의 군대의 목적은 무엇입니까?
+Q190125_2,validation,Where did Dumbledore's Army meet in secret?,Q190125,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dumbledore의 군대는 어디서 비밀리에 만났습니까?
+Q19794729_0,validation,How many seasons does the TV series All About My Mom have?,Q19794729,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 All About My Mom의 시즌은 얼마나 되나요?
+Q19794729_1,validation,When was the TV series All About My Mom first aired?,Q19794729,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 텔레비전 시리즈 All About My Mom 처음 방송되었습니까?
+Q19794729_2,validation,What is the genre of the TV series All About My Mom?,Q19794729,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 All About My Mom의 종류는 무엇입니까?
+Q19852_0,validation,What is the primary objective of the characters in J.R.R. Tolkien's stories regarding the One Ring?,Q19852,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,J.R.R. Tolkien의 한 반지에 관한 이야기에서 캐릭터의 주요 목표는 무엇입니까?
+Q19852_1,validation,How does the One Ring affect its bearer in J.R.R. Tolkien's stories?,Q19852,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,하나의 반지는 J.R.R. Tolkien의 이야기에서 그것의 운반자에게 어떤 영향을 미치는가?
+Q19852_2,validation,Who is the original creator of the One Ring in J.R.R. Tolkien's legendarium?,Q19852,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,J.R.R. Tolkien의 전설에 있는 One Ring의 원래 창조자는 누구입니까?
+Q19854858_0,validation,Where does the story of My Beautiful Bride take place?,Q19854858,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,내 아름다운 신부의 이야기는 어디에서 일어나는가?
+Q19854858_1,validation,When was the South Korean TV series My Beautiful Bride released?,Q19854858,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한국 텔레비전 시리즈 ‘나의 아름다운 신부’는 언제 출시되었습니까?
+Q19854858_2,validation,What is the plot of the TV series My Beautiful Bride?,Q19854858,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 '나의 아름다운 신부'에 해당되는 글 1건
+Q19938912_0,validation,What does BnF stand for in BnF authorities for books?,Q19938912,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,BnF는 BnF 기관에서 책을 위해 무엇을 의미합니까?
+Q19938912_1,validation,Which types of entities are included in BnF authorities for books?,Q19938912,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 단체가 BnF 책 기관에 포함되어 있습니까?
+Q19938912_2,validation,What national library is associated with BnF authorities for books?,Q19938912,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 국립 도서관은 BnF 책 기관과 관련이 있습니까?
+Q201178_0,validation,When was the current coat of arms of North Macedonia adopted?,Q201178,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,북마케도니아의 현재 무기 코트는 언제 채택되었습니까?
+Q201178_1,validation,What symbols are depicted on the coat of arms of North Macedonia?,Q201178,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,북마케도니아의 무기 코트에 어떤 상징이 표시되어 있습니까?
+Q201178_2,validation,Who designed the coat of arms of North Macedonia?,Q201178,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 북마케도니아의 무기 코트를 설계했습니까?
+Q2031786_0,validation,What year was Piano Sonata No. 9 composed?,Q2031786,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 소나타 9호는 어떤 해에 작곡되었습니까?
+Q2031786_1,validation,What is the length of Piano Sonata No. 9?,Q2031786,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 소나타 9의 길이는 얼마입니까?
+Q2031786_2,validation,How many movements does Piano Sonata No. 9 have?,Q2031786,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 소나타 9에는 얼마나 많은 움직임이 있습니까?
+Q207510_0,validation,When was the Emblem of Togo officially adopted?,Q207510,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,도고의 상징은 언제 공식적으로 채택되었습니까?
+Q207510_1,validation,What does the Emblem of Togo symbolize?,Q207510,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,토고의 상징은 무엇을 의미합니까?
+Q207510_2,validation,Who created the Emblem of Togo?,Q207510,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 토고의 상징을 만들었습니까?
+Q20857824_0,validation,How many seasons of Better Late Than Never have aired?,Q20857824,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 시즌이 늦은 것보다 늦은가?
+Q20857824_1,validation,Where does Better Late Than Never take place?,Q20857824,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제보다 늦게 일어나는 것이 더 좋을까?
+Q20857824_2,validation,Who are the main hosts of Better Late Than Never?,Q20857824,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 지금보다 늦게 더 나은 주인공인가?
+Q2135787_0,validation,What is the genre of The Circular Ruins?,Q2135787,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,원형 붕괴의 종류는 무엇입니까?
+Q2135787_1,validation,Who is the author of The Circular Ruins?,Q2135787,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,서클 붕괴의 저자는 누구입니까?
+Q2135787_2,validation,When was The Circular Ruins written?,Q2135787,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 서클 붕괴가 기록되었습니까?
+Q21511960_0,validation,What is the format of This One Summer?,Q21511960,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이 여름의 형식은 무엇입니까?
+Q21511960_1,validation,Who are the authors of the graphic novel This One Summer?,Q21511960,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이 여름의 그래픽 소설의 저자는 누구입니까?
+Q21511960_2,validation,When was the book This One Summer published?,Q21511960,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이 책이 언제 출간되었습니까?
+Q218295_0,validation,How is the President of Russia elected?,Q218295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,러시아 대통령은 어떻게 선출되었습니까?
+Q218295_1,validation,When was the office of the President of Russia established?,Q218295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,러시아 대통령의 사무실은 언제 설립되었습니까?
+Q218295_2,validation,What is the role of the President of Russia?,Q218295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,러시아 대통령의 역할은 무엇입니까?
+Q218382_0,validation,What is the significance of Zografou Monastery in Greek Orthodox Christianity?,Q218382,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그리스 정교한 기독교에서 Zografou 수도원의 의미는 무엇입니까?
+Q218382_1,validation,What is the primary purpose of Zografou Monastery?,Q218382,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Zografou Monastery의 주요 목적은 무엇입니까?
+Q218382_2,validation,How old is Zografou Monastery?,Q218382,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Zografou 수도원은 얼마나 오래되었습니까?
+Q21869380_0,validation,Who are the main actors in Going Bananas?,Q21869380,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바나나에 가는 주인공은 누구입니까?
+Q21869380_1,validation,What is the genre of the movie Going Bananas?,Q21869380,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바나나를 가는 영화의 종류는 무엇입니까?
+Q21869380_2,validation,When was the film Going Bananas released?,Q21869380,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘바나나 가는 것’은 언제 출시되었을까?
+Q2209873_0,validation,What is the main religious significance of Paro Taktsang?,Q2209873,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Paro Taktsang의 주요 종교적 의미는 무엇입니까?
+Q2209873_1,validation,Where is Paro Taktsang located?,Q2209873,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Paro Taktsang은 어디에 있는가?
+Q2209873_2,validation,What type of place is Paro Taktsang?,Q2209873,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 Paro Taktsang입니까?
+Q223534_0,validation,What is the key signature of Symphony No. 3?,Q223534,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3의 핵심 서명은 무엇입니까?
+Q223534_1,validation,How many movements are there in Symphony No. 3?,Q223534,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3에서 얼마나 많은 움직임이 있습니까?
+Q223534_2,validation,When was Symphony No. 3 first performed?,Q223534,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3는 언제 처음으로 연주되었습니까?
+Q223540_0,validation,When was Symphony No. 3 composed?,Q223540,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3는 언제 작성되었습니까?
+Q223540_1,validation,What is the genre of Symphony No. 3?,Q223540,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3의 종류는 무엇입니까?
+Q223540_2,validation,How many movements are in Symphony No. 3?,Q223540,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 3에서 얼마나 많은 움직임이 있습니까?
+Q2265406_0,validation,What are the nutritional benefits of split pea?,Q2265406,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,분열 피아의 영양 혜택은 무엇입니까?
+Q2265406_1,validation,How is split pea different from whole pea?,Q2265406,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,은 전체 과 어떻게 다릅니까?
+Q2265406_2,validation,How is split pea prepared and cooked?,Q2265406,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,분할 은 어떻게 준비하고 요리합니까?
+Q228057_0,validation,How would you describe Symphony No. 38?,Q228057,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,제38호 시뮬레이션을 어떻게 묘사하겠습니까?
+Q228057_1,validation,How many movements are there in Symphony No. 38?,Q228057,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 38에는 얼마나 많은 움직임이 있습니까?
+Q228057_2,validation,In what style of music was Symphony No. 38 composed?,Q228057,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 음악 스타일로 Symphony No. 38이 작곡되었습니까?
+Q2310317_0,validation,How is the Nīlakantha dhāranī represented in artwork?,Q2310317,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Nīlakantha dhāranī는 예술 작품에서 어떻게 표현되나요?
+Q2310317_1,validation,Who is the bodhisattva associated with the Nīlakantha dhāranī?,Q2310317,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Nīlakantha dhāranī와 관련된 bodyhisattva입니까?
+Q2310317_2,validation,What is the significance of the Nīlakantha dhāranī in Mahayana Buddhism?,Q2310317,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mahayana Buddhism에서 Nīlakantha dhāranī의 의미는 무엇입니까?
+Q231213_0,validation,Is Symphony No. 4 considered one of Mendelssohn's most famous works?,Q231213,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 4는 Mendelssohn의 가장 유명한 작품 중 하나로 간주되나요?
+Q231213_1,validation,Who composed Symphony No. 4?,Q231213,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Symphony No. 4를 만들었습니까?
+Q231213_2,validation,Can you provide a brief description of Symphony No. 4 by Mendelssohn?,Q231213,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mendelssohn의 Symphony No. 4에 대한 간략한 설명을 제공 할 수 있습니까?
+Q2344561_0,validation,How would you describe the Putra Mosque in Malaysia?,Q2344561,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 말레이시아의 Putra 모스크를 어떻게 묘사 할 것인가?
+Q2344561_1,validation,Where is the Putra Mosque located?,Q2344561,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,파트라 모스크는 어디에 있습니까?
+Q2344561_2,validation,What type of place is the Putra Mosque?,Q2344561,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,파트라 모스크는 어떤 종류의 장소입니까?
+Q235826_0,validation,When was the coat of arms of Colombia officially adopted?,Q235826,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콜롬비아의 무기 코트는 언제 공식적으로 채택되었습니까?
+Q235826_1,validation,What symbols are featured on the coat of arms of Colombia?,Q235826,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콜롬비아의 무기 코트에 어떤 상징이 표시되어 있습니까?
+Q235826_2,validation,Who designed the coat of arms of Colombia?,Q235826,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 콜롬비아의 무기 코트를 설계했습니까?
+Q240279_0,validation,When was Symphony No. 5 first performed?,Q240279,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 5는 언제 처음으로 연주되었습니까?
+Q240279_1,validation,What is the composer's name of Symphony No. 5?,Q240279,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,시뮬레이션 5호의 작곡가의 이름은 무엇입니까?
+Q240279_2,validation,Is Symphony No. 5 considered one of Shostakovich's most famous works?,Q240279,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 5는 Shostakovich의 가장 유명한 작품 중 하나로 간주되는가?
+Q246487_0,validation,Which key is Symphony No. 6 primarily written in?,Q246487,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 키가 주로 Symphony No. 6에 기록되어 있습니까?
+Q246487_1,validation,How many movements are there in Symphony No. 6?,Q246487,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 6에는 얼마나 많은 움직임이 있습니까?
+Q246487_2,validation,When was Symphony No. 6 first performed?,Q246487,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 6은 언제 처음 연주되었습니까?
+Q24659708_0,validation,When was Blow Breeze first aired on television?,Q24659708,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,블로브 브레이즈는 언제 처음으로 텔레비전에서 방송되었습니까?
+Q24659708_1,validation,Who are the main characters in Blow Breeze?,Q24659708,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Blow Breeze의 주요 캐릭터는 누구입니까?
+Q24659708_2,validation,How many seasons of Blow Breeze were produced?,Q24659708,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 Blow Breeze 시즌이 생산되었습니까?
+Q2481465_0,validation,How is Android 17 depicted in Dragon Ball?,Q2481465,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,안드로이드 17은 드래곤 볼에서 어떻게 묘사되나요?
+Q2481465_1,validation,What role does Android 17 play in the anime and manga franchise?,Q2481465,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,애니메이션과 만가 프랜차이즈에서 안드로이드 17의 역할은 무엇입니까?
+Q2481465_2,validation,Is Android 17 a fictional character?,Q2481465,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,안드로이드 17은 환상적인 캐릭터입니까?
+Q25245668_0,validation,What is the educational focus of Julie's Greenroom?,Q25245668,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Julie의 Greenroom의 교육적 초점은 무엇입니까?
+Q25245668_1,validation,What is the format of Julie's Greenroom?,Q25245668,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Julie's Greenroom의 형식은 무엇입니까?
+Q25245668_2,validation,Who is the target audience for Julie's Greenroom?,Q25245668,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Julie's Greenroom의 대상 관객은 누구입니까?
+Q2570624_0,validation,How many rooms are there in the Radisson Royal Hotel in Moscow?,Q2570624,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바의 Radisson Royal Hotel에는 얼마나 많은 객실이 있습니까?
+Q2570624_1,validation,What is the architectural style of the Radisson Royal Hotel in Moscow?,Q2570624,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바의 Radisson Royal Hotel의 건축 스타일은 무엇입니까?
+Q2570624_2,validation,When was the Radisson Royal Hotel in Moscow constructed?,Q2570624,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바의 Radisson Royal Hotel은 언제 건설되었습니까?
+Q260988_0,validation,How many movements are there in Symphony No. 7?,Q260988,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 7에는 얼마나 많은 움직임이 있습니까?
+Q260988_1,validation,Is Symphony No. 7 considered one of Bruckner's most famous works?,Q260988,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 7은 Bruckner의 가장 유명한 작품 중 하나로 간주되나요?
+Q260988_2,validation,When was Symphony No. 7 first performed?,Q260988,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 7은 언제 처음 연주되었습니까?
+Q2620906_0,validation,How did Grigory Petrovsky's political career come to an end?,Q2620906,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그리고리 페트로프스키의 정치적 경력은 어떻게 끝났습니까?
+Q2620906_1,validation,When did Grigory Petrovsky serve as a politician in the Soviet Union?,Q2620906,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그리고리 페트로프스키는 언제 소련에서 정치인으로 봉사했습니까?
+Q2620906_2,validation,What significant contributions did Grigory Petrovsky make during his time in politics?,Q2620906,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그리고리 페트로프스키가 정치에서 그의 시간 동안 어떤 중요한 기여를 했습니까?
+Q2634534_0,validation,How would you describe The Star in one sentence?,Q2634534,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한 문장에서 별을 어떻게 묘사할 것인가?
+Q2634534_1,validation,What type of artwork is The Star?,Q2634534,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 스타입니까?
+Q2634534_2,validation,When was The Star first published?,Q2634534,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,스타가 언제 처음 출판되었습니까?
+Q2635530_0,validation,When was the Tomb of Cyrus the Great built?,Q2635530,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 키루스 위대한 무덤이 건설되었습니까?
+Q2635530_1,validation,What is the significance of the Tomb of Cyrus the Great?,Q2635530,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,키루스 위대한 무덤의 의미는 무엇입니까?
+Q2635530_2,validation,Can visitors access the Tomb of Cyrus the Great today?,Q2635530,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,방문객들은 오늘 사이루스 위대한 무덤에 접근 할 수 있습니까?
+Q26505_0,validation,What is the significance of the sea in The Old Man and the Sea?,Q26505,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,오래된 사람과 바다에서 바다의 의미는 무엇입니까?
+Q26505_1,validation,Who is the author of The Old Man and the Sea?,Q26505,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,“오래된 사람과 바다”의 저자는 누구인가?
+Q26505_2,validation,What genre does The Old Man and the Sea belong to?,Q26505,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,늙은이와 바다가 어떤 종류에 속하는가?
+Q2667119_0,validation,How many seasons are there in Masha and the Bear?,Q2667119,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Masha and the Bear에는 얼마나 많은 계절이 있습니까?
+Q2667119_1,validation,Who are the main characters in Masha and the Bear?,Q2667119,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마샤와 곰의 주요 캐릭터는 누구입니까?
+Q2667119_2,validation,When was Masha and the Bear first released?,Q2667119,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마샤와 곰은 언제 처음 출시되었습니까?
+Q270785_0,validation,What is the genre of Symphony No. 8?,Q270785,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 8의 종류는 무엇입니까?
+Q270785_1,validation,Who composed Symphony No. 8?,Q270785,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Symphony No. 8을 만들었습니까?
+Q270785_2,validation,How many movements are there in Symphony No. 8?,Q270785,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 8에는 얼마나 많은 움직임이 있습니까?
+Q270853_0,validation,What is the musical style of Symphony No. 8?,Q270853,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 8의 음악 스타일은 무엇입니까?
+Q270853_1,validation,How many movements are there in Symphony No. 8?,Q270853,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 8에는 얼마나 많은 움직임이 있습니까?
+Q270853_2,validation,When was Symphony No. 8 composed?,Q270853,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Symphony No. 8은 언제 작성되었습니까?
+Q2717185_0,validation,How would you describe the artwork of Hygiene and the Assassin?,Q2717185,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 위생과 살인자의 예술 작품을 어떻게 묘사 할 것인가?
+Q2717185_1,validation,Who is the author of the novel Hygiene and the Assassin?,Q2717185,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위생과 살인자의 소설의 저자는 누구입니까?
+Q2717185_2,validation,What is the subject matter of Hygiene and the Assassin?,Q2717185,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위생과 살인자의 주제는 무엇입니까?
+Q280872_0,validation,When did Timon of Phlius live?,Q280872,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Timon of Phlius는 언제 살았습니까?
+Q280872_1,validation,What was Timon of Phlius known for?,Q280872,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Phlius의 Timon은 무엇을 알고 있었습니까?
+Q280872_2,validation,How did Timon of Phlius contribute to Greek philosophy?,Q280872,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,티몬 드 플리우스가 그리스 철학에 어떻게 기여했습니까?
+Q28129997_0,validation,How does the Iron Spider's appearance differ from other Spider-Man suits?,Q28129997,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아이언 스파이더의 외관은 다른 스파이더맨 스위트와 어떻게 다릅니까?
+Q28129997_1,validation,Who created the Iron Spider armor in the Marvel Universe?,Q28129997,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 마블 우주에서 철 스파이더 무기를 만들었습니까?
+Q28129997_2,validation,What special abilities does the Iron Spider armor grant its user?,Q28129997,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아이언 스파이더 무기는 사용자에게 어떤 특별한 능력을 부여합니까?
+Q28233322_0,validation,Is Cloudy with a Chance of Meatballs: The Series a Canadian-American collaboration?,Q28233322,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Cloudy with a Chance of Meatballs : The Series는 캐나다-미국 협력인가?
+Q28233322_1,validation,Is Cloudy with a Chance of Meatballs: The Series a comedy TV show?,Q28233322,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Cloudy with a Chance of Meatballs: The Series는 코미디 TV 쇼입니까?
+Q28233322_2,validation,What is the origin of Cloudy with a Chance of Meatballs: The Series?,Q28233322,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Meatballs: The Series의 기회와 함께 Cloudy의 기원은 무엇입니까?
+Q2830455_0,validation,What are some popular desserts that use condensed milk as an ingredient?,Q2830455,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 인기있는 디저트가 콘덴서 우유를 재료로 사용합니까?
+Q2830455_1,validation,What is the main difference between condensed milk and regular milk?,Q2830455,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콘덴서 우유와 정기 우유의 주요 차이점은 무엇입니까?
+Q2830455_2,validation,Can condensed milk be used as a substitute for regular milk in recipes?,Q2830455,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,정기적 인 우유의 대체로 콘덴서 우유를 사용할 수 있습니까?
+Q2915845_0,validation,How would you describe the style of The Thibaults?,Q2915845,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 Thibaults의 스타일을 어떻게 묘사 할 것인가?
+Q2915845_1,validation,Is The Thibaults a roman-fleuve?,Q2915845,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,티바울은 로맨스 플루브인가요?
+Q2915845_2,validation,Who is the main character in The Thibaults?,Q2915845,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Thibaults의 주요 캐릭터는 누구입니까?
+Q29424_0,validation,When was Fathers and Sons first published?,Q29424,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아버지와 아들은 언제 처음 출판되었습니까?
+Q29424_1,validation,Who is the author of the 1862 novel Fathers and Sons?,Q29424,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1862년 《아버지와 아들》 소설의 저자는 누구인가?
+Q29424_2,validation,What is the genre of Ivan Turgenev's Fathers and Sons?,Q29424,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이반 터게네프의 아버지와 아들들의 종류는 무엇입니까?
+Q310805_0,validation,Where was Seleucus V Philometor's kingdom located?,Q310805,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,필로메토르 5세의 왕국은 어디에 있었습니까?
+Q310805_1,validation,What title did Seleucus V Philometor hold?,Q310805,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Seleucus V Philometor의 이름은 무엇입니까?
+Q310805_2,validation,When did Seleucus V Philometor rule as king?,Q310805,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,셀레루쿠스 5세가 언제 왕으로 통치했습니까?
+Q31177380_0,validation,How many episodes are there in My Golden Life?,Q31177380,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,내 골든 인생에는 얼마나 많은 에피소드가 있습니까?
+Q31177380_1,validation,When was My Golden Life released?,Q31177380,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,내 골든 라이프는 언제 출시되었습니까?
+Q31177380_2,validation,Who are the main characters in My Golden Life?,Q31177380,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,내 골든 라이프의 주요 캐릭터는 누구인가?
+Q312342_0,validation,How old is Al-Azhar Mosque in Egypt?,Q312342,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이집트의 알 아즈하르 모스크는 얼마나 오래되었습니까?
+Q312342_1,validation,What type of place is Al-Azhar Mosque?,Q312342,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 알 아즈하르 모스크?
+Q312342_2,validation,What is the significance of Al-Azhar Mosque in Islamic Cairo?,Q312342,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이슬람 카이로에 있는 알 아즈하르 모스크의 의미는 무엇입니까?
+Q313594_0,validation,Has Kirsan Ilyumzhinov been involved in any controversies or scandals?,Q313594,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kirsan Ilyumzhinov는 어떤 논쟁이나 스캔들에 참여했습니까?
+Q313594_1,validation,What is Kirsan Ilyumzhinov known for in the public sphere?,Q313594,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kirsan Ilyumzhinov는 공공 공간에서 무엇을 알고 있습니까?
+Q313594_2,validation,What are some notable achievements or positions held by Kirsan Ilyumzhinov?,Q313594,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kirsan Ilyumzhinov의 몇 가지 눈에 띄는 성과 또는 위치는 무엇입니까?
+Q3205903_0,validation,What are some possible consequences of a hypothetical Axis victory in World War II on post-war international relations?,Q3205903,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,전쟁 후 국제 관계에 대한 제2차 세계 대전에서 가설적인 Axis 승리의 가능한 결과는 무엇입니까?
+Q3205903_1,validation,How would a hypothetical Axis victory in World War II have affected global politics?,Q3205903,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,제2차 세계 대전에서 가설적인 옥스 승리가 세계 정치에 어떤 영향을 미칠 것인가?
+Q3223668_0,validation,Is The Day of the Ants a fictional work?,Q3223668,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,안츠의 날은 환상적인 작품입니까?
+Q3223668_1,validation,Who is the author of The Day of the Ants?,Q3223668,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,[중고] [중고] [중고] [중고] [중고] [중고] [중고] [중고] [중고] [중고] [중고]
+Q3223668_2,validation,When was The Day of the Ants published?,Q3223668,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그날의 날이 언제 출판되었습니까?
+Q3225511_0,validation,When was the first episode of The Little Prince TV series released?,Q3225511,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'작은 왕자' TV 시리즈의 첫 번째 에피소드는 언제 출시되었습니까?
+Q3225511_1,validation,Who are the main characters in The Little Prince TV series?,Q3225511,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,작은 왕자 TV 시리즈의 주요 캐릭터는 누구입니까?
+Q3225511_2,validation,How many seasons are there in The Little Prince TV series?,Q3225511,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 시즌이 The Little Prince TV 시리즈에 있습니까?
+Q3272245_0,validation,What is Living Lightning's real name?,Q3272245,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Living Lightning의 진짜 이름은 무엇입니까?
+Q3272245_1,validation,How did Living Lightning become a superhero?,Q3272245,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Living Lightning은 어떻게 슈퍼히어로가 되었습니까?
+Q3272245_2,validation,Who are Living Lightning's allies in the Marvel Comics universe?,Q3272245,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Marvel Comics 우주에서 Living Lightning의 동맹국은 누구입니까?
+Q3345_0,validation,Were there any significant events or conflicts that took place during Ptolemy X Alexander I's reign as king?,Q3345,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,황제로서의 알렉산더 X의 통치 기간 동안 일어난 중요한 사건이나 갈등이 있었습니까?
+Q3345_1,validation,What were some of Ptolemy X Alexander I's notable achievements or contributions during his time as king?,Q3345,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,황제로서의 그의 시간 동안 알렉산더 X의 눈에 띄는 성과 또는 기여 중 일부는 무엇이었습니까?
+Q3345_2,validation,Can you provide any information about Ptolemy X Alexander I's family background or lineage?,Q3345,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Ptolemy X Alexander I의 가족 배경 또는 라인에 대한 정보를 제공 할 수 있습니까?
+Q3349882_0,validation,Which state in India is Tawang Monastery located?,Q3349882,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,인도의 어떤 주가 Tawang Monastery 위치하고 있습니까?
+Q3349882_1,validation,What type of religious institution is Tawang Monastery?,Q3349882,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종교 기관은 Tawang 수도원입니까?
+Q3349882_2,validation,Where is Tawang Monastery situated in India?,Q3349882,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Tawang Monastery는 어디에 위치하고 있습니까?
+Q3367195_0,validation,"What genre does the movie A Cool, Dry Place belong to?",Q3367195,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"A Cool, Dry Place 영화는 어떤 장르에 속하는가?"
+Q3367195_1,validation,"Who directed the movie A Cool, Dry Place?",Q3367195,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"A Cool, Dry Place 영화의 주인공은 누구입니까?"
+Q3367195_2,validation,"Can you provide a brief description of the film A Cool, Dry Place?",Q3367195,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"A Cool, Dry Place 영화에 대한 간략한 설명을 제공 할 수 있습니까?"
+Q336916_0,validation,What is Sergio Rochet's position on the field?,Q336916,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,현장에서 Sergio Rochet의 입장은 무엇입니까?
+Q336916_1,validation,In which sport does Sergio Rochet excel?,Q336916,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sergio Rochet은 어떤 스포츠에서 뛰어난가요?
+Q336916_2,validation,What is Sergio Rochet's nationality?,Q336916,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sergio Rochet의 국적은 무엇입니까?
+Q3393961_0,validation,Is corn starch gluten-free?,Q3393961,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,옥수수는 글루텐이없는가?
+Q3393961_1,validation,How is corn starch typically used in cooking?,Q3393961,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,옥수수 스테이크는 요리에 일반적으로 사용되는 방법은 무엇입니까?
+Q3393961_2,validation,Can corn starch be used as a thickening agent in sauces and gravies?,Q3393961,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,옥수수 스테이크는 소스와 묘지에서 뚱뚱한 에이전트로 사용할 수 있습니까?
+Q3490278_0,validation,What instrument is the Sonatina in G major written for?,Q3490278,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,G 메이저의 소나티나는 무엇을 위해 쓰여졌습니까?
+Q3490278_1,validation,Who composed the Sonatina in G major?,Q3490278,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,G major에서 Sonatina를 구성한 사람은 누구입니까?
+Q3490278_2,validation,Can you provide a brief description of the Sonatina in G major by Beethoven?,Q3490278,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Beethoven의 G major의 Sonatina에 대한 간략한 설명을 제공 할 수 있습니까?
+Q3492886_0,validation,In what language was Specters of Marx originally written?,Q3492886,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마르크스의 스펙트럼은 원래 어떤 언어로 쓰여졌습니까?
+Q3492886_1,validation,Who is the author of Specters of Marx?,Q3492886,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마르크스의 스펙터의 저자는 누구인가?
+Q3492886_2,validation,When was Specters of Marx published?,Q3492886,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마르크스의 스펙트럼은 언제 출판되었습니까?
+Q35051_0,validation,Can white cabbage be grown in home gardens?,Q35051,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 콩은 정원에서 자랄 수 있습니까?
+Q35051_1,validation,How can white cabbage be prepared in a simple and delicious way?,Q35051,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 콩은 어떻게 간단하고 맛있는 방법으로 준비 할 수 있습니까?
+Q35051_2,validation,What are some common uses of white cabbage in different cuisines?,Q35051,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,다른 요리에서 흰 콩의 일부 일반적인 사용은 무엇입니까?
+Q358374_0,validation,Where was John I of Aragon from?,Q358374,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아라곤의 요한 1세는 어디에서 왔습니까?
+Q358374_1,validation,What was John I of Aragon's role?,Q358374,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아라곤의 요한 1세의 역할은 무엇입니까?
+Q358374_2,validation,When did John I of Aragon reign?,Q358374,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아라곤의 요한 1세가 언제 통치했습니까?
+Q3644406_0,validation,How would you describe the writing style in Brief Interviews with Hideous Men?,Q3644406,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hideous 남자와의 간략한 인터뷰에서 글쓰기 스타일을 어떻게 묘사할 것인가?
+Q3644406_1,validation,Who is the author of Brief Interviews with Hideous Men?,Q3644406,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Hideous Men'에 해당되는 글 1건
+Q3644406_2,validation,Can you give a brief summary of the storyline in Brief Interviews with Hideous Men?,Q3644406,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hideous 남자와의 짧은 인터뷰에서 이야기의 짧은 요약을 제공 할 수 있습니까?
+Q372698_0,validation,What was Pharnavaz I of Iberia known for during his reign?,Q372698,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그의 통치 기간 동안 이베리아의 파르나바즈 1세는 무엇을 알았습니까?
+Q372698_1,validation,What territories did Pharnavaz I of Iberia rule over?,Q372698,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Iberia의 Pharnavaz I는 어떤 영토를 지배했습니까?
+Q372698_2,validation,When did Pharnavaz I of Iberia become king?,Q372698,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 이베리아의 파르나바즈 1세가 왕이 되었습니까?
+Q375295_0,validation,How many international appearances did Alexey Smertin make for the Russian national team?,Q375295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,러시아 국가대표팀을 위해 알렉세이 스머틴이 얼마나 많은 국제 출연을 했습니까?
+Q375295_1,validation,What is Alexey Smertin's nationality and position in football?,Q375295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Alexey Smertin의 국적과 축구에서의 위치는 무엇입니까?
+Q375295_2,validation,Can you name one notable team Alexey Smertin played for?,Q375295,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 알렉세이 스머틴 (Alexey Smertin)의 놀라운 팀을 지정할 수 있습니까?
+Q390150_0,validation,When was Salisbury Cathedral first built?,Q390150,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Salisbury Cathedral은 언제 처음 건설되었습니까?
+Q390150_1,validation,What is the official denomination of Salisbury Cathedral?,Q390150,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Salisbury Cathedral의 공식 이름은 무엇입니까?
+Q390150_2,validation,How would you describe the architecture style of Salisbury Cathedral?,Q390150,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Salisbury Cathedral의 건축 스타일을 어떻게 묘사할 것인가?
+Q3943166_0,validation,"Who is the author behind the captivating stories in the Ryu, the Cave Boy book series?",Q3943166,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"Ryu, Cave Boy 책 시리즈의 흥미 진진한 이야기 뒤에 저자는 누구입니까?"
+Q3943166_1,validation,"What makes the Ryu, the Cave Boy TV series a popular choice among children?",Q3943166,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"Ryu, Cave Boy TV 시리즈는 어린이들 사이에서 인기있는 선택은 무엇입니까?"
+Q3943166_2,validation,"How does the Ryu, the Cave Boy series capture the imagination of young readers/viewers?",Q3943166,"[""Book series"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"Ryu, Cave Boy 시리즈는 젊은 독자/시청자의 상상력을 어떻게 캡처합니까?"
+Q4004377_0,validation,How many seasons of Mischievous Twins: The Tales of St. Clare's are there?,Q4004377,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 시즌 Mischievous Twins : St. Clare의 이야기가 거기에 있습니까?
+Q4004377_1,validation,Is Mischievous Twins: The Tales of St. Clare's based on a book series?,Q4004377,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mischievous Twins: The Tales of St. Clare는 책 시리즈를 기반으로 하는가?
+Q4004377_2,validation,Who are the main characters in Mischievous Twins: The Tales of St. Clare's?,Q4004377,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mischievous Twins: The Tales of St. Clare의 주인공은 누구입니까?
+Q404571_0,validation,What is the name of the famous street where Kazan Cathedral is situated?,Q404571,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,카잔 성당이 위치한 유명한 거리의 이름은 무엇입니까?
+Q404571_1,validation,What type of church is Kazan Cathedral?,Q404571,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 교회가 카잔 성당입니까?
+Q404571_2,validation,What religious denomination is associated with Kazan Cathedral?,Q404571,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,카잔 성당과 어떤 종교적 명칭이 연결되어 있습니까?
+Q40662_0,validation,When did John the Baptist live?,Q40662,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,요한 바티스트는 언제 살았습니까?
+Q40662_1,validation,What was John the Baptist's role in history?,Q40662,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,역사에서 요한 바티스트의 역할은 무엇이었습니까?
+Q40662_2,validation,Where did John the Baptist preach?,Q40662,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,요한은 어디서 바티스트 예언을 했습니까?
+Q4179831_0,validation,What is the main theme explored in Men Without Women?,Q4179831,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,여성이 없는 남성에서 탐구한 주요 주제는 무엇입니까?
+Q4179831_1,validation,How would you describe the genre of Men Without Women?,Q4179831,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,여성이 없는 남성의 종류를 어떻게 묘사할 것인가?
+Q4179831_2,validation,How many short stories are included in the collection Men Without Women?,Q4179831,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 짧은 이야기들이 여성이없는 남자 컬렉션에 포함되어 있습니까?
+Q431093_0,validation,How long is the runtime of Sunrise: A Song of Two Humans?,Q431093,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sunrise: A Song of Two Humans의 발음을 Sunrise: A Song of Two Humans [en]
+Q431093_1,validation,When was Sunrise: A Song of Two Humans released?,Q431093,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sunrise: A Song of Two Humans 언제 출시되었습니까?
+Q431093_2,validation,What is the genre of Sunrise: A Song of Two Humans?,Q431093,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sunrise: A Song of Two Humans의 발음을 Sunrise: A Song of Two Humans [en]
+Q4330144_0,validation,What type of work is Vaster than Empires and More Slow?,Q4330144,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 작업은 제국보다 더 잔인하고 더 천천히?
+Q4330144_1,validation,Who is the author of the science fiction book Vaster than Empires and More Slow?,Q4330144,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,과학 판타지 책 Vaster than Empires and More Slow의 저자는 누구입니까?
+Q4330144_2,validation,When was Vaster than Empires and More Slow first published?,Q4330144,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,제국보다 더 나쁜 것과 더 느린 것이 처음으로 언제 출판되었습니까?
+Q437383_0,validation,Is Dune Messiah considered a work of art?,Q437383,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dune Messiah는 예술 작품으로 간주되는가?
+Q437383_1,validation,What is the subject of Frank Herbert's Dune Messiah?,Q437383,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Frank Herbert의 Dune Messiah의 주제는 무엇입니까?
+Q437383_2,validation,When was the book Dune Messiah published?,Q437383,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dune Messiah 책은 언제 출판되었습니까?
+Q4374095_0,validation,What is the official title of the Embassy of Estonia in Moscow?,Q4374095,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바에 있는 에스토니아 대사관의 공식 이름은 무엇입니까?
+Q4374095_1,validation,What is the purpose of the Embassy of Estonia in Moscow?,Q4374095,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바에 있는 에스토니아 대사관의 목적은 무엇입니까?
+Q4374095_2,validation,Which country does the Embassy of Estonia in Moscow represent?,Q4374095,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,모스크바에 있는 에스토니아 대사관은 어떤 나라를 대표합니까?
+Q437869_0,validation,Where was Evagrius Ponticus from?,Q437869,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Evagrius Ponticus는 어디에서 왔습니까?
+Q437869_1,validation,What was Evagrius Ponticus known for?,Q437869,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Evagrius Ponticus는 무엇을 알고 있습니까?
+Q437869_2,validation,When did Evagrius Ponticus live?,Q437869,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Evagrius Ponticus는 언제 살았습니까?
+Q4390286_0,validation,When did the TV series My Sweet City first air?,Q4390286,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 '내 달콤한 도시'는 언제 처음으로 날아갔습니까?
+Q4390286_1,validation,Is My Sweet City a popular South Korean television series?,Q4390286,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,My Sweet City는 인기있는 한국 TV 시리즈입니까?
+Q4390286_2,validation,Who are the main characters in the TV series My Sweet City?,Q4390286,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,My Sweet City TV 시리즈의 주요 캐릭터는 누구입니까?
+Q4391398_0,validation,How does Quiet Night Thought the bully depict the concept of solitude?,Q4391398,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,조용한 밤 생각은 어떻게 고양이가 외로움의 개념을 묘사합니까?
+Q4391398_1,validation,How does Quiet Night Thought the bully reflect Li Bai's poetic style?,Q4391398,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,조용한 밤 생각은 어떻게 리 바이의 시적 스타일을 반영합니까?
+Q4391398_2,validation,What is the central theme of Quiet Night Thought the bully by Li Bai?,Q4391398,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,리 바이의 조용한 밤은 어리석은 사람을 생각하는 것이 무엇입니까?
+Q440784_0,validation,How many words does The Robots of Dawn have?,Q440784,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,새벽의 로봇은 얼마나 많은 단어를 가지고 있습니까?
+Q440784_1,validation,When was The Robots of Dawn published?,Q440784,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,The Robots of Dawn은 언제 출간되었습니까?
+Q440784_2,validation,What type of artwork is The Robots of Dawn?,Q440784,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 새벽의 로봇입니까?
+Q44261_0,validation,How many movements are there in the Piano Concerto by Grieg?,Q44261,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그레이그의 피아노 콘서트에는 얼마나 많은 움직임이 있습니까?
+Q44261_1,validation,Who composed the famous Piano Concerto?,Q44261,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 유명한 피아노 콘서트를 만들었습니까?
+Q44261_2,validation,In which key is Grieg's Piano Concerto written?,Q44261,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,그레이그의 피아노 콘서트는 어떤 열쇠에 기록되어 있습니까?
+Q454398_0,validation,Who are the main characters in The Smurfs?,Q454398,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Smurfs의 주요 캐릭터는 누구입니까?
+Q454398_1,validation,What year was The Smurfs movie released?,Q454398,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,스머프스 영화는 어느 해에 출시되었습니까?
+Q454398_2,validation,What is the genre of the movie The Smurfs?,Q454398,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,스머프 영화의 유형은 무엇입니까?
+Q462372_0,validation,"Can you visit Yellow Crane Tower today, and if so, are there any restrictions?",Q462372,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"오늘 Yellow Crane Tower를 방문할 수 있으며, 그렇다면 제한이 있습니까?"
+Q462372_1,validation,When was Yellow Crane Tower first built and what was its original purpose?,Q462372,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yellow Crane Tower는 언제 처음 건설되었으며 원래 목적은 무엇입니까?
+Q462372_2,validation,How tall is Yellow Crane Tower and what architectural style does it represent?,Q462372,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yellow Crane Tower는 얼마나 높고 어떤 건축 스타일을 나타냅니까?
+Q4671905_0,validation,What is the target audience for the British TV series Nina and the Neurons?,Q4671905,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영국 TV 시리즈 니나와 신경 (Nina and the Neurons)의 대상 관객은 무엇입니까?
+Q4671905_1,validation,Who is the main character in the British TV series called Nina and the Neurons?,Q4671905,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영국 TV 시리즈의 주인공 인 니나와 신경 (Nina and the Neurons)은 누구입니까?
+Q4671905_2,validation,How many seasons does the TV series Nina and the Neurons have?,Q4671905,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 니나와 신경은 얼마나 많은 시즌을 가지고 있습니까?
+Q469930_0,validation,How has The Secret History of the Mongols influenced other works of art or literature both in Mongolia and globally?,Q469930,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,몽골의 비밀 역사 (The Secret History of the Mongols)는 몽골과 전 세계의 다른 예술이나 문학 작품에 어떤 영향을 미쳤습니까?
+Q469930_1,validation,"Who was the author of The Secret History of the Mongols, and what inspired them to create this literary masterpiece?",Q469930,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"몽골인의 비밀 역사(The Secret History of the Mongols)의 저자는 누구이며, 이 문학적 주인공을 창조하도록 그들에게 어떤 영감을 주었습니까?"
+Q469930_2,validation,Can you provide a brief overview of the storyline and key themes explored in The Secret History of the Mongols?,Q469930,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 몽골의 비밀 역사에서 탐구 된 이야기와 핵심 주제에 대한 간략한 개요를 제공 할 수 있습니까?
+Q47300881_0,validation,Where is Pretty Sister Who Buys Me Food set?,Q47300881,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 나에게 음식을 구입하는 훌륭한 자매가 어디에 있습니까?
+Q47300881_1,validation,What is the genre of Pretty Sister Who Buys Me Food?,Q47300881,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 나에게 음식을 구입하는 훌륭한 자매의 종류는 무엇입니까?
+Q47300881_2,validation,When was Pretty Sister Who Buys Me Food first aired?,Q47300881,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 처음으로 나에게 음식을 구입하는 훌륭한 자매였습니까?
+Q48203_0,validation,What is the main theme of the Epistle to the Romans?,Q48203,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,로마인들에게 보내는 편지의 주요 주제는 무엇입니까?
+Q48203_1,validation,Who is the author of the Epistle to the Romans?,Q48203,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,로마인들에게 보내는 편지의 저자는 누구입니까?
+Q48203_2,validation,In which section of the Bible can the Epistle to the Romans be found?,Q48203,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,성경의 어느 부분에서 로마인들에게 보내는 편지를 찾을 수 있습니까?
+Q483329_0,validation,Who are the main actors in The Merchant of Joseon?,Q483329,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'The Merchant of Joseon'에 해당되는 글 1건
+Q483329_1,validation,When was The Merchant of Joseon first aired on television?,Q483329,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 텔레비전에서 처음 방송되었는가?
+Q483329_2,validation,What is the genre of the TV series The Merchant of Joseon?,Q483329,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 The Merchant of Joseon의 종류는 무엇입니까?
+Q485094_0,validation,Where does The Accidental Couple TV series take place?,Q485094,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우연한 커플 TV 시리즈는 어디에서 일어나고 있습니까?
+Q485094_1,validation,What is the alternate title for the TV series The Accidental Couple?,Q485094,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 The Accidental Couple의 대체 제목은 무엇입니까?
+Q485094_2,validation,When was The Accidental Couple TV series first aired?,Q485094,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비상 커플 TV 시리즈는 언제 처음 방송되었습니까?
+Q48518346_0,validation,What is the genre of The Miracle We Met?,Q48518346,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우리가 만난 기적의 종류는 무엇입니까?
+Q48518346_1,validation,When was The Miracle We Met first aired?,Q48518346,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우리가 처음 만난 기적은 언제 펼쳐졌습니까?
+Q48518346_2,validation,Where does the story of The Miracle We Met take place?,Q48518346,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우리가 만난 기적의 이야기는 어디에서 일어나는가?
+Q486606_0,validation,Can Aleppo pepper be used in both sweet and savory dishes?,Q486606,"[""Food"", ""Plant""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,알레포 페퍼는 달콤하고 달콤한 요리에 사용될 수 있습니까?
+Q486606_1,validation,Where is Aleppo pepper commonly used?,Q486606,"[""Food"", ""Plant""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,알레포 페퍼는 어디에서 일반적으로 사용되나요?
+Q486606_2,validation,How does Aleppo pepper compare to other types of pepper?,Q486606,"[""Food"", ""Plant""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,알레포 페퍼는 다른 종류의 페퍼와 어떻게 비교합니까?
+Q48835523_0,validation,Can you sing a few lines from On Wings of Song?,Q48835523,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 On Wings of Song에서 몇 줄을 노래 할 수 있습니까?
+Q48835523_1,validation,What is the genre of Mendelssohn's On Wings of Song?,Q48835523,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mendelssohn's On Wings of Song의 유형은 무엇입니까?
+Q48835523_2,validation,When was On Wings of Song composed?,Q48835523,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,On Wings of Song은 언제 작곡되었습니까?
+Q4921115_0,validation,Is Nathan Garrett a well-known character in Marvel Comics?,Q4921115,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Nathan Garrett는 Marvel Comics에서 잘 알려진 캐릭터입니까?
+Q4921115_1,validation,When was Nathan Garrett first introduced in Marvel Comics?,Q4921115,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,나탄 가렛은 언제 처음으로 Marvel Comics에 출연했을까?
+Q4921115_2,validation,What is the fictional nature of Nathan Garrett?,Q4921115,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Nathan Garrett의 환상적인 본성은 무엇입니까?
+Q492936_0,validation,When was Couple or Trouble first aired?,Q492936,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,부부 또는 문제는 언제 처음 발표되었습니까?
+Q492936_1,validation,Who are the main characters in Couple or Trouble?,Q492936,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,커플 또는 문제의 주요 캐릭터는 누구입니까?
+Q492936_2,validation,How many episodes are there in the Couple or Trouble TV series?,Q492936,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,커플 또는 문제 TV 시리즈에는 얼마나 많은 에피소드가 있습니까?
+Q499396_0,validation,What is the nationality of the author of Love in the Time of Cholera?,Q499396,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콜레라 시대에 사랑의 저자의 국적은 무엇입니까?
+Q499396_1,validation,Who is the author of Love in the Time of Cholera?,Q499396,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콜레라 시대의 사랑의 저자는 누구입니까?
+Q499396_2,validation,What type of artwork is Love in the Time of Cholera?,Q499396,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,콜레라 시대의 사랑은 어떤 종류의 예술 작품입니까?
+Q49967_0,validation,How did Adhemar of Le Puy contribute to French history?,Q49967,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Le Puy의 Adhemar는 프랑스 역사에 어떻게 기여했습니까?
+Q49967_1,validation,When did Adhemar of Le Puy live and where was he from?,Q49967,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,르푸이의 아담은 언제 살았고 어디서 왔습니까?
+Q49967_2,validation,What is Adhemar of Le Puy best known for?,Q49967,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Adhemar of Le Puy의 가장 잘 알려진 것은 무엇입니까?
+Q502080_0,validation,How long is the movie Father of a Soldier?,Q502080,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘군인의 아버지’는 얼마나 오래 걸리나요?
+Q502080_1,validation,When was the movie Father of a Soldier released?,Q502080,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘군인의 아버지’는 언제 출시되었습니까?
+Q502080_2,validation,What is the main theme of the movie Father of a Soldier?,Q502080,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘군인의 아버지’의 주제는 무엇인가?
+Q504157_0,validation,Can you provide a brief plot summary of Fatal Attraction?,Q504157,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,치명적인 매력에 대한 간략한 요약을 제공 할 수 있습니까?
+Q504157_1,validation,What is the genre of the movie Fatal Attraction?,Q504157,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Fatal Attraction 영화의 종류는 무엇입니까?
+Q504157_2,validation,When was the movie Fatal Attraction released?,Q504157,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Fatal Attraction 영화는 언제 출시되었습니까?
+Q5056486_0,validation,What type of meat is used in Montreal-style smoked meat?,Q5056486,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 고기는 몬트리올 스타일의 흡연 고기에 사용되나요?
+Q5056486_1,validation,Who created Montreal-style smoked meat?,Q5056486,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 몬트리올 스타일의 흡연 고기를 만들었습니까?
+Q5056486_2,validation,Where did Montreal-style smoked meat originate?,Q5056486,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,몬트리올 스타일의 흡연 고기는 어디에서 왔습니까?
+Q521659_0,validation,What is the main goal of the Vongola family?,Q521659,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Vongola 가족의 주요 목표는 무엇입니까?
+Q521659_1,validation,How many rings does a member of the Vongola family receive as a mark of their rank?,Q521659,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Vongola 가족의 일원이 그들의 순위의 표시로 얼마나 많은 반지를 받는가?
+Q521659_2,validation,Which anime/manga series features the Vongola family?,Q521659,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 애니메이션/만가 시리즈가 Vongola 가족을 포함합니까?
+Q52910_0,validation,What genre does The Shadow of the Wind belong to?,Q52910,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바람의 그림자는 어떤 종류에 속하는가?
+Q52910_1,validation,Who is the author of The Shadow of the Wind?,Q52910,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바람의 그림자(The Shadow of the Wind)의 저자는 누구인가?
+Q52910_2,validation,When was The Shadow of the Wind novel published?,Q52910,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,‘바람의 그림자’라는 소설이 언제 출간되었습니까?
+Q5331929_0,validation,How does one become worthy to wield the Ebony Blade?,Q5331929,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떻게 Ebony Blade를 타고 가치가 있습니까?
+Q5331929_1,validation,Who has wielded the Ebony Blade in Marvel Comics?,Q5331929,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Marvel Comics에서 Ebony Blade를 주도했습니까?
+Q5331929_2,validation,What are the abilities and powers associated with the Ebony Blade?,Q5331929,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Ebony Blade와 관련된 능력과 힘은 무엇입니까?
+Q5360075_0,validation,Are the Four Perils considered to be powerful entities?,Q5360075,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,4 위험은 강력한 단체로 간주되는가?
+Q5360075_1,validation,What is the nature of the Four Perils?,Q5360075,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,4 위험의 본질은 무엇입니까?
+Q5360075_2,validation,How are the Four Perils depicted in Chinese folklore?,Q5360075,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중국 민속에서 네 개의 페릴은 어떻게 묘사되나요?
+Q538250_0,validation,Does the Crimson Avenger have any allies?,Q538250,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Crimson Avenger는 동맹국이 있습니까?
+Q538250_1,validation,What is the origin story of the Crimson Avenger?,Q538250,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Crimson Avenger의 원래 이야기는 무엇입니까?
+Q538250_2,validation,What are the superpowers of the Crimson Avenger?,Q538250,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Crimson Avenger의 슈퍼파워는 무엇입니까?
+Q551992_0,validation,Who starred in The Devil Came at Night?,Q551992,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 밤에 악마가 왔는가?
+Q551992_1,validation,What year was The Devil Came at Night released?,Q551992,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'The Devil Came at Night'에 해당되는 글 1건
+Q551992_2,validation,What is the genre of The Devil Came at Night?,Q551992,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,악마가 밤에 오는 것은 무엇입니까?
+Q552179_0,validation,What was the surprising discovery about the DNA found at the crime scenes linked to the Phantom of Heilbronn?,Q552179,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Heilbronn의 환상과 관련된 범죄 장면에서 발견 된 DNA에 대한 놀라운 발견은 무엇입니까?
+Q552179_1,validation,Where were the crime scenes where the Phantom of Heilbronn's DNA was found?,Q552179,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Heilbronn의 DNA의 환상이 발견 된 범죄 장면은 어디에 있었습니까?
+Q552179_2,validation,When did it become known that the Phantom of Heilbronn did not exist?,Q552179,"[""Fictional entity"", ""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,헤일브론의 환상이 존재하지 않았다는 것을 언제 알게 되었습니까?
+Q56064672_0,validation,When was the TV series Marching Orders released?,Q56064672,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 마케팅 명령은 언제 출시되었습니까?
+Q56064672_1,validation,How many episodes are there in the documentary series Marching Orders?,Q56064672,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 에피소드가 다큐멘터리 시리즈 마케팅 명령에 있습니까?
+Q56064672_2,validation,Who are the main subjects featured in the TV series Marching Orders?,Q56064672,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 마케팅 명령에 나타난 주요 주제는 누구입니까?
+Q563102_0,validation,How long have the Three Jewel Temples of Korea been in existence?,Q563102,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한국의 세 개의 보석 성전은 얼마나 오랫동안 존재했습니까?
+Q563102_1,validation,Where are the Three Jewel Temples of Korea located in South Korea?,Q563102,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한국에 위치한 세 개의 보석 성전은 어디에 있습니까?
+Q563102_2,validation,Can visitors explore the Three Jewel Temples of Korea on their own or are guided tours available?,Q563102,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,방문객들은 한국의 세 개의 보석 성전을 스스로 탐험 할 수 있습니까 또는 가이드 투어가 사용할 수 있습니까?
+Q564288_0,validation,What was the significance of King Wu of Qin's reign in shaping the future of the Qin Dynasty?,Q564288,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin 왕국의 왕 Wu의 의미는 Qin 왕국의 미래를 형성하는 데 무엇이었습니까?
+Q564288_1,validation,What accomplishments is King Wu of Qin known for during his reign?,Q564288,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin의 왕 Wu는 그의 통치 기간 동안 어떤 성과를 얻었습니까?
+Q564288_2,validation,How did King Wu of Qin contribute to the growth and expansion of the state of Qin?,Q564288,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin의 Wu 왕은 Qin 상태의 성장과 확장에 어떻게 기여했습니까?
+Q56451707_0,validation,How many episodes are there in the TV series 'Room No. 9'?,Q56451707,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 'Room No. 9'에서 얼마나 많은 에피소드가 있습니까?
+Q56457360_0,validation,How many episodes are there in the TV series So I Married an Anti-fan?,Q56457360,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈에서 얼마나 많은 에피소드가 있습니까 그래서 나는 반 팬과 결혼합니까?
+Q56457360_1,validation,When was So I Married an Anti-fan released?,Q56457360,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 그렇게 나는 안티 팬을 풀어 결혼 했습니까?
+Q56457360_2,validation,Who are the main cast members of the TV series So I Married an Anti-fan?,Q56457360,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 ‘그래서 나는 반 팬과 결혼했다’의 주인공은 누구인가?
+Q571559_1,validation,"What role did Rudolph, Duke of Lorraine hold?",Q571559,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"루돌프, 로레나 공작은 어떤 역할을 했습니까?"
+Q571559_2,validation,"When did Rudolph, Duke of Lorraine live?",Q571559,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"루돌프, 로레나 공작은 언제 살았습니까?"
+Q573426_0,validation,What colors are used in the coat of arms of Prussia?,Q573426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,프루시아의 옷장에 사용되는 색상은 무엇입니까?
+Q573426_1,validation,How did the coat of arms of Prussia symbolize the country's history and values?,Q573426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,프루시아의 무기 코트는 어떻게 국가의 역사와 가치를 상징했습니까?
+Q573426_2,validation,Who created the coat of arms of Prussia?,Q573426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 프루시아의 무기 코트를 만들었습니까?
+Q581426_0,validation,When was the artwork Blood Meridian first published?,Q581426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Blood Meridian은 언제 처음 출간되었습니까?
+Q581426_1,validation,Who is the author of the artwork Blood Meridian?,Q581426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Blood Meridian의 저자는 누구입니까?
+Q581426_2,validation,What is the subject matter of the novel Blood Meridian?,Q581426,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Blood Meridian 소설의 주제는 무엇입니까?
+Q58773_0,validation,"What were some notable achievements of Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel?",Q58773,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"찰스 윌리엄 페르디난드 (Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel)의 주목할만한 성과는 무엇이었습니까?"
+Q58773_1,validation,"What was Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel's role in German history?",Q58773,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,독일 역사에서 찰스 윌리엄 페르디난드 (Charles William Ferdinand)의 역할은 무엇입니까?
+Q58773_2,validation,"In what ways did Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel impact German society and culture?",Q58773,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Brunswick-Wolfenbüttel의 찰스 윌리엄 페르디난드 (Charles William Ferdinand)는 독일 사회와 문화에 어떤 영향을 미쳤습니까?
+Q59346_0,validation,Who are the main characters in The Mortal Instruments: City of Bones?,Q59346,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mortal Instruments: City of Bones에 해당되는 글 1건
+Q59346_1,validation,When was The Mortal Instruments: City of Bones released?,Q59346,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mortal Instruments: City of Bones는 언제 출시되었습니까?
+Q59346_2,validation,What is the genre of The Mortal Instruments: City of Bones?,Q59346,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Mortal Instruments: City of Bones에 대한 자세한 내용은 무엇입니까?
+Q59783_0,validation,How many films are included in The Decalogue by Krzysztof Kieślowski?,Q59783,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 영화가 Krzysztof Kieślowski의 The Decalogue에 포함되어 있습니까?
+Q59783_1,validation,Who directed the movie series called The Decalogue in 1988-1989?,Q59783,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 1988년부터 1989년까지 영화 시리즈 ‘The Decalogue’를 감독했는가?
+Q59783_2,validation,When was The Decalogue released?,Q59783,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Decalogue는 언제 출시되었습니까?
+Q599191_0,validation,How did the emblem of the Tajik Soviet Socialist Republic evolve over time?,Q599191,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,타지크 소련 사회주의 공화국의 상징은 시간이 지남에 따라 어떻게 진화했습니까?
+Q599191_1,validation,How does the artwork of the emblem of the Tajik Soviet Socialist Republic represent the identity of Tajikistan?,Q599191,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,타지키 소련 사회주의 공화국의 상징의 예술 작품은 어떻게 타지키스탄의 정체성을 나타냅니까?
+Q599191_2,validation,Who was the artist behind the design of the emblem of the Tajik Soviet Socialist Republic?,Q599191,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,타지크 소련 사회주의 공화국의 상징의 디자인 뒤에있는 아티스트는 누구입니까?
+Q605107_0,validation,What instrument group performs the string quartet Death and the Maiden?,Q605107,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 도구 그룹이 Death and the Maiden 쿼터트를 수행합니까?
+Q605107_1,validation,Who composed the musical work Death and the Maiden?,Q605107,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,죽음과 마이든 (Death and the Maiden)의 음악 작품을 작곡한 사람은 누구입니까?
+Q605107_2,validation,How many movements are there in Schubert's Death and the Maiden?,Q605107,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Schubert의 죽음과 Maiden에서 얼마나 많은 움직임이 있습니까?
+Q60992353_0,validation,When was the Qin Dynasty Epic series first aired?,Q60992353,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin Dynasty Epic 시리즈는 언제 처음 방송되었습니까?
+Q60992353_1,validation,How many episodes are there in the Qin Dynasty Epic series?,Q60992353,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin Dynasty Epic 시리즈에는 얼마나 많은 에피소드가 있습니까?
+Q60992353_2,validation,Who are the main characters in the Qin Dynasty Epic TV show?,Q60992353,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Qin Dynasty Epic TV 쇼의 주인공은 누구입니까?
+Q616491_0,validation,Who are the main stars in the movie Love with the Proper Stranger?,Q616491,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘좋은 낯선 사람과 사랑’의 주인공은 누구인가?
+Q616491_1,validation,When was the movie Love with the Proper Stranger released?,Q616491,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 '좋은 낯선 사람과 사랑'은 언제 출시되었습니까?
+Q616491_2,validation,What is the genre of the movie Love with the Proper Stranger?,Q616491,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 '좋은 낯선 사람과 사랑'의 유형은 무엇입니까?
+Q619228_0,validation,Who starred in the 1956 film Alexander the Great?,Q619228,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1956년 영화 ‘알렉산더 그랜드(Alexander the Great)’에서 누가 출연했는가?
+Q619228_1,validation,What is the title of the movie based on the life of Alexander the Great?,Q619228,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,알렉산더 위대한의 삶을 바탕으로 영화의 제목은 무엇입니까?
+Q619228_2,validation,When was the movie Alexander the Great released?,Q619228,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,알렉산더 위대한 영화는 언제 출시되었습니까?
+Q631568_0,validation,What genre does the movie Daughters of Darkness belong to?,Q631568,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 ‘어둠의 딸들’은 어떤 장르에 속하는가?
+Q631568_1,validation,Who directed the 1971 film Daughters of Darkness?,Q631568,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,1971년 영화 ‘어둠의 딸들’의 주인공은 누구일까?
+Q631568_2,validation,When was Daughters of Darkness released?,Q631568,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어둠의 딸들은 언제 풀려났습니까?
+Q6359408_0,validation,Where is the setting of Kampung Boy?,Q6359408,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kampung Boy의 위치는 어디인가요?
+Q6359408_1,validation,How many seasons of Kampung Boy have been released so far?,Q6359408,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,지금까지 Kampung Boy의 몇 시즌이 출시되었습니까?
+Q6359408_2,validation,Who is the main character in the TV series Kampung Boy?,Q6359408,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kampung Boy TV 시리즈의 주인공은 누구입니까?
+Q641378_0,validation,Is The Master Builder a book or a play?,Q641378,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마스터 건축가는 책이나 게임입니까?
+Q641378_1,validation,What type of artwork is The Master Builder?,Q641378,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 The Master Builder입니까?
+Q641378_2,validation,What is the subject of the play The Master Builder?,Q641378,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,게임의 주제는 무엇입니까 The Master Builder?
+Q643999_0,validation,How has the design of the Royal Arms of England changed over time?,Q643999,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영국 왕실 무기의 디자인은 시간이 지남에 따라 어떻게 바뀌었습니까?
+Q643999_1,validation,Why are the Royal Arms of England considered a national symbol?,Q643999,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,왜 영국의 왕실 무기는 국가 상징으로 간주되는가?
+Q643999_2,validation,What historical significance do the Royal Arms of England hold?,Q643999,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영국의 왕실 무기는 어떤 역사적 의미를 가지고 있습니까?
+Q644552_0,validation,Who are the main actors in the film 9½ Weeks?,Q644552,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,91⁄2 주 영화의 주인공은 누구입니까?
+Q644552_1,validation,What year was the film 9½ Weeks released?,Q644552,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영화 91⁄2 주는 어떤 해에 출시되었습니까?
+Q644552_2,validation,How many weeks is the movie 9½ Weeks named after?,Q644552,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 주가 영화 91⁄2 주 후에 이름을 붙였습니까?
+Q644677_0,validation,When was the Şehzade Mosque built?,Q644677,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,셰흐자드 모스크는 언제 건설되었습니까?
+Q644677_1,validation,What type of landmark is the Şehzade Mosque?,Q644677,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 명소가 Şehzade 모스크입니까?
+Q644677_2,validation,How would you describe the architectural style of the Şehzade Mosque?,Q644677,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 Şehzade 모스크의 건축 스타일을 어떻게 묘사 할 것인가?
+Q6535598_0,validation,When was Leviathan Wakes first published?,Q6535598,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Leviathan Wakes는 언제 처음 출판되었습니까?
+Q6535598_1,validation,What is the genre of Leviathan Wakes?,Q6535598,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Leviathan Wakes의 발음을 Leviathan Wakes [en]
+Q6535598_2,validation,How would you describe Leviathan Wakes in one word?,Q6535598,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Leviathan Wakes를 한 단어로 어떻게 묘사할 것인가?
+Q660082_0,validation,Where is Melk Abbey located?,Q660082,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Melk Abbey는 어디에 있는가?
+Q660082_1,validation,What type of place is Melk Abbey?,Q660082,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 Melk Abbey입니까?
+Q660082_2,validation,Where can you find Melk Abbey?,Q660082,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어디에서 Melk Abbey를 찾을 수 있습니까?
+Q661422_0,validation,Can you provide a brief summary of the plot of Don't Tempt Me?,Q661422,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Don't Tempt Me'에 해당되는 글 1건
+Q661422_1,validation,In what year was the movie Don't Tempt Me released?,Q661422,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Don't Tempt Me'에 해당되는 글 1건
+Q661422_2,validation,What is the genre of the film Don't Tempt Me?,Q661422,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Don't Tempt Me'에 해당되는 글 1건
+Q662389_0,validation,Who are Yugi Mutou's close friends in the Yu-Gi-Oh! anime and manga?,Q662389,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yu-Gi-Oh! 애니메이션과 만가에서 Yugi Mutou의 친한 친구는 누구입니까?
+Q662389_1,validation,Where does Yugi Mutou live in the Yu-Gi-Oh! series?,Q662389,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yugi Mutou는 Yu-Gi-Oh! 시리즈에서 어디에 살고 있습니까?
+Q662389_2,validation,What are some of Yugi Mutou's signature cards in the Yu-Gi-Oh! trading card game?,Q662389,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Yu-Gi-Oh! 거래 카드 게임에서 Yugi Mutou의 서명 카드 중 일부는 무엇입니까?
+Q683632_0,validation,What is the architectural style of the Great Mosque of Djenné?,Q683632,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Djenné의 위대한 모스크의 건축 스타일은 무엇입니까?
+Q683632_1,validation,What type of building is the Great Mosque of Djenné?,Q683632,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,제네의 위대한 모스크는 어떤 종류의 건물입니까?
+Q683632_2,validation,Where specifically is the Great Mosque of Djenné situated within Djenné?,Q683632,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,특히 Djenné 내부에 위치한 Djenné의 위대한 모스크는 어디에 있습니까?
+Q6856266_0,validation,Who are the main actors in the TV series Grudge: The Revolt of Gumiho?,Q6856266,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Grudge: The Revolt of Gumiho TV 시리즈의 주인공은 누구입니까?
+Q6856266_1,validation,When was the South Korean TV series Grudge: The Revolt of Gumiho released?,Q6856266,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한국 TV 시리즈 Grudge: The Revolt of Gumiho는 언제 출시되었습니까?
+Q6856266_2,validation,How many episodes are there in the TV series Grudge: The Revolt of Gumiho?,Q6856266,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 Grudge: The Revolt of Gumiho에서 얼마나 많은 에피소드가 있습니까?
+Q685741_0,validation,Who plays the lead role in The Baker's Wife?,Q685741,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베이커의 아내에서 누가 주인공 역할을 하는가?
+Q685741_1,validation,When was The Baker's Wife released?,Q685741,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베이커의 아내가 언제 풀려났습니까?
+Q685741_2,validation,What is the genre of The Baker's Wife?,Q685741,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,베이커의 아내의 종류는 무엇입니까?
+Q693559_0,validation,Can you provide a brief synopsis of The Murder at the Vicarage?,Q693559,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비카라지에서의 살인에 대한 간략한 시나리오를 제공 할 수 있습니까?
+Q693559_1,validation,In what year was The Murder at the Vicarage published?,Q693559,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비카라지에서의 살인은 어떤 해에 출판되었습니까?
+Q693559_2,validation,What is the genre of The Murder at the Vicarage?,Q693559,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비카라지에서의 살인은 무엇입니까?
+Q6945142_0,validation,Can My Cat from Hell help viewers solve common cat behavior problems?,Q6945142,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,내 고양이 지옥에서 시청자가 일반적인 고양이 행동 문제를 해결하는 데 도움이 될 수 있습니까?
+Q6945142_1,validation,What is the premise of My Cat from Hell?,Q6945142,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,지옥에서 내 고양이의 전제 조건은 무엇입니까?
+Q6945142_2,validation,Who is the host of My Cat from Hell?,Q6945142,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,지옥에서 내 고양이의 호스트는 누구입니까?
+Q698796_0,validation,Who played the lead role in Catherine the Great?,Q698796,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 Catherine the Great에서 주인공 역할을 했습니까?
+Q698796_1,validation,What year was Catherine the Great released?,Q698796,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Catherine the Great는 어떤 해에 출시되었습니까?
+Q698796_2,validation,Is Catherine the Great a movie or a TV series?,Q698796,"[""Movie"", ""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Catherine the Great는 영화 또는 TV 시리즈입니까?
+Q700949_0,validation,What activities are commonly held at Dharma Drum Mountain?,Q700949,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dharma Drum Mountain에서 일반적으로 개최되는 활동은 무엇입니까?
+Q700949_1,validation,Where is Dharma Drum Mountain located?,Q700949,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dharma Drum Mountain은 어디에 있는가?
+Q700949_2,validation,How is Dharma Drum Mountain affiliated with Chinese Buddhism?,Q700949,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dharma Drum Mountain은 중국의 부처님과 어떻게 연결되어 있습니까?
+Q702847_0,validation,When was the TV series Bubu Chacha first aired?,Q702847,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 Bubu Chacha는 언제 처음 방송되었습니까?
+Q702847_1,validation,How many seasons of the TV series Bubu Chacha are there?,Q702847,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 Bubu Chacha의 몇 시즌이 있습니까?
+Q702847_2,validation,Who are the main characters in the TV series Bubu Chacha?,Q702847,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 Bubu Chacha의 주요 캐릭터는 누구입니까?
+Q711291_0,validation,When was the first episode of Kasou Taishou aired?,Q711291,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,카소 타이슈우의 첫 번째 에피소드는 언제 방송되었습니까?
+Q711291_1,validation,How long is each episode of Kasou Taishou?,Q711291,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kasou Taishou의 각 에피소드는 얼마나 오래 걸리나요?
+Q711291_2,validation,Who are the main characters in Kasou Taishou?,Q711291,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Kasou Taishou의 주요 캐릭터는 누구입니까?
+Q717605_0,validation,What genre does the TV series 14-sai no Haha belong to?,Q717605,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 TV 시리즈 14sai no Haha에 속합니까?
+Q717605_1,validation,Who are the main characters in the Japanese TV series 14-sai no Haha?,Q717605,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,일본 텔레비전 시리즈 14Sai No Haha의 주인공은 누구입니까?
+Q717605_2,validation,When was the TV series 14-sai no Haha first released?,Q717605,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 14Sai No Haha는 언제 처음 출시되었습니까?
+Q7190160_0,validation,Can you provide a brief description of Piano Sonata No. 6 by Alexander Scriabin?,Q7190160,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Alexander Scriabin의 Piano Sonata No. 6에 대한 간략한 설명을 제공 할 수 있습니까?
+Q7190160_1,validation,What number is Piano Sonata No. 6 in Scriabin's series of sonatas?,Q7190160,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Scriabin의 소나타 시리즈에서 Piano Sonata No. 6의 숫자는 무엇입니까?
+Q7190160_2,validation,What instrument is featured in Piano Sonata No. 6?,Q7190160,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,피아노 소나타 번호 6에서 어떤 도구가 나타나나요?
+Q719160_0,validation,Who are the main characters in the TV series Tales of Little Women?,Q719160,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈의 주요 캐릭터는 누구입니까?
+Q719160_1,validation,When was the Tales of Little Women series released on television?,Q719160,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,언제 텔레비전에서 출간된 ‘어린 여자 이야기’ 시리즈가 있나요?
+Q719160_2,validation,How many episodes are there in the Tales of Little Women series?,Q719160,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,작은 여자 이야기 시리즈에는 얼마나 많은 에피소드가 있습니까?
+Q720984_0,validation,Where was Theodotus of Byzantium from?,Q720984,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비잔티움의 테오도토스는 어디에서 왔습니까?
+Q720984_1,validation,What was Theodotus of Byzantium known for?,Q720984,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바이잔티움의 테오도토스는 무엇을 위해 알려져 있습니까?
+Q720984_2,validation,When did Theodotus of Byzantium live?,Q720984,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비잔티움의 테오도토스는 언제 살았습니까?
+Q7230941_0,validation,How many episodes are there in the South Korean TV series New Tales of Gisaeng?,Q7230941,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 에피소드가 남한 TV 시리즈 New Tales of Gisaeng에 있습니까?
+Q7230941_1,validation,When was the South Korean TV series New Tales of Gisaeng released?,Q7230941,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,한국 TV 시리즈 New Tales of Gisaeng는 언제 출시되었습니까?
+Q7230941_2,validation,Who are the main characters in the 2011 TV series New Tales of Gisaeng?,Q7230941,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,2011 TV 시리즈 New Tales of Gisaeng의 주인공은 누구입니까?
+Q7234867_0,validation,When did Austin Wai start his acting career?,Q7234867,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,오스틴 와이 (Austin Wai)는 언제 그의 연기 경력을 시작했습니까?
+Q7234867_1,validation,What is Austin Wai known for?,Q7234867,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,오스틴 와이는 무엇을 알고 있습니까?
+Q7234867_2,validation,Where is Austin Wai from?,Q7234867,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,오스틴 와이 어디서 왔습니까?
+Q732489_0,validation,How old is the Mariinskyi Palace?,Q732489,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마리네스키 궁전의 나이는 얼마나 되나요?
+Q732489_1,validation,Where is the Mariinskyi Palace located?,Q732489,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마리네스키 궁전은 어디에 있는가?
+Q732489_2,validation,What is the significance of the Mariinskyi Palace?,Q732489,"[""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마리네스키 궁전의 의미는 무엇입니까?
+Q733195_0,validation,What type of entity is the Galactic Republic?,Q733195,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,갤럭시 공화국은 어떤 종류의 존재입니까?
+Q733195_1,validation,In which fictional universe does the Galactic Republic exist?,Q733195,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 환상 우주에서 은하 공화국이 존재합니까?
+Q733195_2,validation,What fictional state does the Galactic Republic represent?,Q733195,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,갤럭시 공화국은 어떤 환상적인 국가를 대표합니까?
+Q733685_0,validation,How did the Second Age shape the history of Middle-earth in J.R.R. Tolkien's legendarium?,Q733685,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,J.R.R. Tolkien의 전설에서 중세의 역사를 두 번째 시대는 어떻게 형성했습니까?
+Q733685_1,validation,How long did the Second Age last in J.R.R. Tolkien's legendarium?,Q733685,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,J.R.R. Tolkien의 전설에서 두 번째 시대는 얼마나 오래 지속되었습니까?
+Q733685_2,validation,Which notable characters or races were active during the Second Age in J.R.R. Tolkien's legendarium?,Q733685,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,J.R.R. Tolkien의 전설에서 두 번째 시대 동안 어떤 주목할만한 캐릭터나 인종이 활동했습니까?
+Q73804850_0,validation,Who are the main actors in the movie Miracle in Cell No. 7?,Q73804850,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Cell No. 7'에 해당되는 글 1건
+Q73804850_1,validation,What is the genre of the movie Miracle in Cell No. 7?,Q73804850,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Cell No. 7'에 해당되는 글 1건
+Q73804850_2,validation,When was the movie Miracle in Cell No. 7 released?,Q73804850,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'Cell No. 7'에 해당되는 글 1건
+Q740088_0,validation,Can you give a brief description of Till Eulenspiegel's Merry Pranks?,Q740088,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Till Eulenspiegel의 Merry Pranks에 대한 간략한 설명을 제공 할 수 있습니까?
+Q740088_1,validation,When was Till Eulenspiegel's Merry Pranks written?,Q740088,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Till Eulenspiegel의 Merry Pranks는 언제 작성되었습니까?
+Q740088_2,validation,What is the genre of Till Eulenspiegel's Merry Pranks?,Q740088,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Till Eulenspiegel의 Merry Pranks의 종류는 무엇입니까?
+Q741033_0,validation,Which genre does the artwork Evil Under the Sun by Agatha Christie belong to?,Q741033,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아가타 크리스티(Agatha Christie)의 ‘태양 아래의 악’은 어떤 종류의 예술 작품인가?
+Q741033_1,validation,Who is the author of the artwork titled Evil Under the Sun?,Q741033,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,‘태양 아래의 악’이라는 작품의 저자는 누구입니까?
+Q741033_2,validation,When was the novel Evil Under the Sun by Agatha Christie first published?,Q741033,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,아가타 크리스티 (Agatha Christie)의 '태양 아래의 악'은 언제 처음 출간되었습니까?
+Q742385_0,validation,Can white chocolate be used in baking and desserts?,Q742385,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,화이트 초콜릿은 베이킹과 디저트에 사용될 수 있습니까?
+Q742385_1,validation,How does white chocolate differ from milk or dark chocolate?,Q742385,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 초콜릿은 우유와 어두운 초콜릿과 어떻게 다릅니까?
+Q742385_2,validation,Does white chocolate contain any cocoa solids?,Q742385,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,화이트 초콜릿에는 코코아 고체가 포함되어 있습니까?
+Q748786_0,validation,How is cod liver oil typically consumed?,Q748786,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,코드 간 기름은 일반적으로 어떻게 소비되는가?
+Q748786_1,validation,How is cod liver oil derived?,Q748786,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,코드 간 기름은 어떻게 추출되나요?
+Q748786_2,validation,What are the benefits of taking cod liver oil?,Q748786,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,코드 간 기름을 복용하는 데 어떤 이점이 있습니까?
+Q756800_0,validation,Can Sichuan pepper be used as a medicinal ingredient?,Q756800,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sichuan 파이프는 약물 성분으로 사용될 수 있습니까?
+Q756800_1,validation,Where does Sichuan pepper originate from?,Q756800,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,시쿠안 파이프는 어디에서 왔습니까?
+Q756800_2,validation,What gives Sichuan pepper its unique numbing sensation?,Q756800,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sichuan 파이프는 무엇이 그것의 독특한 낭비 감각을 제공합니까?
+Q757660_0,validation,What is the subject of The Land of Crimson Clouds?,Q757660,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'크림슨 구름의 땅'에 해당되는 글 1건
+Q757660_1,validation,Who are the authors of The Land of Crimson Clouds?,Q757660,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,'크림슨 구름의 땅'에 해당되는 글 1건
+Q757660_2,validation,Is The Land of Crimson Clouds a novel?,Q757660,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Crimson Clouds의 땅은 소설인가요?
+Q767453_0,validation,Which Marvel superhero team does Black Bolt belong to?,Q767453,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,마블 슈퍼 히어로 팀이 블랙 볼트에 속하는 팀은 무엇입니까?
+Q767453_1,validation,What are Black Bolt's powers?,Q767453,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,블랙 볼트의 권력은 무엇입니까?
+Q767453_2,validation,Is Black Bolt a hero or a villain?,Q767453,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"블랙 볼트는 영웅인가, 아니면 악당인가?"
+Q7720038_0,validation,Is The Bride with White Hair 2 a sequel?,Q7720038,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 머리카락을 가진 신부 2는 연속입니까?
+Q7720038_1,validation,What year was The Bride with White Hair 2 released?,Q7720038,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 머리 2를 가진 신부는 어떤 해에 출시되었습니까?
+Q7720038_2,validation,What is the genre of The Bride with White Hair 2?,Q7720038,"[""Movie""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,흰 머리카락을 가진 신부 2의 종류는 무엇입니까?
+Q7752560_0,validation,Can you provide a brief summary of The Moviegoer?,Q7752560,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Moviegoer에 대한 간략한 요약을 제공 할 수 있습니까?
+Q7752560_1,validation,Who is the author of The Moviegoer?,Q7752560,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Moviegoer의 저자는 누구입니까?
+Q7752560_2,validation,Is The Moviegoer a book or a film?,Q7752560,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,The Moviegoer는 책이나 영화입니까?
+Q7756256_0,validation,Are there any notable themes or messages conveyed in The Passing of the Great Race?,Q7756256,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위대한 경주의 통과에 주목할만한 주제나 메시지가 있습니까?
+Q7756256_1,validation,Who created the artwork for The Passing of the Great Race?,Q7756256,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 위대한 경주를 통과하기 위해 예술 작품을 만들었습니까?
+Q7756256_2,validation,Can you provide a brief summary of the book The Passing of the Great Race?,Q7756256,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위대한 경주를 통과하는 책에 대한 간략한 요약을 제공 할 수 있습니까?
+Q7760898_0,validation,When was The Rise of the Great Powers first aired on television?,Q7760898,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위대한 권력의 상승은 언제 처음으로 텔레비전에서 방송되었습니까?
+Q7760898_1,validation,What is the focus of the Chinese TV series The Rise of the Great Powers?,Q7760898,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,중국 텔레비전 시리즈 '위대한 권력의 상승'의 중심은 무엇입니까?
+Q7760898_2,validation,Who is the host or narrator of The Rise of the Great Powers?,Q7760898,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,위대한 권력의 상승(The Rise of the Great Powers)의 주인공이나 이야기꾼은 누구입니까?
+Q80355_0,validation,How many chapters are there in the First Epistle to the Corinthians?,Q80355,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,코린티아인들에게 보내는 첫 번째 편지에는 몇 장이 있습니까?
+Q80355_1,validation,Who is the author of the First Epistle to the Corinthians?,Q80355,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,고린도인들에게 보내는 첫 번째 편지의 저자는 누구입니까?
+Q80355_2,validation,What is the purpose of the First Epistle to the Corinthians?,Q80355,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,코린티아인들에게 보내는 첫 번째 편지의 목적은 무엇입니까?
+Q837005_0,validation,How would you describe Gyro Gearloose's personality?,Q837005,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 Gyro Gearloose의 성격을 어떻게 묘사 할 것인가?
+Q837005_1,validation,In which fictional universe does Gyro Gearloose exist?,Q837005,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 환상 우주에서 Gyro Gearloose가 존재합니까?
+Q837005_2,validation,What is Gyro Gearloose's occupation?,Q837005,"[""Person""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Gyro Gearloose의 점령은 무엇입니까?
+Q840837_0,validation,What were some of the challenges faced by the people featured in the documentary How to Start Your Own Country?,Q840837,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,자신의 나라를 시작하는 방법에 대한 다큐멘터리에서 보여주는 사람들에 의해 직면 한 도전 중 일부는 무엇입니까?
+Q840837_1,validation,What was the purpose of the 2005 BBC documentary How to Start Your Own Country?,Q840837,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,2005 BBC 다큐멘터리 How to Start Your Own Country의 목적은 무엇입니까?
+Q840837_2,validation,Who were the key individuals interviewed in the TV series How to Start Your Own Country?,Q840837,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 How to Start Your Own Country에서 인터뷰 한 주요 인물은 누구입니까?
+Q848397_0,validation,How long has the Maiden's Tower been standing at the entrance of the Bosphorus?,Q848397,"[""Landmark"", ""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 오랫동안 메이든 타워가 보스포르 입구에 서 있습니까?
+Q848397_1,validation,Is the Maiden's Tower an artwork or a lighthouse?,Q848397,"[""Landmark"", ""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"마이든 타워는 예술 작품인가, 아니면 조명소인가?"
+Q848397_2,validation,What is the significance of the Maiden's Tower at the southern entrance of the Bosphorus?,Q848397,"[""Landmark"", ""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,보스포르의 남쪽 입구에 있는 마이든 타워의 의미는 무엇입니까?
+Q849348_0,validation,What country is the Xeropotamou Monastery in?,Q849348,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어느 나라에 있는 Xeropotamou 수도원?
+Q849348_1,validation,What type of place is the Xeropotamou Monastery?,Q849348,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 Xeropotamou 수도원입니까?
+Q849348_2,validation,How would you describe the Xeropotamou Monastery?,Q849348,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Xeropotamou 수도원을 어떻게 묘사할 것인가?
+Q850042_0,validation,Is Uppsala Cathedral open to the public?,Q850042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,우프살라 성당은 대중에게 열려 있습니까?
+Q850042_1,validation,What is the architectural style of Uppsala Cathedral?,Q850042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Uppsala 성당의 건축 스타일은 무엇입니까?
+Q850042_2,validation,Who is buried in Uppsala Cathedral?,Q850042,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 우프살라 성당에 묻혀 있습니까?
+Q853064_0,validation,How old is the Bayezid II Mosque?,Q853064,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,바이에시드 2세 모스크는 얼마나 오래되었습니까?
+Q853064_1,validation,What is the purpose of the Bayezid II Mosque?,Q853064,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Bayezid II 모스크의 목적은 무엇입니까?
+Q853064_2,validation,Where is the Bayezid II Mosque located?,Q853064,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Bayezid II 모스크는 어디에 있습니까?
+Q856356_0,validation,Is Sheikh Lotfollah Mosque still used as a place of worship today?,Q856356,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sheikh Lotfollah 모스크는 여전히 오늘날의 예배 장소로 사용되고 있습니까?
+Q856356_1,validation,Where is Sheikh Lotfollah Mosque located?,Q856356,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sheikh Lotfollah 모스크는 어디에 있습니까?
+Q856356_2,validation,How would you describe the architectural style of Sheikh Lotfollah Mosque?,Q856356,"[""Place of worship"", ""Landmark""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Sheikh Lotfollah Mosque의 건축 스타일을 어떻게 묘사할 것인가?
+Q85804877_0,validation,In which country is Taco Chronicles primarily filmed?,Q85804877,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어느 나라에서 Taco Chronicles가 주로 촬영되었습니까?
+Q85804877_1,validation,How many episodes are there in the TV series Taco Chronicles?,Q85804877,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,TV 시리즈 Taco Chronicles에서 얼마나 많은 에피소드가 있습니까?
+Q85804877_2,validation,Who are the main hosts of Taco Chronicles?,Q85804877,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Taco Chronicles의 주요 호스트는 누구입니까?
+Q85867753_0,validation,How many seasons of The Mess You Leave Behind have been released?,Q85867753,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,얼마나 많은 시즌의 The Mess You Leave Behind가 출시되었습니까?
+Q85867753_1,validation,When did The Mess You Leave Behind first air?,Q85867753,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 언제 첫 공기를 떠났습니까?
+Q85867753_2,validation,Where is The Mess You Leave Behind set?,Q85867753,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신이 뒤에 놓은 메시지는 어디에 있습니까?
+Q877510_0,validation,Is The Phenomenology of Spirit considered a difficult read?,Q877510,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영의 현상학은 읽기 어려운 것으로 간주되었습니까?
+Q877510_1,validation,"Who is the author of the book, The Phenomenology of Spirit?",Q877510,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,"이 책의 저자는 누구인가, 영의 현상학?"
+Q877510_2,validation,What philosophical ideas are explored in Hegel's The Phenomenology of Spirit?,Q877510,"[""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Hegel의 The Phenomenology of Spirit에서 어떤 철학적 아이디어가 탐구되고 있습니까?
+Q894347_0,validation,What is the history of Bosnian pot?,Q894347,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,보스니아 냄비의 역사는 무엇입니까?
+Q894347_1,validation,How is Bosnian pot traditionally cooked?,Q894347,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,보스니아 냄비는 어떻게 전통적으로 요리합니까?
+Q894347_2,validation,Are there any variations of Bosnian pot?,Q894347,"[""Food""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,보스니아 냄비의 변형이 있습니까?
+Q911413_0,validation,What is the Simonopetra monastery known for?,Q911413,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,시몬페트라 수도원은 무엇을 위해 알려져 있습니까?
+Q911413_1,validation,What type of place is the Simonopetra monastery?,Q911413,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 장소는 Simonopetra 수도원입니까?
+Q911413_2,validation,What country is the Simonopetra monastery situated in?,Q911413,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어느 나라에 위치한 시몬페트라 수도원은?
+Q913804_0,validation,Can The Making of the English Working Class be considered a significant piece of historical literature?,Q913804,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영어 작업 클래스를 만드는 것은 역사적 문학의 중요한 부분으로 간주 될 수 있습니까?
+Q913804_1,validation,Who is the author of The Making of the English Working Class?,Q913804,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영어 작업 클래스를 만드는 사람은 누구입니까?
+Q913804_2,validation,What is the main focus of The Making of the English Working Class?,Q913804,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,영어 작업 클래스를 만드는 것의 주요 초점은 무엇입니까?
+Q937164_0,validation,Is Pandora's box a symbol of hope or chaos?,Q937164,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Pandora의 상자는 희망이나 혼란의 상징입니까?
+Q937164_1,validation,What is the significance of opening Pandora's box in mythology?,Q937164,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,신화에서 Pandora의 상자를 열어주는 의미는 무엇입니까?
+Q937164_2,validation,What are the consequences of releasing the contents of Pandora's box?,Q937164,"[""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Pandora의 상자의 내용을 풀어주는 결과는 무엇입니까?
+Q939440_0,validation,How is the Dragon King depicted in art and literature?,Q939440,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,드래곤 왕은 예술과 문학에서 어떻게 묘사되었습니까?
+Q939440_1,validation,What is the Dragon King's role in mythology?,Q939440,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,신화에서 드래곤 왕의 역할은 무엇입니까?
+Q939440_2,validation,Where is the Dragon King typically found?,Q939440,"[""Person"", ""Fictional entity""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,드래곤 왕은 어디에서 일반적으로 찾을 수 있습니까?
+Q941724_0,validation,When was The Carnival of the Animals composed?,Q941724,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,동물의 카니발은 언제 구성되었습니까?
+Q941724_1,validation,What type of musical work is The Carnival of the Animals?,Q941724,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 음악 작품이 동물의 카니발입니까?
+Q941724_2,validation,How would you describe The Carnival of the Animals?,Q941724,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,동물의 카니발을 어떻게 묘사할 것인가?
+Q951587_0,validation,How would you describe the plot of Never Let Me Go?,Q951587,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,당신은 절대 나를 떠나지 않도록 하는 연극을 어떻게 묘사할 것인가?
+Q951587_1,validation,When was the book Never Let Me Go published?,Q951587,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,이 책은 언제 출판되었을까?
+Q951587_2,validation,What is the genre of the book Never Let Me Go?,Q951587,"[""Artwork"", ""Book""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,“내가 절대 떠나지 말라”라는 책의 종류는 무엇입니까?
+Q955581_0,validation,What is the subject of the Faust Overture?,Q955581,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Faust Overture의 주제는 무엇입니까?
+Q955581_1,validation,What type of musical work is the Faust Overture?,Q955581,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 음악 작품이 Faust Overture입니까?
+Q955581_2,validation,How would you describe the Faust Overture?,Q955581,"[""Musical work""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Faust Overture를 어떻게 설명할 것인가?
+Q957666_0,validation,How does Critique of Dialectical Reason challenge traditional artistic conventions?,Q957666,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dialectical Reason의 비판은 어떻게 전통적인 예술적 협약을 도전합니까?
+Q957666_1,validation,How does the artwork in Critique of Dialectical Reason contribute to its overall message?,Q957666,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dialectical Reason의 비판에 대한 예술 작품이 전체 메시지에 어떻게 기여합니까?
+Q957666_2,validation,What are some key themes explored in Critique of Dialectical Reason?,Q957666,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,Dialectical Reason의 비판에서 탐구한 몇 가지 핵심 주제는 무엇입니까?
+Q963586_0,validation,What type of artwork is The Years of Rice and Salt?,Q963586,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,어떤 종류의 예술 작품이 쌀과 소금의 해입니까?
+Q963586_1,validation,Who wrote The Years of Rice and Salt?,Q963586,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 쌀과 소금의 해를 썼습니까?
+Q963586_2,validation,When was The Years of Rice and Salt published?,Q963586,"[""Artwork""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,쌀과 소금의 해는 언제 출판되었습니까?
+Q97403910_0,validation,Who hosts or narrates The Business of Drugs TV series?,Q97403910,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,누가 비즈니스 드래그 TV 시리즈를 주최하거나 이야기합니까?
+Q97403910_1,validation,How many episodes are there in the TV series The Business of Drugs?,Q97403910,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,텔레비전 시리즈 '마약 사업'에 얼마나 많은 에피소드가 있습니까?
+Q97403910_2,validation,What is the format of The Business of Drugs TV series?,Q97403910,"[""TV series""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,비즈니스 오브 마약 TV 시리즈의 형식은 무엇입니까?
+Q975568_0,validation,Can visitors enter Thiên Mụ Temple?,Q975568,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,방문객들은 천모 성전에 들어갈 수 있습니까?
+Q975568_1,validation,What is the significance of Thiên Mụ Temple?,Q975568,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,천모 성전의 의미는 무엇입니까?
+Q975568_2,validation,How old is Thiên Mụ Temple?,Q975568,"[""Place of worship""]",vanilla_mt,facebook/m2m100_418M,vanilla_mt_prediction,성전은 얼마나 오래된가요?

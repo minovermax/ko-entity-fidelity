@@ -1,0 +1,12 @@
+primary_entity_type,dev_count,test_count,total_count
+Artwork,135,33,168
+Book,15,9,24
+Book series,5,1,6
+Fictional entity,45,11,56
+Food,27,6,33
+Landmark,29,7,36
+Movie,63,15,78
+Musical work,60,15,75
+Person,62,15,77
+Place of worship,58,14,72
+TV series,96,24,120

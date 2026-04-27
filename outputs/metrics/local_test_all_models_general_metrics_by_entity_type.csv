@@ -1,0 +1,45 @@
+model_name,primary_entity_type,example_count,corpus_bleu,average_sentence_bleu,average_sentence_chrf,normalized_reference_exact_match_rate
+entity_aware_mt,Artwork,33,12.6546,32.3357,39.8062,0.0
+entity_aware_mt,Book,9,57.7148,65.6004,74.6518,0.2222
+entity_aware_mt,Book series,1,44.6324,44.6324,64.2626,0.0
+entity_aware_mt,Fictional entity,11,27.9193,42.5221,54.6176,0.0909
+entity_aware_mt,Food,6,13.7048,16.3498,34.2461,0.0
+entity_aware_mt,Landmark,7,29.1163,47.2368,58.1991,0.1429
+entity_aware_mt,Movie,15,21.0798,28.828,32.0341,0.0
+entity_aware_mt,Musical work,15,22.0227,38.0177,40.7188,0.0
+entity_aware_mt,Person,15,16.8697,34.29,46.6731,0.0
+entity_aware_mt,Place of worship,14,29.707,47.6448,50.8173,0.0
+entity_aware_mt,TV series,24,10.9411,29.2481,38.3753,0.0
+gpt4o,Artwork,33,19.8047,35.4683,50.0648,0.1212
+gpt4o,Book,9,42.4105,52.4846,58.8229,0.2222
+gpt4o,Book series,1,27.9542,27.9542,66.498,0.0
+gpt4o,Fictional entity,11,59.4897,62.5243,72.4537,0.1818
+gpt4o,Food,6,40.7178,54.6634,63.6248,0.1667
+gpt4o,Landmark,7,25.2653,37.1917,49.2914,0.0
+gpt4o,Movie,15,11.4854,32.7812,51.5942,0.1333
+gpt4o,Musical work,15,30.4871,52.9295,63.2857,0.1333
+gpt4o,Person,15,39.3921,51.5019,61.121,0.1333
+gpt4o,Place of worship,14,43.8567,53.3522,62.9906,0.0714
+gpt4o,TV series,24,25.8851,38.0422,51.1905,0.0833
+gpt4o_mini,Artwork,33,19.0428,37.2982,51.8426,0.0606
+gpt4o_mini,Book,9,53.6875,58.4547,63.4204,0.2222
+gpt4o_mini,Book series,1,29.558,29.558,60.7947,0.0
+gpt4o_mini,Fictional entity,11,53.4444,59.7255,72.9392,0.1818
+gpt4o_mini,Food,6,39.2297,49.6391,59.9111,0.0
+gpt4o_mini,Landmark,7,40.9503,54.0376,61.8802,0.1429
+gpt4o_mini,Movie,15,10.0841,30.2438,42.25,0.0667
+gpt4o_mini,Musical work,15,16.4679,43.398,56.4463,0.1333
+gpt4o_mini,Person,15,23.9257,39.5885,49.8219,0.0
+gpt4o_mini,Place of worship,14,40.1523,53.0206,64.6922,0.0714
+gpt4o_mini,TV series,24,20.7015,35.8975,50.3785,0.0833
+vanilla_mt,Artwork,33,7.0009,25.9162,29.7197,0.0
+vanilla_mt,Book,9,40.0189,52.6503,61.7536,0.0
+vanilla_mt,Book series,1,26.0144,26.0144,43.0325,0.0
+vanilla_mt,Fictional entity,11,16.5319,32.1275,38.5133,0.0
+vanilla_mt,Food,6,12.0548,22.308,26.3557,0.0
+vanilla_mt,Landmark,7,16.7406,36.2105,47.0083,0.1429
+vanilla_mt,Movie,15,3.9554,22.502,19.1259,0.0
+vanilla_mt,Musical work,15,10.1559,28.2449,24.8772,0.0
+vanilla_mt,Person,15,10.4085,30.2578,32.7654,0.0
+vanilla_mt,Place of worship,14,14.5039,31.545,31.0327,0.0
+vanilla_mt,TV series,24,15.1042,27.7765,35.3816,0.0

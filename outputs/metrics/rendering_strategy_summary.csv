@@ -1,0 +1,5 @@
+target_rendering_strategy,count,rate
+translate,104,0.52
+transliterate,66,0.33
+adapt,25,0.125
+preserve,5,0.025

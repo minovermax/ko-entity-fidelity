@@ -1,0 +1,4 @@
+system,train_rows,test_rows,train_example_ids,test_example_ids,accuracy,precision,recall,f1
+majority_baseline,320,80,160,40,0.6875,0.6875,1.0,0.8148
+metric_rule_baseline,320,80,160,40,0.5125,0.9,0.3273,0.48
+logistic_regression,320,80,160,40,0.775,0.8627,0.8,0.8302

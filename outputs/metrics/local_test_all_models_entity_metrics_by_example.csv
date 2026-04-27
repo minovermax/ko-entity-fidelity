@@ -1,0 +1,601 @@
+id,model_name,primary_entity_type,prediction,primary_reference_mention,reference_mentions,primary_mention_exact_match,any_reference_mention_exact_match,primary_mention_normalized_match,any_reference_mention_normalized_match,mention_substring_recall_proxy
+Q1053156_1,entity_aware_mt,TV series,얼마나 오래 TV 시리즈의 아들 이상?,이상의 아들,"[""이상의 아들"", ""이상의 아들"", ""이상의 아들"", ""이상의 아들""]",False,False,False,False,0.6
+Q1053156_1,gpt4o_mini,TV series,리소우의 아들 TV 시리즈는 길이가 얼마나 되나요?,이상의 아들,"[""이상의 아들"", ""이상의 아들"", ""이상의 아들"", ""이상의 아들""]",False,False,False,False,0.6
+Q1053156_1,gpt4o,TV series,리스의 이상적인 아들 TV 시리즈는 얼마나 긴가요?,이상의 아들,"[""이상의 아들"", ""이상의 아들"", ""이상의 아들"", ""이상의 아들""]",False,False,False,False,0.4
+Q1053156_1,vanilla_mt,TV series,RISU NO MUSUKO TV 시리즈는 얼마나 오래 걸리나요?,이상의 아들,"[""이상의 아들"", ""이상의 아들"", ""이상의 아들"", ""이상의 아들""]",False,False,False,False,0.0
+Q1112125_1,entity_aware_mt,Place of worship,성 시미안 교회의 역사적 의미는 무엇입니까?,세인트 시므온 스타일라이트 교회,"[""세인트 시므온 스타일라이트 교회"", ""세인트 시므온 스타일라이트 교회""]",False,False,False,False,0.1429
+Q1112125_1,gpt4o_mini,Place of worship,세인트 시메온 스텔리타 교회의 역사적 중요성은 무엇인가요?,세인트 시므온 스타일라이트 교회,"[""세인트 시므온 스타일라이트 교회"", ""세인트 시므온 스타일라이트 교회""]",False,False,False,False,0.2857
+Q1112125_1,gpt4o,Place of worship,시메온 스틸리테스 성당의 역사적 중요성은 무엇인가요?,세인트 시므온 스타일라이트 교회,"[""세인트 시므온 스타일라이트 교회"", ""세인트 시므온 스타일라이트 교회""]",False,False,False,False,0.1429
+Q1112125_1,vanilla_mt,Place of worship,세인트 시메온 스타일리트 교회의 역사적 의미는 무엇입니까?,세인트 시므온 스타일라이트 교회,"[""세인트 시므온 스타일라이트 교회"", ""세인트 시므온 스타일라이트 교회""]",False,False,False,False,0.2857
+Q1122571_1,entity_aware_mt,Movie,프라하의 봄은 어떤 해에 출시되었습니까?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",False,False,False,False,0.0909
+Q1122571_1,gpt4o_mini,Movie,"""The Unbearable Lightness of Being""는 어떤 해에 개봉되었나요?",참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",False,False,False,False,0.0909
+Q1122571_1,gpt4o,Movie,《참을 수 없는 존재의 가벼움》은 어느 해에 출시되었습니까?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",True,True,True,True,1.0
+Q1122571_1,vanilla_mt,Movie,어떤 해에 견딜 수 없는 빛이 풀려났습니까?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",False,False,False,False,0.2727
+Q1122571_2,entity_aware_mt,Movie,프라하의 봄의 종류는 무엇입니까?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",False,False,False,False,0.0909
+Q1122571_2,gpt4o_mini,Movie,《참을 수 없는 존재의 가벼움》의 장르는 무엇인가요?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",True,True,True,True,1.0
+Q1122571_2,gpt4o,Movie,「참을 수 없는 존재의 가벼움」의 장르는 무엇인가요?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",True,True,True,True,1.0
+Q1122571_2,vanilla_mt,Movie,무력한 존재의 빛의 종류는 무엇입니까?,참을 수 없는 존재의 가벼움,"[""참을 수 없는 존재의 가벼움""]",False,False,False,False,0.2727
+Q1133767_1,entity_aware_mt,Book,DIN 단위는 다른 유형의 커넥터와 어떻게 다릅니까?,DIN 단자,"[""DIN 단자"", ""DIN 단자 o는 다른 유형의 커넥터와 어떻게 다른가요?"", ""DIN 커넥터""]",False,False,False,False,0.8
+Q1133767_1,gpt4o_mini,Book,DIN 커넥터는 다른 유형의 커넥터와 어떻게 다릅니까?,DIN 단자,"[""DIN 단자"", ""DIN 단자 o는 다른 유형의 커넥터와 어떻게 다른가요?"", ""DIN 커넥터""]",False,True,False,True,1.0
+Q1133767_1,gpt4o,Book,DIN 커넥터는 다른 종류의 커넥터와 어떻게 다른가요?,DIN 단자,"[""DIN 단자"", ""DIN 단자 o는 다른 유형의 커넥터와 어떻게 다른가요?"", ""DIN 커넥터""]",False,True,False,True,1.0
+Q1133767_1,vanilla_mt,Book,DIN 커넥터는 다른 유형의 커넥터와 어떻게 다릅니까?,DIN 단자,"[""DIN 단자"", ""DIN 단자 o는 다른 유형의 커넥터와 어떻게 다른가요?"", ""DIN 커넥터""]",False,True,False,True,1.0
+Q1140935_1,entity_aware_mt,Movie,어느 해에 그녀가 나에게 너무 가볍게 풀려났습니까?,내겐 너무 가벼운 그녀,"[""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀""]",False,False,False,False,0.3333
+Q1140935_1,gpt4o_mini,Movie,"""셔로우 할""은 2001년에 개봉되었습니다.",내겐 너무 가벼운 그녀,"[""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀""]",False,False,False,False,0.0
+Q1140935_1,gpt4o,Movie,'S샬로우 할'은 어느 해에 개봉했나요?,내겐 너무 가벼운 그녀,"[""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀""]",False,False,False,False,0.0
+Q1140935_1,vanilla_mt,Movie,Shallow Hal은 어떤 해에 출시되었습니까?,내겐 너무 가벼운 그녀,"[""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀"", ""내겐 너무 가벼운 그녀""]",False,False,False,False,0.0
+Q1146619_0,entity_aware_mt,Place of worship,어떤 지역에 위치한 칸산사?,한산사,"[""한산사"", ""한산사"", ""한산사""]",False,False,False,False,0.6667
+Q1146619_0,gpt4o_mini,Place of worship,한산사(한산사)는 어느 지방에 위치해 있나요?,한산사,"[""한산사"", ""한산사"", ""한산사""]",True,True,True,True,1.0
+Q1146619_0,gpt4o,Place of worship,한산사는 어느 성에 위치해 있나요?,한산사,"[""한산사"", ""한산사"", ""한산사""]",True,True,True,True,1.0
+Q1146619_0,vanilla_mt,Place of worship,Hanshan Temple은 어떤 지역에 위치하고 있습니까?,한산사,"[""한산사"", ""한산사"", ""한산사""]",False,False,False,False,0.0
+Q1147583_1,entity_aware_mt,Artwork,인간 실종 소설의 저자는 누구입니까?,인간 실격,"[""인간 실격"", ""인간 실격""]",False,False,False,False,0.75
+Q1147583_1,gpt4o_mini,Artwork,소설 '인간실격'의 저자는 누구인가요?,인간 실격,"[""인간 실격"", ""인간 실격""]",False,False,True,True,1.0
+Q1147583_1,gpt4o,Artwork,소설 '인간 실격'의 저자는 누구입니까?,인간 실격,"[""인간 실격"", ""인간 실격""]",True,True,True,True,1.0
+Q1147583_1,vanilla_mt,Artwork,더 이상 인간이 아닌 소설의 저자는 누구입니까?,인간 실격,"[""인간 실격"", ""인간 실격""]",False,False,False,False,0.5
+Q1149593_0,entity_aware_mt,Fictional entity,타사대 왕의 몇 가지 눈에 띄는 특징이나 특징은 무엇입니까?,킹 두오시,"[""킹 두오시"", ""킹 두오시""]",False,False,False,False,0.0
+Q1149593_0,gpt4o_mini,Fictional entity,왕 두오시의 주목할 만한 특징이나 특성은 무엇인가요?,킹 두오시,"[""킹 두오시"", ""킹 두오시""]",False,False,False,False,0.75
+Q1149593_0,gpt4o,Fictional entity,두오시 왕의 주목할 만한 특징이나 특성은 무엇인가요?,킹 두오시,"[""킹 두오시"", ""킹 두오시""]",False,False,False,False,0.75
+Q1149593_0,vanilla_mt,Fictional entity,King Duosi의 몇 가지 눈에 띄는 특징이나 특징은 무엇입니까?,킹 두오시,"[""킹 두오시"", ""킹 두오시""]",False,False,False,False,0.0
+Q1193688_1,entity_aware_mt,Movie,교사가 언제 풀려났습니까?,교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.3333
+Q1193688_1,gpt4o_mini,Movie,“행잉 트리”는 언제 발매되었나요?,교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1193688_1,gpt4o,Movie,<em>The Hanging Tree</em>는 언제 출시되었나요?,교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1193688_1,vanilla_mt,Movie,The Hanging Tree는 언제 출시되었습니까?,교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1193688_2,entity_aware_mt,Movie,교실의 주인공은 누구였을까?,교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.3333
+Q1193688_2,gpt4o_mini,Movie,"""The Hanging Tree""의 주요 배우들은 누구였나요?",교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1193688_2,gpt4o,Movie,"""The Hanging Tree""의 주요 배우는 누구였나요?",교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1193688_2,vanilla_mt,Movie,"""The Hanging Tree""의 주인공은 누구입니까?",교수목,"[""교수목"", ""교수목""]",False,False,False,False,0.0
+Q1194336_2,entity_aware_mt,Artwork,마르스 광장의 형태를 어떻게 묘사할 것인가?,화성 필드,"[""화성 필드"", ""마르스 광장""]",False,True,False,True,1.0
+Q1194336_2,gpt4o_mini,Artwork,화성의 형태는 어떻게 설명할 수 있나요?,화성 필드,"[""화성 필드"", ""마르스 광장""]",False,False,False,False,0.5
+Q1194336_2,gpt4o,Artwork,마르스 광장의 형태는 어떻게 묘사하시겠습니까?,화성 필드,"[""화성 필드"", ""마르스 광장""]",False,True,False,True,1.0
+Q1194336_2,vanilla_mt,Artwork,당신은 화성 필드의 모양을 어떻게 묘사 할 것인가?,화성 필드,"[""화성 필드"", ""마르스 광장""]",True,True,True,True,1.0
+Q1202019_2,entity_aware_mt,Artwork,하노이에 위치한 문학의 성전은 어디에 있습니까?,문묘,"[""문묘"", ""문묘"", ""문묘""]",False,False,False,False,0.5
+Q1202019_2,gpt4o_mini,Artwork,하노이에 위치한 문묘는 어디에 있습니까?,문묘,"[""문묘"", ""문묘"", ""문묘""]",True,True,True,True,1.0
+Q1202019_2,gpt4o,Artwork,문묘는 하노이 어디에 위치해 있나요?,문묘,"[""문묘"", ""문묘"", ""문묘""]",True,True,True,True,1.0
+Q1202019_2,vanilla_mt,Artwork,하노이에 위치한 문학의 성전은 어디에 있습니까?,문묘,"[""문묘"", ""문묘"", ""문묘""]",False,False,False,False,0.5
+Q129479_0,entity_aware_mt,Landmark,이란 문화에서 하페즈의 무덤의 의미는 무엇입니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",True,True,True,True,1.0
+Q129479_0,gpt4o_mini,Landmark,하페즈의 묘는 이란 문화에서 어떤 의미를 가지고 있나요?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",False,False,False,False,0.6667
+Q129479_0,gpt4o,Landmark,하페즈의 묘의 이란 문화에서의 중요성은 무엇입니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",False,False,False,False,0.6667
+Q129479_0,vanilla_mt,Landmark,이란 문화에서 하페즈 무덤의 의미는 무엇입니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",False,False,False,False,0.5
+Q129479_1,entity_aware_mt,Landmark,하페즈의 무덤은 어디에 있습니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",True,True,True,True,1.0
+Q129479_1,gpt4o_mini,Landmark,하페즈의 무덤은 어디에 있습니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",True,True,True,True,1.0
+Q129479_1,gpt4o,Landmark,하페즈의 무덤은 어디에 위치해 있습니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",True,True,True,True,1.0
+Q129479_1,vanilla_mt,Landmark,하페즈의 무덤은 어디에 있습니까?,하페즈의 무덤,"[""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤"", ""하페즈의 무덤""]",True,True,True,True,1.0
+Q1306291_1,entity_aware_mt,Artwork,누가 솔페리노의 예술 작품의 추억을 만들었습니까?,솔페리노의 기억,"[""솔페리노의 기억"", ""솔페리노의 기억"", ""솔페리노의 기억""]",False,False,False,False,0.7143
+Q1306291_1,gpt4o_mini,Artwork,"""솔페리노의 기억""이라는 작품은 누가 만들었나요?",솔페리노의 기억,"[""솔페리노의 기억"", ""솔페리노의 기억"", ""솔페리노의 기억""]",True,True,True,True,1.0
+Q1306291_1,gpt4o,Artwork,솔페리노의 추억 작품은 누가 만들었나요?,솔페리노의 기억,"[""솔페리노의 기억"", ""솔페리노의 기억"", ""솔페리노의 기억""]",False,False,False,False,0.7143
+Q1306291_1,vanilla_mt,Artwork,누가 아티스트 작품 A Memory of Solferino를 만들었습니까?,솔페리노의 기억,"[""솔페리노의 기억"", ""솔페리노의 기억"", ""솔페리노의 기억""]",False,False,False,False,0.0
+Q1326328_0,entity_aware_mt,TV series,무책임한 캡틴 테일러에 얼마나 많은 사건이 있습니까?,무책임 함장 테일러,"[""무책임 함장 테일러""]",False,False,False,False,0.375
+Q1326328_0,gpt4o_mini,TV series,"""무책임한 캡틴 타일러""에는 총 26개의 에피소드가 있습니다.",무책임 함장 테일러,"[""무책임 함장 테일러""]",False,False,False,False,0.375
+Q1326328_0,gpt4o,TV series,무책임한 함장 테일러는 총 몇 화인가요?,무책임 함장 테일러,"[""무책임 함장 테일러""]",False,False,False,False,0.625
+Q1326328_0,vanilla_mt,TV series,얼마나 많은 에피소드가 The Irresponsible Captain Tylor에 있습니까?,무책임 함장 테일러,"[""무책임 함장 테일러""]",False,False,False,False,0.0
+Q1330443_0,entity_aware_mt,Musical work,파가니니 주제에 의해 광시곡에 어떤 도구가 나타나나요?,파가니니 주제에 의한 광시곡,"[""파가니니 주제에 의한 광시곡"", ""파가니니 주제에 의한 광시곡에는 어떤 악기가 등장하나요?""]",False,False,False,False,0.6667
+Q1330443_0,gpt4o_mini,Musical work,라프소디 온 어 테마 오브 파가니니에는 어떤 악기가 등장하나요?,파가니니 주제에 의한 광시곡,"[""파가니니 주제에 의한 광시곡"", ""파가니니 주제에 의한 광시곡에는 어떤 악기가 등장하나요?""]",False,False,False,False,0.5
+Q1330443_0,gpt4o,Musical work,파가니니 주제에 의한 랩소디에 등장하는 악기는 무엇인가요?,파가니니 주제에 의한 광시곡,"[""파가니니 주제에 의한 광시곡"", ""파가니니 주제에 의한 광시곡에는 어떤 악기가 등장하나요?""]",False,False,False,False,0.75
+Q1330443_0,vanilla_mt,Musical work,Paganini의 주제에 대한 Rhapsody에서 어떤 도구가 나타나나요?,파가니니 주제에 의한 광시곡,"[""파가니니 주제에 의한 광시곡"", ""파가니니 주제에 의한 광시곡에는 어떤 악기가 등장하나요?""]",False,False,False,False,0.25
+Q1389239_1,entity_aware_mt,Book,어떤 회사가 x86 프로세서를 위한 FMA 명령 집합을 개발했습니까?,FMA 명령어 집합,"[""FMA 명령어 집합"", ""FMA 명령어 집합"", ""FMA 명령어 집합""]",False,False,False,False,0.625
+Q1389239_1,gpt4o_mini,Book,어떤 회사가 x86 프로세서를 위한 FMA 명령어 집합을 개발했습니까?,FMA 명령어 집합,"[""FMA 명령어 집합"", ""FMA 명령어 집합"", ""FMA 명령어 집합""]",True,True,True,True,1.0
+Q1389239_1,gpt4o,Book,어느 회사가 x86 프로세서를 위한 FMA 명령어 세트를 개발했나요?,FMA 명령어 집합,"[""FMA 명령어 집합"", ""FMA 명령어 집합"", ""FMA 명령어 집합""]",False,False,False,False,0.75
+Q1389239_1,vanilla_mt,Book,어떤 회사가 x86 프로세서에 대한 FMA 지침을 개발했습니까?,FMA 명령어 집합,"[""FMA 명령어 집합"", ""FMA 명령어 집합"", ""FMA 명령어 집합""]",False,False,False,False,0.375
+Q140680_2,entity_aware_mt,TV series,어떤 종류의 TV 시리즈는 핑크 팬더입니까?,핑크 팬더 쇼,"[""핑크 팬더 쇼"", ""핑크 팬더""]",False,True,False,True,1.0
+Q140680_2,gpt4o_mini,TV series,핑크 팬더 쇼는 어떤 종류의 TV 시리즈인가요?,핑크 팬더 쇼,"[""핑크 팬더 쇼"", ""핑크 팬더""]",True,True,True,True,1.0
+Q140680_2,gpt4o,TV series,핑크 팬더 쇼는 어떤 종류의 TV 시리즈인가요?,핑크 팬더 쇼,"[""핑크 팬더 쇼"", ""핑크 팬더""]",True,True,True,True,1.0
+Q140680_2,vanilla_mt,TV series,어떤 종류의 TV 시리즈가 핑크 팬더 쇼?,핑크 팬더 쇼,"[""핑크 팬더 쇼"", ""핑크 팬더""]",True,True,True,True,1.0
+Q143042_1,entity_aware_mt,Place of worship,스튜데니치 수도원은 어떤 장소입니까?,스투데니차 수도원,"[""스투데니차 수도원"", ""스투데니차 수도원"", ""스투데니차 수도원""]",False,False,False,False,0.375
+Q143042_1,gpt4o_mini,Place of worship,스투데니차 수도원은 어떤 종류의 장소인가요?,스투데니차 수도원,"[""스투데니차 수도원"", ""스투데니차 수도원"", ""스투데니차 수도원""]",True,True,True,True,1.0
+Q143042_1,gpt4o,Place of worship,수데니차 수도원은 어떤 종류의 장소입니까?,스투데니차 수도원,"[""스투데니차 수도원"", ""스투데니차 수도원"", ""스투데니차 수도원""]",False,False,False,False,0.75
+Q143042_1,vanilla_mt,Place of worship,Studenica 수도원은 어떤 종류의 장소입니까?,스투데니차 수도원,"[""스투데니차 수도원"", ""스투데니차 수도원"", ""스투데니차 수도원""]",False,False,False,False,0.375
+Q14654_1,entity_aware_mt,Book,유닉스 시간은 어떻게 계산되나요?,유닉스 시간,"[""유닉스 시간"", ""유닉스 시간""]",True,True,True,True,1.0
+Q14654_1,gpt4o_mini,Book,유닉스 시간은 어떻게 계산되나요?,유닉스 시간,"[""유닉스 시간"", ""유닉스 시간""]",True,True,True,True,1.0
+Q14654_1,gpt4o,Book,유닉스 시간은 어떻게 계산되나요?,유닉스 시간,"[""유닉스 시간"", ""유닉스 시간""]",True,True,True,True,1.0
+Q14654_1,vanilla_mt,Book,UNIX 시간은 어떻게 계산되나요?,유닉스 시간,"[""유닉스 시간"", ""유닉스 시간""]",False,False,False,False,0.4
+Q1504526_2,entity_aware_mt,Fictional entity,어떤 텔레비전 프랜차이즈에서 코미크 북 가이가 나타나나요?,코믹 북 가이,"[""코믹 북 가이"", ""코믹 북 가이"", ""만화책 가이""]",False,False,False,False,0.6
+Q1504526_2,gpt4o_mini,Fictional entity,코믹북 남자가 등장하는 텔레비전 프랜차이즈는 무엇인가요?,코믹 북 가이,"[""코믹 북 가이"", ""코믹 북 가이"", ""만화책 가이""]",False,False,False,False,0.6
+Q1504526_2,gpt4o,Fictional entity,코믹 북 가이는 어떤 텔레비전 프랜차이즈에 등장하나요?,코믹 북 가이,"[""코믹 북 가이"", ""코믹 북 가이"", ""만화책 가이""]",True,True,True,True,1.0
+Q1504526_2,vanilla_mt,Fictional entity,어떤 텔레비전 프랜차이즈가 Comic Book Guy에 출연합니까?,코믹 북 가이,"[""코믹 북 가이"", ""코믹 북 가이"", ""만화책 가이""]",False,False,False,False,0.2
+Q1515426_0,entity_aware_mt,Landmark,키예프 음악원은 어떤 종류의 기관입니까?,키예프 음악원,"[""키예프 음악원"", ""키예프 음악원""]",True,True,True,True,1.0
+Q1515426_0,gpt4o_mini,Landmark,페트로 차이코프스키 우크라이나 국립 음악 아카데미는 어떤 유형의 기관인가요?,키예프 음악원,"[""키예프 음악원"", ""키예프 음악원""]",False,False,False,False,0.3333
+Q1515426_0,gpt4o,Landmark,페트로 차이콥스키 우크라이나 국립 음악 아카데미는 어떤 종류의 기관인가요?,키예프 음악원,"[""키예프 음악원"", ""키예프 음악원""]",False,False,False,False,0.3333
+Q1515426_0,vanilla_mt,Landmark,우크라이나의 Petro Tchaikovsky 국립 음악 아카데미는 어떤 종류의 기관입니까?,키예프 음악원,"[""키예프 음악원"", ""키예프 음악원""]",False,False,False,False,0.3333
+Q1524969_1,entity_aware_mt,Artwork,은하철의 밤의 저자는 누구입니까?,은하철도의 밤,"[""은하철도의 밤"", ""은하철도의 밤""]",False,False,False,False,0.5
+Q1524969_1,gpt4o_mini,Artwork,'은하철도 밤'의 저자는 누구인가요?,은하철도의 밤,"[""은하철도의 밤"", ""은하철도의 밤""]",False,False,False,False,0.6667
+Q1524969_1,gpt4o,Artwork,"""은하철도의 밤""의 저자는 누구인가요?",은하철도의 밤,"[""은하철도의 밤"", ""은하철도의 밤""]",True,True,True,True,1.0
+Q1524969_1,vanilla_mt,Artwork,갤럭시 철도에서의 밤의 저자는 누구입니까?,은하철도의 밤,"[""은하철도의 밤"", ""은하철도의 밤""]",False,False,False,False,0.3333
+Q16160512_0,entity_aware_mt,TV series,얼마나 많은 비밀 방 앙심정의 계절이 있습니까?,비밀기방 앙심정,"[""비밀기방 앙심정""]",False,False,False,False,0.5714
+Q16160512_0,gpt4o_mini,TV series,"""앵심정""은 몇 시즌이 있나요?",비밀기방 앙심정,"[""비밀기방 앙심정""]",False,False,False,False,0.2857
+Q16160512_0,gpt4o,TV series,《앙심정》은 몇 시즌입니까?,비밀기방 앙심정,"[""비밀기방 앙심정""]",False,False,False,False,0.4286
+Q16160512_0,vanilla_mt,TV series,얼마나 많은 Ang Shim Jung 시즌이 있습니까?,비밀기방 앙심정,"[""비밀기방 앙심정""]",False,False,False,False,0.0
+Q161953_2,entity_aware_mt,Artwork,역대기에서 묘사 된 예술 작품에서 일반적으로 발견되는 주제는 무엇입니까?,역대기,"[""역대기"", ""역대기"", ""역대기""]",True,True,True,True,1.0
+Q161953_2,gpt4o_mini,Artwork,연대기서에 묘사된 작품에서 일반적으로 발견되는 주제는 무엇인가요?,역대기,"[""역대기"", ""역대기"", ""역대기""]",False,False,False,False,0.6667
+Q161953_2,gpt4o,Artwork,역대기의 예술 작품에 흔히 나타나는 주제는 무엇인가요?,역대기,"[""역대기"", ""역대기"", ""역대기""]",True,True,True,True,1.0
+Q161953_2,vanilla_mt,Artwork,어떤 주제가 일반적으로 Chronicles의 책에서 묘사 된 예술 작품에서 발견되나요?,역대기,"[""역대기"", ""역대기"", ""역대기""]",False,False,False,False,0.0
+Q162002_0,entity_aware_mt,Musical work,첼로 콘서트 노래 1번(하이든)에 나타나는 주요 도구는 무엇입니까?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",False,False,False,False,0.2857
+Q162002_0,gpt4o_mini,Musical work,첼로 협주곡 1번에서 주요 악기는 무엇인가요?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",True,True,True,True,1.0
+Q162002_0,gpt4o,Musical work,첼로 협주곡 제1번에 주로 등장하는 악기는 무엇인가요?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",False,False,False,False,0.7143
+Q162002_0,vanilla_mt,Musical work,Cello Concerto No. 1의 주요 도구는 무엇입니까?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",False,False,False,False,0.1429
+Q162002_2,entity_aware_mt,Musical work,Joseph Haydn의 첼로 콘서트 노래 1번 (하이든)에는 얼마나 많은 움직임이 있습니까?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",False,False,False,False,0.2857
+Q162002_2,gpt4o_mini,Musical work,Joseph Haydn의 첼로 협주곡 1번은 총 3악장으로 구성되어 있습니다.,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",True,True,True,True,1.0
+Q162002_2,gpt4o,Musical work,요제프 하이든의 첼로 협주곡 1번에는 몇 개의 악장이 있나요?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",True,True,True,True,1.0
+Q162002_2,vanilla_mt,Musical work,Joseph Haydn의 Cello Concerto No. 1에서 얼마나 많은 움직임이 있습니까?,첼로 협주곡 1번,"[""첼로 협주곡 1번"", ""첼로 협주곡 1번"", ""첼로 협주곡 1번""]",False,False,False,False,0.1429
+Q162331_1,entity_aware_mt,Movie,1959년 영화 ‘400번의 구타’를 감독한 사람은 누구일까?,400번의 구타,"[""400번의 구타"", ""400번의 구타"", ""400번의 구타""]",True,True,True,True,1.0
+Q162331_1,gpt4o_mini,Movie,1959년 영화 '400번의 구타'의 감독은 누구인가요?,400번의 구타,"[""400번의 구타"", ""400번의 구타"", ""400번의 구타""]",True,True,True,True,1.0
+Q162331_1,gpt4o,Movie,"1959년 영화 ""400번의 구타""는 누가 감독했나요?",400번의 구타,"[""400번의 구타"", ""400번의 구타"", ""400번의 구타""]",True,True,True,True,1.0
+Q162331_1,vanilla_mt,Movie,1959년 영화 ‘The 400 Blows’의 주인공은 누구일까?,400번의 구타,"[""400번의 구타"", ""400번의 구타"", ""400번의 구타""]",False,False,False,False,0.4286
+Q16305809_2,entity_aware_mt,Food,사우 칩이 인기있는 곳은 어디입니까?,새우 칩,"[""새우 칩"", ""새우 칩"", ""새우 칩""]",False,False,False,False,0.6667
+Q16305809_2,gpt4o_mini,Food,새우 칩은 어디에서 인기 있나요?,새우 칩,"[""새우 칩"", ""새우 칩"", ""새우 칩""]",True,True,True,True,1.0
+Q16305809_2,gpt4o,Food,새우 칩은 어디에서 인기가 있나요?,새우 칩,"[""새우 칩"", ""새우 칩"", ""새우 칩""]",True,True,True,True,1.0
+Q16305809_2,vanilla_mt,Food,어디에서 푸른 크레이커가 인기가 있습니까?,새우 칩,"[""새우 칩"", ""새우 칩"", ""새우 칩""]",False,False,False,False,0.0
+Q163775_1,entity_aware_mt,Musical work,중세 서양 고전 음악의 지리적 기원은 무엇입니까?,중세의 서양 고전 음악,"[""중세의 서양 고전 음악""]",False,False,False,False,0.6667
+Q163775_1,gpt4o_mini,Musical work,중세 음악의 지리적 기원은 어디인가요?,중세의 서양 고전 음악,"[""중세의 서양 고전 음악""]",False,False,False,False,0.2222
+Q163775_1,gpt4o,Musical work,중세 음악의 지리적 기원은 어디인가요?,중세의 서양 고전 음악,"[""중세의 서양 고전 음악""]",False,False,False,False,0.2222
+Q163775_1,vanilla_mt,Musical work,중세 음악의 지리적 기원은 무엇입니까?,중세의 서양 고전 음악,"[""중세의 서양 고전 음악""]",False,False,False,False,0.2222
+Q164652_1,entity_aware_mt,Musical work,곡 10번은 유명한 음악 작품인가요?,교향곡 10번,"[""교향곡 10번"", ""교향곡 10번"", ""교향곡 10번""]",False,False,False,False,0.6667
+Q164652_1,gpt4o_mini,Musical work,교향곡 제10번은 유명한 음악 작품인가요?,교향곡 10번,"[""교향곡 10번"", ""교향곡 10번"", ""교향곡 10번""]",False,False,False,False,0.5
+Q164652_1,gpt4o,Musical work,교향곡 제10번은 유명한 음악 작품인가요?,교향곡 10번,"[""교향곡 10번"", ""교향곡 10번"", ""교향곡 10번""]",False,False,False,False,0.5
+Q164652_1,vanilla_mt,Musical work,Symphony No. 10은 유명한 음악 작품입니까?,교향곡 10번,"[""교향곡 10번"", ""교향곡 10번"", ""교향곡 10번""]",False,False,False,False,0.3333
+Q1764229_1,entity_aware_mt,Fictional entity,나팔산성 전투에 참여한 주요 캐릭터는 누구였습니까?,나팔산성 전투,"[""나팔산성 전투"", ""나팔산성 전투""]",True,True,True,True,1.0
+Q1764229_1,gpt4o_mini,Fictional entity,호른버그 전투에 관련된 주요 인물들은 누구인가요?,나팔산성 전투,"[""나팔산성 전투"", ""나팔산성 전투""]",False,False,False,False,0.3333
+Q1764229_1,gpt4o,Fictional entity,호른부르크 전투에 관여한 주요 인물들은 누구였나요?,나팔산성 전투,"[""나팔산성 전투"", ""나팔산성 전투""]",False,False,False,False,0.3333
+Q1764229_1,vanilla_mt,Fictional entity,Hornburg 전투에 참여한 주요 캐릭터는 누구였습니까?,나팔산성 전투,"[""나팔산성 전투"", ""나팔산성 전투""]",False,False,False,False,0.3333
+Q179492_2,entity_aware_mt,Artwork,보이니치 문서를 독특하게 만드는 것은 무엇입니까?,보이니치 필사본,"[""보이니치 필사본"", ""보이니치 필사본""]",False,False,False,False,0.5714
+Q179492_2,gpt4o_mini,Artwork,보이니치 원고를 독특하게 만드는 요소는 무엇인가요?,보이니치 필사본,"[""보이니치 필사본"", ""보이니치 필사본""]",False,False,False,False,0.5714
+Q179492_2,gpt4o,Artwork,보이니치 원고가 독특한 이유는 무엇인가요?,보이니치 필사본,"[""보이니치 필사본"", ""보이니치 필사본""]",False,False,False,False,0.5714
+Q179492_2,vanilla_mt,Artwork,무엇이 Voynich Manuscript을 독특하게 만드는가?,보이니치 필사본,"[""보이니치 필사본"", ""보이니치 필사본""]",False,False,False,False,0.1429
+Q18003141_2,entity_aware_mt,Artwork,작은 자비는 과학 판타지 소설입니까?,보조 자비,"[""보조 자비""]",False,False,False,False,0.5
+Q18003141_2,gpt4o_mini,Artwork,앤시러리 머시는 과학 소설 소설인가요?,보조 자비,"[""보조 자비""]",False,False,False,False,0.0
+Q18003141_2,gpt4o,Artwork,앤실러리 머시는 공상 과학 소설인가요?,보조 자비,"[""보조 자비""]",False,False,False,False,0.0
+Q18003141_2,vanilla_mt,Artwork,Ancillary Mercy는 과학 판타지 소설입니까?,보조 자비,"[""보조 자비""]",False,False,False,False,0.0
+Q183562_0,entity_aware_mt,Place of worship,우마야 모스크는 어떤 건축 스타일로 알려져 있습니까?,우마이야 모스크,"[""우마이야 모스크"", ""우마이야 모스크"", ""우마이야 모스크""]",False,False,False,False,0.5714
+Q183562_0,gpt4o_mini,Place of worship,우마이야드 모스크는 어떤 건축 양식으로 유명한가요?,우마이야 모스크,"[""우마이야 모스크"", ""우마이야 모스크"", ""우마이야 모스크""]",False,False,False,False,0.5714
+Q183562_0,gpt4o,Place of worship,우마이야드 모스크는 어떤 건축 양식으로 알려져 있나요?,우마이야 모스크,"[""우마이야 모스크"", ""우마이야 모스크"", ""우마이야 모스크""]",False,False,False,False,0.5714
+Q183562_0,vanilla_mt,Place of worship,어떤 건축 스타일은 Umayyad 모스크로 알려져 있습니까?,우마이야 모스크,"[""우마이야 모스크"", ""우마이야 모스크"", ""우마이야 모스크""]",False,False,False,False,0.4286
+Q1858336_0,entity_aware_mt,Book,웹스터 사전에서 새로운 단어의 정의를 찾을 수 있습니까?,웹스터 사전,"[""웹스터 사전"", ""웹스터 사전"", ""웹스터 사전""]",True,True,True,True,1.0
+Q1858336_0,gpt4o_mini,Book,웹스터 사전에서 새로운 단어의 정의를 찾을 수 있습니까?,웹스터 사전,"[""웹스터 사전"", ""웹스터 사전"", ""웹스터 사전""]",True,True,True,True,1.0
+Q1858336_0,gpt4o,Book,웹스터 사전에서 새로운 단어의 정의를 찾을 수 있나요?,웹스터 사전,"[""웹스터 사전"", ""웹스터 사전"", ""웹스터 사전""]",True,True,True,True,1.0
+Q1858336_0,vanilla_mt,Book,Webster의 사전에서 새로운 단어의 정의를 찾을 수 있습니까?,웹스터 사전,"[""웹스터 사전"", ""웹스터 사전"", ""웹스터 사전""]",False,False,False,False,0.4
+Q1860864_0,entity_aware_mt,Book,현재 은금을 사용하는 국가가 있습니까?,은본위제,"[""은본위제"", ""은본위제""]",False,False,False,False,0.25
+Q1860864_0,gpt4o_mini,Book,현재 은본위제를 사용하는 국가는 있습니까?,은본위제,"[""은본위제"", ""은본위제""]",True,True,True,True,1.0
+Q1860864_0,gpt4o,Book,현재 은본위를 사용하는 나라는 있나요?,은본위제,"[""은본위제"", ""은본위제""]",False,False,False,False,0.75
+Q1860864_0,vanilla_mt,Book,현재 은 표준을 사용하는 국가가 있습니까?,은본위제,"[""은본위제"", ""은본위제""]",False,False,False,False,0.25
+Q187031_0,entity_aware_mt,Person,신문을 제공하는 사람에게 중요한 기술은 무엇입니까?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",False,False,False,False,0.4
+Q187031_0,gpt4o_mini,Person,신문 배달원이 가지면 좋은 기술은 무엇인가요?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",True,True,True,True,1.0
+Q187031_0,gpt4o,Person,신문 배달원이 갖춰야 할 중요한 기술은 무엇인가요?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",True,True,True,True,1.0
+Q187031_0,vanilla_mt,Person,신문을 제공하는 사람에게 중요한 기술은 무엇입니까?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",False,False,False,False,0.4
+Q187031_1,entity_aware_mt,Person,얼마나 일찍 아침에 신문 배달 사람이 일반적으로 그들의 경로를 시작합니까?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",False,False,False,False,0.8
+Q187031_1,gpt4o_mini,Person,신문 배달원이 일반적으로 경로를 시작하는 시간은 아침 몇 시입니까?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",True,True,True,True,1.0
+Q187031_1,gpt4o,Person,신문 배달원은 일반적으로 아침 몇 시에 배달을 시작하나요?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",True,True,True,True,1.0
+Q187031_1,vanilla_mt,Person,얼마나 일찍 아침에 신문 배달 사람이 일반적으로 그들의 경로를 시작합니까?,신문 배달원,"[""신문 배달원"", ""신문 배달원"", ""신문 배달원""]",False,False,False,False,0.8
+Q188468_0,entity_aware_mt,Person,고대 올림픽의 우승자는 어떻게 명예를 받았습니까?,고대 올림픽,"[""고대 올림픽"", ""고대 올림픽""]",True,True,True,True,1.0
+Q188468_0,gpt4o_mini,Person,고대 올림픽 게임의 승자들은 어떻게 기념되었습니까?,고대 올림픽,"[""고대 올림픽"", ""고대 올림픽""]",True,True,True,True,1.0
+Q188468_0,gpt4o,Person,고대 올림픽 경기의 우승자들은 어떻게 영예를 받았습니까?,고대 올림픽,"[""고대 올림픽"", ""고대 올림픽""]",True,True,True,True,1.0
+Q188468_0,vanilla_mt,Person,고대 올림픽의 우승자들은 어떻게 존경받았습니까?,고대 올림픽,"[""고대 올림픽"", ""고대 올림픽""]",True,True,True,True,1.0
+Q18846_2,entity_aware_mt,Musical work,고대 서양 고전 음악을 개발한 문화는 무엇입니까?,고대 음악,"[""고대 음악""]",False,False,False,False,0.5
+Q18846_2,gpt4o_mini,Musical work,어떤 문화가 고대 음악을 발전시켰나요?,고대 음악,"[""고대 음악""]",True,True,True,True,1.0
+Q18846_2,gpt4o,Musical work,어떤 문화들이 고대 음악을 발전시켰나요?,고대 음악,"[""고대 음악""]",True,True,True,True,1.0
+Q18846_2,vanilla_mt,Musical work,어떤 문화가 고대 음악을 개발했습니까?,고대 음악,"[""고대 음악""]",True,True,True,True,1.0
+Q190125_1,entity_aware_mt,Fictional entity,덤블도어의 군대의 목적은 무엇이었습니까?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_1,gpt4o_mini,Fictional entity,덤블도어의 군대의 목적은 무엇이었나요?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_1,gpt4o,Fictional entity,덤블도어의 군대의 목적은 무엇이었나요?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_1,vanilla_mt,Fictional entity,Dumbledore의 군대의 목적은 무엇입니까?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대""]",False,False,False,False,0.4286
+Q190125_2,entity_aware_mt,Fictional entity,덤블도어의 군대는 어디서 비밀리에 만났습니까?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_2,gpt4o_mini,Fictional entity,덤블도어의 군대는 비밀리에 어디에서 만났나요?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_2,gpt4o,Fictional entity,덤블도어의 군대는 비밀리에 어디에서 만났나요?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대"", ""덤블도어의 군대""]",True,True,True,True,1.0
+Q190125_2,vanilla_mt,Fictional entity,Dumbledore의 군대는 어디서 비밀리에 만났습니까?,덤블도어의 군대,"[""덤블도어의 군대"", ""덤블도어의 군대"", ""덤블도어의 군대""]",False,False,False,False,0.4286
+Q19854858_0,entity_aware_mt,TV series,나의 아름다운 신부의 이야기는 어디에서 일어나는가?,아름다운 나의 신부,"[""아름다운 나의 신부""]",False,False,False,False,0.5
+Q19854858_0,gpt4o_mini,TV series,"""내 아름다운 신부""의 이야기는 어디에서 발생하나요?",아름다운 나의 신부,"[""아름다운 나의 신부""]",False,False,False,False,0.5
+Q19854858_0,gpt4o,TV series,내 아름다운 신부 이야기는 어디에서 일어납니까?,아름다운 나의 신부,"[""아름다운 나의 신부""]",False,False,False,False,0.5
+Q19854858_0,vanilla_mt,TV series,내 아름다운 신부의 이야기는 어디에서 일어나는가?,아름다운 나의 신부,"[""아름다운 나의 신부""]",False,False,False,False,0.5
+Q19938912_2,entity_aware_mt,Book,어떤 국가 도서관은 BnF 책 당국과 관련이 있습니까?,BnF 당국,"[""BnF 당국"", ""BnF 당국"", ""BnF 당국"", ""BnF 당국""]",False,False,False,False,0.6
+Q19938912_2,gpt4o_mini,Book,BnF와 관련된 국가 도서관은 무엇인가요?,BnF 당국,"[""BnF 당국"", ""BnF 당국"", ""BnF 당국"", ""BnF 당국""]",False,False,False,False,0.6
+Q19938912_2,gpt4o,Book,BnF 권위와 관련된 국가 도서관은 어디인가요?,BnF 당국,"[""BnF 당국"", ""BnF 당국"", ""BnF 당국"", ""BnF 당국""]",False,False,False,False,0.6
+Q19938912_2,vanilla_mt,Book,어떤 국립 도서관은 BnF 책 기관과 관련이 있습니까?,BnF 당국,"[""BnF 당국"", ""BnF 당국"", ""BnF 당국"", ""BnF 당국""]",False,False,False,False,0.6
+Q2031786_0,entity_aware_mt,Musical work,피아노 소나타 9번은 어떤 작곡을 했습니까?,피아노 소나타 9번,"[""피아노 소나타 9번"", ""피아노 소나타 9번""]",True,True,True,True,1.0
+Q2031786_0,gpt4o_mini,Musical work,피아노 소나타 제9번은 언제 작곡되었나요?,피아노 소나타 9번,"[""피아노 소나타 9번"", ""피아노 소나타 9번""]",False,False,False,False,0.75
+Q2031786_0,gpt4o,Musical work,피아노 소나타 9번은 어떤 해에 작곡되었나요?,피아노 소나타 9번,"[""피아노 소나타 9번"", ""피아노 소나타 9번""]",True,True,True,True,1.0
+Q2031786_0,vanilla_mt,Musical work,피아노 소나타 9호는 어떤 해에 작곡되었습니까?,피아노 소나타 9번,"[""피아노 소나타 9번"", ""피아노 소나타 9번""]",False,False,False,False,0.875
+Q20857824_0,entity_aware_mt,TV series,베터 레이트 댄 네버의 시즌이 얼마나 걸렸습니까?,베터 레이트 댄 네버,"[""베터 레이트 댄 네버"", ""베터 레이트 댄 네버""]",True,True,True,True,1.0
+Q20857824_0,gpt4o_mini,TV series,"""리얼리티 쇼 베터 레이트 댄 네버(Better Late Than Never)""는 총 2개의 시즌이 방영되었습니다.",베터 레이트 댄 네버,"[""베터 레이트 댄 네버"", ""베터 레이트 댄 네버""]",True,True,True,True,1.0
+Q20857824_0,gpt4o,TV series,'Better Late Than Never'는 총 몇 시즌 방영되었습니까?,베터 레이트 댄 네버,"[""베터 레이트 댄 네버"", ""베터 레이트 댄 네버""]",False,False,False,False,0.0
+Q20857824_0,vanilla_mt,TV series,얼마나 많은 시즌이 늦은 것보다 늦은가?,베터 레이트 댄 네버,"[""베터 레이트 댄 네버"", ""베터 레이트 댄 네버""]",False,False,False,False,0.125
+Q2135787_0,entity_aware_mt,Artwork,원형 폐허의 종류는 무엇입니까?,원형의 폐허들,"[""원형의 폐허들"", ""원형의 폐허들""]",False,False,False,False,0.3333
+Q2135787_0,gpt4o_mini,Artwork,"""The Circular Ruins""의 장르는 무엇인가요?",원형의 폐허들,"[""원형의 폐허들"", ""원형의 폐허들""]",False,False,False,False,0.1667
+Q2135787_0,gpt4o,Artwork,원형 폐허의 장르는 무엇인가요?,원형의 폐허들,"[""원형의 폐허들"", ""원형의 폐허들""]",False,False,False,False,0.3333
+Q2135787_0,vanilla_mt,Artwork,원형 붕괴의 종류는 무엇입니까?,원형의 폐허들,"[""원형의 폐허들"", ""원형의 폐허들""]",False,False,False,False,0.3333
+Q21511960_0,entity_aware_mt,Book,그 여름의 형식은 무엇입니까?,그해 여름,"[""그해 여름"", ""그해 여름"", ""그해 여름""]",False,False,False,False,0.5
+Q21511960_0,gpt4o_mini,Book,이 여름의 형식은 무엇인가요?,그해 여름,"[""그해 여름"", ""그해 여름"", ""그해 여름""]",False,False,False,False,0.5
+Q21511960_0,gpt4o,Book,이 원 서머의 형식은 무엇인가요?,그해 여름,"[""그해 여름"", ""그해 여름"", ""그해 여름""]",False,False,False,False,0.0
+Q21511960_0,vanilla_mt,Book,이 여름의 형식은 무엇입니까?,그해 여름,"[""그해 여름"", ""그해 여름"", ""그해 여름""]",False,False,False,False,0.5
+Q21869380_1,entity_aware_mt,Movie,바나나 대소동 영화의 종류는 무엇입니까?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",True,True,True,True,1.0
+Q21869380_1,gpt4o_mini,Movie,"영화 ""Going Bananas""의 장르는 무엇인가요?",바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.0
+Q21869380_1,gpt4o,Movie,영화 Going Bananas의 장르는 무엇인가요?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.0
+Q21869380_1,vanilla_mt,Movie,바나나를 가는 영화의 종류는 무엇입니까?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.5
+Q21869380_2,entity_aware_mt,Movie,영화 바나나 대소동은 언제 출시되었습니까?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",True,True,True,True,1.0
+Q21869380_2,gpt4o_mini,Movie,"영화 ""Going Bananas""는 언제 개봉되었나요?",바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.1667
+Q21869380_2,gpt4o,Movie,영화 고잉 바나나즈는 언제 개봉되었나요?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.5
+Q21869380_2,vanilla_mt,Movie,영화 ‘바나나 가는 것’은 언제 출시되었을까?,바나나 대소동,"[""바나나 대소동"", ""바나나 대소동"", ""바나나 대소동""]",False,False,False,False,0.5
+Q2265406_1,entity_aware_mt,Food,엉덩이 엉덩이가 전체 엉덩이와 어떻게 다릅니까?,완두 짜개,"[""완두 짜개""]",False,False,False,False,0.0
+Q2265406_1,gpt4o_mini,Food,분할된 완두콩은 통 완두콩과 어떻게 다른가요?,완두 짜개,"[""완두 짜개""]",False,False,False,False,0.5
+Q2265406_1,gpt4o,Food,쪼갠 완두콩은 전체 완두콩과 어떻게 다른가요?,완두 짜개,"[""완두 짜개""]",False,False,False,False,0.5
+Q2265406_1,vanilla_mt,Food,은 전체 과 어떻게 다릅니까?,완두 짜개,"[""완두 짜개""]",False,False,False,False,0.0
+Q2310317_1,entity_aware_mt,Artwork,신묘장구대다라니와 관련된 Bodhisattva는 누구입니까?,니라칸타-다라니,"[""니라칸타-다라니"", ""니라칸타 다라니""]",False,False,False,False,0.4286
+Q2310317_1,gpt4o_mini,Artwork,니라칸타 다라니와 관련된 보살은 누구인가요?,니라칸타-다라니,"[""니라칸타-다라니"", ""니라칸타 다라니""]",False,True,True,True,1.0
+Q2310317_1,gpt4o,Artwork,닐라칸타 다라니와 관련된 보살은 누구입니까?,니라칸타-다라니,"[""니라칸타-다라니"", ""니라칸타 다라니""]",False,False,False,False,0.8571
+Q2310317_1,vanilla_mt,Artwork,누가 Nīlakantha dhāranī와 관련된 bodyhisattva입니까?,니라칸타-다라니,"[""니라칸타-다라니"", ""니라칸타 다라니""]",False,False,False,False,0.1429
+Q231213_2,entity_aware_mt,Musical work,Mendelssohn의 교향곡 4번에 대한 간략한 설명을 제공할 수 있습니까?,교향곡 4번,"[""교향곡 4번"", ""교향곡 4번""]",True,True,True,True,1.0
+Q231213_2,gpt4o_mini,Musical work,"멘델스존의 교향곡 제4번은 ""이탈리아""라는 제목으로 널리 알려져 있으며, 1833년에 작곡되었습니다. 이 작품은 이탈리아 여행 중에 받은 영감을 바탕으로 하여 밝고 경쾌한 선율과 에너제틱한 리듬을 특징으로 합니다. 4악장으로 구성되어 있으며, 각 악장은 이탈리아의 풍경과 기분을 반영하고 있습니다. 특히 첫 번째 악장에서는 강한 생동감이 느껴지며, 마지막 악장에서는 이탈리아의 민속 음악적 요소가 잘 드러납니다. 이 교향곡은 Mendelssohn의 대표작 중 하나로 꼽히며, 낭만주의 음악의 중요한 작품으로 여겨집니다.",교향곡 4번,"[""교향곡 4번"", ""교향곡 4번""]",False,False,False,False,0.6
+Q231213_2,gpt4o,Musical work,"멘델스존의 교향곡 4번은 밝고 활기찬 선율로 특징지어지며 ""이탈리아""라는 별칭을 가지고 있다. 이 작품은 작곡가가 이탈리아 여행 중 받은 영감에 의해 탄생되었으며, 전반적으로 경쾌하고 낙천적인 분위기를 전달한다. 네 개의 악장으로 구성되며, 각 악장은 고유한 리듬과 멜로디를 통해 따뜻하고 생생한 이탈리아의 풍경을 그려낸다.",교향곡 4번,"[""교향곡 4번"", ""교향곡 4번""]",True,True,True,True,1.0
+Q231213_2,vanilla_mt,Musical work,Mendelssohn의 Symphony No. 4에 대한 간략한 설명을 제공 할 수 있습니까?,교향곡 4번,"[""교향곡 4번"", ""교향곡 4번""]",False,False,False,False,0.2
+Q235826_2,entity_aware_mt,Artwork,누가 콜롬비아의 지도자를 설계했습니까?,콜롬비아의 국장,"[""콜롬비아의 국장"", ""콜롬비아의 국장""]",False,False,False,False,0.7143
+Q235826_2,gpt4o_mini,Artwork,콜롬비아의 국장은 누구에 의해 디자인되었나요?,콜롬비아의 국장,"[""콜롬비아의 국장"", ""콜롬비아의 국장""]",True,True,True,True,1.0
+Q235826_2,gpt4o,Artwork,콜롬비아의 국가 문장을 설계한 사람은 누구입니까?,콜롬비아의 국장,"[""콜롬비아의 국장"", ""콜롬비아의 국장""]",False,False,False,False,0.8571
+Q235826_2,vanilla_mt,Artwork,누가 콜롬비아의 무기 코트를 설계했습니까?,콜롬비아의 국장,"[""콜롬비아의 국장"", ""콜롬비아의 국장""]",False,False,False,False,0.7143
+Q25245668_0,entity_aware_mt,TV series,줄리의 녹색 방의 교육적 초점은 무엇입니까?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",False,False,False,False,0.5
+Q25245668_0,gpt4o_mini,TV series,줄리의 그린룸의 교육적 초점은 무엇인가요?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",True,True,True,True,1.0
+Q25245668_0,gpt4o,TV series,줄리의 그린룸의 교육적 초점은 무엇인가요?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",True,True,True,True,1.0
+Q25245668_0,vanilla_mt,TV series,Julie의 Greenroom의 교육적 초점은 무엇입니까?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",False,False,False,False,0.1667
+Q25245668_2,entity_aware_mt,TV series,줄리의 녹색 방에 대한 대상 관객은 누구입니까?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",False,False,False,False,0.5
+Q25245668_2,gpt4o_mini,TV series,줄리의 그린룸의 주요 대상 청중은 누구인가요?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",True,True,True,True,1.0
+Q25245668_2,gpt4o,TV series,줄리의 그린룸의 목표 시청자는 누구인가요?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",True,True,True,True,1.0
+Q25245668_2,vanilla_mt,TV series,Julie's Greenroom의 대상 관객은 누구입니까?,줄리의 그린룸,"[""줄리의 그린룸"", ""줄리의 그린룸"", ""줄리의 그린룸""]",False,False,False,False,0.1667
+Q2570624_2,entity_aware_mt,Landmark,모스크바의 Radisson Royal Hotel은 언제 건설되었습니까?,호텔 우크라이나,"[""호텔 우크라이나"", ""래디슨 로얄 호텔"", ""래디슨 로열 호텔""]",False,False,False,False,0.1429
+Q2570624_2,gpt4o_mini,Landmark,모스크바의 라디슨 로얄 호텔은 언제 건설되었나요?,호텔 우크라이나,"[""호텔 우크라이나"", ""래디슨 로얄 호텔"", ""래디슨 로열 호텔""]",False,False,False,False,0.8571
+Q2570624_2,gpt4o,Landmark,모스크바의 래디슨 로열 호텔은 언제 건설되었나요?,호텔 우크라이나,"[""호텔 우크라이나"", ""래디슨 로얄 호텔"", ""래디슨 로열 호텔""]",False,True,False,True,1.0
+Q2570624_2,vanilla_mt,Landmark,모스크바의 Radisson Royal Hotel은 언제 건설되었습니까?,호텔 우크라이나,"[""호텔 우크라이나"", ""래디슨 로얄 호텔"", ""래디슨 로열 호텔""]",False,False,False,False,0.1429
+Q2634534_2,entity_aware_mt,Artwork,동부의 별은 언제 처음 출판되었습니까?,더 스타,"[""더 스타"", ""더 스타""]",False,False,False,False,0.0
+Q2634534_2,gpt4o_mini,Artwork,The Star가 처음 발행된 것은 언제인가요?,더 스타,"[""더 스타"", ""더 스타""]",False,False,False,False,0.0
+Q2634534_2,gpt4o,Artwork,The Star는 처음 언제 발행되었나요?,더 스타,"[""더 스타"", ""더 스타""]",False,False,False,False,0.0
+Q2634534_2,vanilla_mt,Artwork,스타가 언제 처음 출판되었습니까?,더 스타,"[""더 스타"", ""더 스타""]",False,False,False,False,0.6667
+Q2635530_2,entity_aware_mt,Landmark,오늘 방문객들은 키루스의 무덤에 접근 할 수 있습니까?,키루스의 무덤,"[""키루스의 무덤"", ""키루스의 무덤""]",True,True,True,True,1.0
+Q2635530_2,gpt4o_mini,Landmark,오늘 방문객들이 고레스 대왕의 무덤에 접근할 수 있나요?,키루스의 무덤,"[""키루스의 무덤"", ""키루스의 무덤""]",False,False,False,False,0.5
+Q2635530_2,gpt4o,Landmark,오늘날 방문객들이 키루스 대왕의 묘를 방문할 수 있나요?,키루스의 무덤,"[""키루스의 무덤"", ""키루스의 무덤""]",False,False,False,False,0.5
+Q2635530_2,vanilla_mt,Landmark,방문객들은 오늘 사이루스 위대한 무덤에 접근 할 수 있습니까?,키루스의 무덤,"[""키루스의 무덤"", ""키루스의 무덤""]",False,False,False,False,0.3333
+Q270785_1,entity_aware_mt,Musical work,누가 베토벤(베토벤)의 8번 곡을 작곡했는가?,교향곡 8번,"[""교향곡 8번""]",False,False,False,False,0.4
+Q270785_1,gpt4o_mini,Musical work,심포니 8번은 누구에 의해 작곡되었나요?,교향곡 8번,"[""교향곡 8번""]",False,False,False,False,0.4
+Q270785_1,gpt4o,Musical work,교향곡 8번을 작곡한 사람은 누구입니까?,교향곡 8번,"[""교향곡 8번""]",True,True,True,True,1.0
+Q270785_1,vanilla_mt,Musical work,누가 Symphony No. 8을 만들었습니까?,교향곡 8번,"[""교향곡 8번""]",False,False,False,False,0.2
+Q2717185_0,entity_aware_mt,Artwork,당신은 살인자의 건강법의 예술 작품을 어떻게 묘사 할 것인가?,살인자의 건강법,"[""살인자의 건강법"", ""살인자의 건강법""]",True,True,True,True,1.0
+Q2717185_0,gpt4o_mini,Artwork,"""위생과 암살자""의 예술 작품은 어떻게 묘사할 수 있나요?",살인자의 건강법,"[""살인자의 건강법"", ""살인자의 건강법""]",False,False,False,False,0.2857
+Q2717185_0,gpt4o,Artwork,"""위생과 암살자""의 예술 작품을 어떻게 묘사하겠습니까?",살인자의 건강법,"[""살인자의 건강법"", ""살인자의 건강법""]",False,False,False,False,0.2857
+Q2717185_0,vanilla_mt,Artwork,당신은 위생과 살인자의 예술 작품을 어떻게 묘사 할 것인가?,살인자의 건강법,"[""살인자의 건강법"", ""살인자의 건강법""]",False,False,False,False,0.5714
+Q28129997_2,entity_aware_mt,Fictional entity,아이언 스파이더 무기는 사용자에게 어떤 특별한 능력을 부여합니까?,아이언 스파이더,"[""아이언 스파이더"", ""아이언 스파이더""]",True,True,True,True,1.0
+Q28129997_2,gpt4o_mini,Fictional entity,아이언 스파이더 갑옷은 사용자에게 어떤 특별한 능력을 부여하나요?,아이언 스파이더,"[""아이언 스파이더"", ""아이언 스파이더""]",True,True,True,True,1.0
+Q28129997_2,gpt4o,Fictional entity,아이언 스파이더 아머는 사용자에게 어떤 특별한 능력을 부여하나요?,아이언 스파이더,"[""아이언 스파이더"", ""아이언 스파이더""]",True,True,True,True,1.0
+Q28129997_2,vanilla_mt,Fictional entity,아이언 스파이더 무기는 사용자에게 어떤 특별한 능력을 부여합니까?,아이언 스파이더,"[""아이언 스파이더"", ""아이언 스파이더""]",True,True,True,True,1.0
+Q28233322_0,entity_aware_mt,TV series,하늘에서 음식이 내려오면 캐나다-미국 협력이 있습니까?,하늘에서 음식이 내린다면,"[""하늘에서 음식이 내린다면"", ""하늘에서 음식이 내린다면""]",False,False,False,False,0.7273
+Q28233322_0,gpt4o_mini,TV series,"""구름 뒤에 고기볼이 올 확률""은 캐나다-미국 협력 작품인가요?",하늘에서 음식이 내린다면,"[""하늘에서 음식이 내린다면"", ""하늘에서 음식이 내린다면""]",False,False,False,False,0.0909
+Q28233322_0,gpt4o,TV series,"플래니, 스파게티와 맛보기 시즌은 캐나다-미국 공동 제작인가요?",하늘에서 음식이 내린다면,"[""하늘에서 음식이 내린다면"", ""하늘에서 음식이 내린다면""]",False,False,False,False,0.0909
+Q28233322_0,vanilla_mt,TV series,Cloudy with a Chance of Meatballs : The Series는 캐나다-미국 협력인가?,하늘에서 음식이 내린다면,"[""하늘에서 음식이 내린다면"", ""하늘에서 음식이 내린다면""]",False,False,False,False,0.0909
+Q2830455_2,entity_aware_mt,Food,레시피에서 정기적인 우유의 대체로 연고를 사용할 수 있습니까?,연유,"[""연유"", ""연유"", ""연유"", ""연유""]",False,False,False,False,0.5
+Q2830455_2,gpt4o_mini,Food,연유를 레시피에서 일반 우유 대신 사용할 수 있나요?,연유,"[""연유"", ""연유"", ""연유"", ""연유""]",True,True,True,True,1.0
+Q2830455_2,gpt4o,Food,연유를 일반 우유 대신 요리에 사용할 수 있나요?,연유,"[""연유"", ""연유"", ""연유"", ""연유""]",True,True,True,True,1.0
+Q2830455_2,vanilla_mt,Food,정기적 인 우유의 대체로 콘덴서 우유를 사용할 수 있습니까?,연유,"[""연유"", ""연유"", ""연유"", ""연유""]",False,False,False,False,0.5
+Q310805_0,entity_aware_mt,Person,셀레오코스 5세 필로메토르의 왕국은 어디에 있었습니까?,셀레우코스 5세,"[""셀레우코스 5세"", ""셀레우코스 5세"", ""셀레우코스 5세""]",False,False,False,False,0.5714
+Q310805_0,gpt4o_mini,Person,셀레우코스 5세 필로메토르의 왕국은 어디에 위치했나요?,셀레우코스 5세,"[""셀레우코스 5세"", ""셀레우코스 5세"", ""셀레우코스 5세""]",True,True,True,True,1.0
+Q310805_0,gpt4o,Person,셀레우코스 5세 필로메토르의 왕국은 어디에 위치했나요?,셀레우코스 5세,"[""셀레우코스 5세"", ""셀레우코스 5세"", ""셀레우코스 5세""]",True,True,True,True,1.0
+Q310805_0,vanilla_mt,Person,필로메토르 5세의 왕국은 어디에 있었습니까?,셀레우코스 5세,"[""셀레우코스 5세"", ""셀레우코스 5세"", ""셀레우코스 5세""]",False,False,False,False,0.2857
+Q313594_1,entity_aware_mt,Person,키르산 일리오지노프는 공공 공간에서 무엇을 알고 있습니까?,키르산 일륨지노프,"[""키르산 일륨지노프""]",False,False,False,False,0.5
+Q313594_1,gpt4o_mini,Person,Kirsan Ilyumzhinov은 공공 분야에서 무엇으로 알려져 있습니까?,키르산 일륨지노프,"[""키르산 일륨지노프""]",False,False,False,False,0.0
+Q313594_1,gpt4o,Person,키르산 일류먜노프는 대중적으로 무엇으로 알려져 있습니까?,키르산 일륨지노프,"[""키르산 일륨지노프""]",False,False,False,False,0.5
+Q313594_1,vanilla_mt,Person,Kirsan Ilyumzhinov는 공공 공간에서 무엇을 알고 있습니까?,키르산 일륨지노프,"[""키르산 일륨지노프""]",False,False,False,False,0.0
+Q336916_1,entity_aware_mt,Person,Sergio Rochet은 어떤 스포츠에서 뛰어난가요?,아베디 펠레,"[""아베디 펠레""]",False,False,False,False,0.0
+Q336916_1,gpt4o_mini,Person,세르히오 로체는 어떤 스포츠에서 뛰어난가요?,아베디 펠레,"[""아베디 펠레""]",False,False,False,False,0.0
+Q336916_1,gpt4o,Person,세르히오 로체트는 어떤 스포츠에서 뛰어난가요?,아베디 펠레,"[""아베디 펠레""]",False,False,False,False,0.0
+Q336916_1,vanilla_mt,Person,Sergio Rochet은 어떤 스포츠에서 뛰어난가요?,아베디 펠레,"[""아베디 펠레""]",False,False,False,False,0.0
+Q3393961_0,entity_aware_mt,Food,옥수수 녹말은 글루텐이없는가?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",True,True,True,True,1.0
+Q3393961_0,gpt4o_mini,Food,옥수수 전분은 글루텐이 없습니다.,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3393961_0,gpt4o,Food,옥수수 전분은 글루텐이 없나요?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3393961_0,vanilla_mt,Food,옥수수는 글루텐이없는가?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3393961_2,entity_aware_mt,Food,옥수수 녹말은 소스와 묘지에서 뚱뚱한 에이전트로 사용할 수 있습니까?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",True,True,True,True,1.0
+Q3393961_2,gpt4o_mini,Food,옥수수 전분은 소스와 그레이비의 농도를 조절하는 데 사용할 수 있나요?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3393961_2,gpt4o,Food,옥수수 전분을 소스와 육즙의 농도 조절제로 사용할 수 있나요?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3393961_2,vanilla_mt,Food,옥수수 스테이크는 소스와 묘지에서 뚱뚱한 에이전트로 사용할 수 있습니까?,옥수수 녹말,"[""옥수수 녹말"", ""옥수수 녹말""]",False,False,False,False,0.6
+Q3644406_1,entity_aware_mt,Artwork,잔인한 남자들과의 짧은 인터뷰의 저자는 누구입니까?,무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?,"[""무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.8462
+Q3644406_1,gpt4o_mini,Artwork,"""추악한 남자들에 대한 간단한 인터뷰""의 저자는 누구입니까?",무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?,"[""무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.5217
+Q3644406_1,gpt4o,Artwork,《괴물 같은 남자들과의 짧은 인터뷰》의 저자는 누구인가요?,무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?,"[""무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.7692
+Q3644406_1,vanilla_mt,Artwork,'Hideous Men'에 해당되는 글 1건,무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?,"[""무시무시한 남자와의 짧은 인터뷰의 저자는 누구입니까?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.0435
+Q3644406_2,entity_aware_mt,Artwork,당신은 끔찍한 남자와의 짧은 인터뷰에서 이야기의 짧은 요약을 제공 할 수 있습니까?,무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?,"[""무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.4615
+Q3644406_2,gpt4o_mini,Artwork,"""추악한 남자들과의 간단한 인터뷰""는 미국 작가 데이비드 포스터 월리스의 단편 소설 집합이다. 이 작품은 여러 남성들과의 인터뷰 형식으로 구성되어 있으며, 각 인터뷰는 그들의 복잡한 심리, 인간 관계, 그리고 사랑과 고뇌에 대한 깊은 통찰을 던진다. 이야기들은 종종 냉소적이고, 자아 탐구의 과정을 통해 남성들의 불안과 결함을 드러낸다. 이들은 다양한 사회적, 개인적 문제와 맞닥뜨리며, 그들의 진솔한 감정을 공유하게 된다.",무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?,"[""무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.6154
+Q3644406_2,gpt4o,Artwork,"""끔찍한 남자들과의 짧은 만남""의 줄거리를 간략히 요약해 주세요.",무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?,"[""무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.6154
+Q3644406_2,vanilla_mt,Artwork,Hideous 남자와의 짧은 인터뷰에서 이야기의 짧은 요약을 제공 할 수 있습니까?,무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?,"[""무시무시한 남자와의 짧은 인터뷰의 줄거리를 간략하게 요약해 주실 수 있나요?"", ""추악한 남자들과의 짧은 인터뷰""]",False,False,False,False,0.4615
+Q3943166_2,entity_aware_mt,Book series,원시소년 류우 시리즈는 젊은 독자/시청자의 상상력을 어떻게 캡처합니까?,원시소년 류우,"[""원시소년 류우"", ""원시소년 류우""]",True,True,True,True,1.0
+Q3943166_2,gpt4o_mini,Book series,"류, 동굴 소년 시리즈는 어떻게 젊은 독자/시청자의 상상을 사로잡는가?",원시소년 류우,"[""원시소년 류우"", ""원시소년 류우""]",False,False,False,False,0.3333
+Q3943166_2,gpt4o,Book series,류 동굴 소년 시리즈는 어떻게 어린 독자/시청자의 상상력을 사로잡나요?,원시소년 류우,"[""원시소년 류우"", ""원시소년 류우""]",False,False,False,False,0.3333
+Q3943166_2,vanilla_mt,Book series,"Ryu, Cave Boy 시리즈는 젊은 독자/시청자의 상상력을 어떻게 캡처합니까?",원시소년 류우,"[""원시소년 류우"", ""원시소년 류우""]",False,False,False,False,0.1667
+Q404571_2,entity_aware_mt,Landmark,카잔 성당과 어떤 종교적 명칭이 연결되어 있습니까?,카잔 대성당,"[""카잔 대성당"", ""카잔 대성당""]",False,False,False,False,0.4
+Q404571_2,gpt4o_mini,Landmark,카잔 대성당과 관련된 종교 교파는 무엇인가요?,카잔 대성당,"[""카잔 대성당"", ""카잔 대성당""]",True,True,True,True,1.0
+Q404571_2,gpt4o,Landmark,카잔 대성당은 러시아 정교회와 관련이 있습니다.,카잔 대성당,"[""카잔 대성당"", ""카잔 대성당""]",True,True,True,True,1.0
+Q404571_2,vanilla_mt,Landmark,카잔 성당과 어떤 종교적 명칭이 연결되어 있습니까?,카잔 대성당,"[""카잔 대성당"", ""카잔 대성당""]",False,False,False,False,0.4
+Q4179831_0,entity_aware_mt,Artwork,여자가 없는 남자들에 대해 탐구하는 주요 주제는 무엇입니까?,여자 없는 남자들,"[""여자 없는 남자들"", ""여자 없는 남자들""]",False,False,False,False,0.7143
+Q4179831_0,gpt4o_mini,Artwork,"""여자 없는 남자들""에서 탐구되는 주요 주제는 무엇인가요?",여자 없는 남자들,"[""여자 없는 남자들"", ""여자 없는 남자들""]",True,True,True,True,1.0
+Q4179831_0,gpt4o,Artwork,여자 없는 남자들에서 탐구되는 주요 테마는 무엇인가?,여자 없는 남자들,"[""여자 없는 남자들"", ""여자 없는 남자들""]",True,True,True,True,1.0
+Q4179831_0,vanilla_mt,Artwork,여성이 없는 남성에서 탐구한 주요 주제는 무엇입니까?,여자 없는 남자들,"[""여자 없는 남자들"", ""여자 없는 남자들""]",False,False,False,False,0.4286
+Q431093_2,entity_aware_mt,Movie,Sunrise의 종류는 무엇입니까?,선라이즈,"[""선라이즈""]",False,False,False,False,0.0
+Q431093_2,gpt4o_mini,Movie,"""썬라이즈: 두 인간의 노래""의 장르는 무엇인가요?",선라이즈,"[""선라이즈""]",False,False,False,False,0.75
+Q431093_2,gpt4o,Movie,선라이즈: 두 인간의 노래의 장르는 무엇인가요?,선라이즈,"[""선라이즈""]",True,True,True,True,1.0
+Q431093_2,vanilla_mt,Movie,Sunrise: A Song of Two Humans의 발음을 Sunrise: A Song of Two Humans [en],선라이즈,"[""선라이즈""]",False,False,False,False,0.0
+Q4330144_1,entity_aware_mt,Artwork,과학 판타지 책 제국보다 광범위하고 느린 저자는 누구입니까?,제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.3846
+Q4330144_1,gpt4o_mini,Artwork,"""Vaster than Empires and More Slow""의 저자는 테드 창입니다.",제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.0769
+Q4330144_1,gpt4o,Artwork,"과학 소설 ""Vaster than Empires and More Slow""의 저자는 누구인가요?",제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.0
+Q4330144_1,vanilla_mt,Artwork,과학 판타지 책 Vaster than Empires and More Slow의 저자는 누구입니까?,제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.0
+Q4330144_2,entity_aware_mt,Artwork,언제 제국보다 광범위하고 느리게 처음 출판되었습니까?,제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.3846
+Q4330144_2,gpt4o_mini,Artwork,"""Vaster than Empires and More Slow""는 1971년에 처음 출판되었습니다.",제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.0769
+Q4330144_2,gpt4o,Artwork,《제국보다 광대하고 더욱 느리게》는 언제 처음 출판되었나요?,제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",True,True,True,True,1.0
+Q4330144_2,vanilla_mt,Artwork,제국보다 더 나쁜 것과 더 느린 것이 처음으로 언제 출판되었습니까?,제국보다 광대하고 더욱 느리게,"[""제국보다 광대하고 더욱 느리게"", ""제국보다 광대하고 더욱 느리게""]",False,False,False,False,0.3077
+Q437383_1,entity_aware_mt,Artwork,Frank Herbert의 의 메시아의 주제는 무엇입니까?,듄의 메시아,"[""듄의 메시아"", ""듄의 메시아""]",False,False,False,False,0.8
+Q437383_1,gpt4o_mini,Artwork,프랭크 허버트의 듄 메시아의 주제는 무엇인가요?,듄의 메시아,"[""듄의 메시아"", ""듄의 메시아""]",False,False,False,False,0.6
+Q437383_1,gpt4o,Artwork,"프랭크 허버트의 ""듄 메시아""의 주제는 무엇입니까?",듄의 메시아,"[""듄의 메시아"", ""듄의 메시아""]",False,False,False,False,0.6
+Q437383_1,vanilla_mt,Artwork,Frank Herbert의 Dune Messiah의 주제는 무엇입니까?,듄의 메시아,"[""듄의 메시아"", ""듄의 메시아""]",False,False,False,False,0.2
+Q4374095_0,entity_aware_mt,Landmark,주루시아 에스토니아 대사관의 공식 이름은 무엇입니까?,모스크바 주재 에스토니아 대사관,"[""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관""]",False,False,False,False,0.5714
+Q4374095_0,gpt4o_mini,Landmark,에스토니아 대사관의 공식 명칭은 무엇인가요?,모스크바 주재 에스토니아 대사관,"[""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관""]",False,False,False,False,0.5714
+Q4374095_0,gpt4o,Landmark,주 모스크바 에스토니아 대사관,모스크바 주재 에스토니아 대사관,"[""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관""]",False,False,False,False,0.5714
+Q4374095_0,vanilla_mt,Landmark,모스크바에 있는 에스토니아 대사관의 공식 이름은 무엇입니까?,모스크바 주재 에스토니아 대사관,"[""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관"", ""모스크바 주재 에스토니아 대사관""]",False,False,False,False,0.5714
+Q437869_1,entity_aware_mt,Person,폰토스의 에바그리오스는 무엇을 알고 있습니까?,폰토스의 에바그리오스,"[""폰토스의 에바그리오스"", ""폰토스의 에바그리오스""]",True,True,True,True,1.0
+Q437869_1,gpt4o_mini,Person,에바그리우스 폰티쿠스는 무엇으로 알려져 있습니까?,폰토스의 에바그리오스,"[""폰토스의 에바그리오스"", ""폰토스의 에바그리오스""]",False,False,False,False,0.4
+Q437869_1,gpt4o,Person,에바그리우스 폰티쿠스는 무엇으로 알려져 있었나요?,폰토스의 에바그리오스,"[""폰토스의 에바그리오스"", ""폰토스의 에바그리오스""]",False,False,False,False,0.4
+Q437869_1,vanilla_mt,Person,Evagrius Ponticus는 무엇을 알고 있습니까?,폰토스의 에바그리오스,"[""폰토스의 에바그리오스"", ""폰토스의 에바그리오스""]",False,False,False,False,0.0
+Q4390286_0,entity_aware_mt,TV series,언제 텔레비전 시리즈 달콤한 내 도시 첫 공기를 만들었습니까?,나의 달콤한 도시,"[""나의 달콤한 도시"", ""나의 달콤한 도시"", ""달콤한 나의 도시""]",False,False,False,False,0.4286
+Q4390286_0,gpt4o_mini,TV series,드라마 '내 사랑 도시'는 언제 처음 방영되었나요?,나의 달콤한 도시,"[""나의 달콤한 도시"", ""나의 달콤한 도시"", ""달콤한 나의 도시""]",False,False,False,False,0.2857
+Q4390286_0,gpt4o,TV series,"드라마 ""달콤한 나의 도시""는 언제 처음 방영되었습니까?",나의 달콤한 도시,"[""나의 달콤한 도시"", ""나의 달콤한 도시"", ""달콤한 나의 도시""]",False,True,False,True,1.0
+Q4390286_0,vanilla_mt,TV series,텔레비전 시리즈 '내 달콤한 도시'는 언제 처음으로 날아갔습니까?,나의 달콤한 도시,"[""나의 달콤한 도시"", ""나의 달콤한 도시"", ""달콤한 나의 도시""]",False,False,False,False,0.7143
+Q44261_1,entity_aware_mt,Musical work,누가 유명한 피아노 콘서트를 만들었습니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",False,False,False,False,0.5
+Q44261_1,gpt4o_mini,Musical work,누가 유명한 피아노 협주곡을 작곡했나요?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",True,True,True,True,1.0
+Q44261_1,gpt4o,Musical work,유명한 피아노 협주곡을 작곡한 사람은 누구입니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",True,True,True,True,1.0
+Q44261_1,vanilla_mt,Musical work,누가 유명한 피아노 콘서트를 만들었습니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",False,False,False,False,0.5
+Q44261_2,entity_aware_mt,Musical work,그레이그의 피아노 콘서트 노래는 어떤 열쇠에 기록되어 있습니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",False,False,False,False,0.5
+Q44261_2,gpt4o_mini,Musical work,그리그의 피아노 협주곡은 A단조로 작곡되었습니다.,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",True,True,True,True,1.0
+Q44261_2,gpt4o,Musical work,그리그의 피아노 협주곡은 어떤 조로 쓰여졌습니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",True,True,True,True,1.0
+Q44261_2,vanilla_mt,Musical work,그레이그의 피아노 콘서트는 어떤 열쇠에 기록되어 있습니까?,피아노 협주곡,"[""피아노 협주곡"", ""피아노 협주곡""]",False,False,False,False,0.5
+Q462372_0,entity_aware_mt,Place of worship,"오늘 황학루를 방문할 수 있고, 그렇다면 제한이 있습니까?",황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_0,gpt4o_mini,Place of worship,"오늘 황학루를 방문할 수 있나요? 가능하다면, 어떤 제한이 있나요?",황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_0,gpt4o,Place of worship,오늘 황학루를 방문할 수 있나요? 방문 제한이 있나요?,황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_0,vanilla_mt,Place of worship,"오늘 Yellow Crane Tower를 방문할 수 있으며, 그렇다면 제한이 있습니까?",황학루,"[""황학루"", ""황학루""]",False,False,False,False,0.0
+Q462372_2,entity_aware_mt,Place of worship,황학루는 얼마나 높고 어떤 건축 스타일을 나타냅니까?,황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_2,gpt4o_mini,Place of worship,"황학루의 높이는 얼마나 되며, 어떤 건축 양식을 대표하나요?",황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_2,gpt4o,Place of worship,황학루의 높이는 얼마이며 어떤 건축 양식을 대표하나요?,황학루,"[""황학루"", ""황학루""]",True,True,True,True,1.0
+Q462372_2,vanilla_mt,Place of worship,Yellow Crane Tower는 얼마나 높고 어떤 건축 스타일을 나타냅니까?,황학루,"[""황학루"", ""황학루""]",False,False,False,False,0.0
+Q48203_1,entity_aware_mt,Artwork,로마 신자들에게 보내진 서간의 저자는 누구입니까?,로마서,"[""로마서"", ""로마서""]",False,False,False,False,0.6667
+Q48203_1,gpt4o_mini,Artwork,로마서의 저자는 누구인가요?,로마서,"[""로마서"", ""로마서""]",True,True,True,True,1.0
+Q48203_1,gpt4o,Artwork,로마서의 저자는 누구입니까?,로마서,"[""로마서"", ""로마서""]",True,True,True,True,1.0
+Q48203_1,vanilla_mt,Artwork,로마인들에게 보내는 편지의 저자는 누구입니까?,로마서,"[""로마서"", ""로마서""]",False,False,False,False,0.6667
+Q48203_2,entity_aware_mt,Artwork,성경의 어떤 부분에서 로마 신자들에게 보내는 서간을 찾을 수 있습니까?,로마서,"[""로마서"", ""로마서""]",False,False,False,False,0.6667
+Q48203_2,gpt4o_mini,Artwork,로마서가 성경의 어느 부분에 있는지?,로마서,"[""로마서"", ""로마서""]",True,True,True,True,1.0
+Q48203_2,gpt4o,Artwork,로마서가 포함된 성경의 부분은 어디입니까?,로마서,"[""로마서"", ""로마서""]",True,True,True,True,1.0
+Q48203_2,vanilla_mt,Artwork,성경의 어느 부분에서 로마인들에게 보내는 편지를 찾을 수 있습니까?,로마서,"[""로마서"", ""로마서""]",False,False,False,False,0.6667
+Q485094_0,entity_aware_mt,TV series,그렇다면 텔레비전 시리즈는 어디에 있는 것일까?,그저 바라보다가,"[""그저 바라보다가"", ""그저 바라보다가"", ""그저 바라보다가""]",False,False,False,False,0.1429
+Q485094_0,gpt4o_mini,TV series,《우연한 사랑》 TV 시리즈는 어디에서 진행되나요?,그저 바라보다가,"[""그저 바라보다가"", ""그저 바라보다가"", ""그저 바라보다가""]",False,False,False,False,0.0
+Q485094_0,gpt4o,TV series,"""그저 바라보다가"" 드라마는 대한민국에서 배경으로 합니다.",그저 바라보다가,"[""그저 바라보다가"", ""그저 바라보다가"", ""그저 바라보다가""]",True,True,True,True,1.0
+Q485094_0,vanilla_mt,TV series,우연한 커플 TV 시리즈는 어디에서 일어나고 있습니까?,그저 바라보다가,"[""그저 바라보다가"", ""그저 바라보다가"", ""그저 바라보다가""]",False,False,False,False,0.0
+Q48518346_2,entity_aware_mt,TV series,우리가 만난 기적의 이야기는 어디에서 일어나는가?,우리가 만난 기적,"[""우리가 만난 기적"", ""우리가 만난 기적""]",True,True,True,True,1.0
+Q48518346_2,gpt4o_mini,TV series,"""우리가 만난 기적"" 이야기는 어디에서 벌어지나요?",우리가 만난 기적,"[""우리가 만난 기적"", ""우리가 만난 기적""]",True,True,True,True,1.0
+Q48518346_2,gpt4o,TV series,'우리가 만난 기적'의 이야기는 어디에서 진행되나요?,우리가 만난 기적,"[""우리가 만난 기적"", ""우리가 만난 기적""]",True,True,True,True,1.0
+Q48518346_2,vanilla_mt,TV series,우리가 만난 기적의 이야기는 어디에서 일어나는가?,우리가 만난 기적,"[""우리가 만난 기적"", ""우리가 만난 기적""]",True,True,True,True,1.0
+Q4921115_2,entity_aware_mt,Fictional entity,네이선 가렛의 환상적인 본성은 무엇입니까?,네이선 개릿,"[""네이선 개릿"", ""네이선 개릿""]",False,False,False,False,0.6
+Q4921115_2,gpt4o_mini,Fictional entity,네이선 개릿의 허구적 성격은 무엇인가요?,네이선 개릿,"[""네이선 개릿"", ""네이선 개릿""]",True,True,True,True,1.0
+Q4921115_2,gpt4o,Fictional entity,내서해김 네이슨 개럿의 허구적 본질은 무엇입니까?,네이선 개릿,"[""네이선 개릿"", ""네이선 개릿""]",False,False,False,False,0.4
+Q4921115_2,vanilla_mt,Fictional entity,Nathan Garrett의 환상적인 본성은 무엇입니까?,네이선 개릿,"[""네이선 개릿"", ""네이선 개릿""]",False,False,False,False,0.0
+Q492936_0,entity_aware_mt,TV series,환상적인 커플이 언제 처음 출연했습니까?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.4
+Q492936_0,gpt4o_mini,TV series,커플 혹은 트러블은 언제 첫 방송되었나요?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.4286
+Q492936_0,gpt4o,TV series,"""환상의 커플""은 언제 처음 방영되었나요?",환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",True,True,True,True,1.0
+Q492936_0,vanilla_mt,TV series,부부 또는 문제는 언제 처음 발표되었습니까?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.6667
+Q492936_2,entity_aware_mt,TV series,얼마나 많은 에피소드가 환상적인 커플 TV 시리즈에 있습니까?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.4
+Q492936_2,gpt4o_mini,TV series,커플 혹은 트러블 TV 시리즈는 몇 개의 에피소드가 있나요?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.4286
+Q492936_2,gpt4o,TV series,커플링은 몇 회의 에피소드로 이루어져 있습니까?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,False,False,False,0.4
+Q492936_2,vanilla_mt,TV series,커플 또는 문제 TV 시리즈에는 얼마나 많은 에피소드가 있습니까?,환상의 커플,"[""환상의 커플"", ""커플 또는 트러블"", ""커플 또는 문제""]",False,True,False,True,1.0
+Q502080_1,entity_aware_mt,Movie,영화의 군인의 아버지가 언제 풀려났습니까?,병사의 아버지,"[""병사의 아버지""]",False,False,False,False,0.6667
+Q502080_1,gpt4o_mini,Movie,"""병사의 아버지"" 영화는 언제 개봉되었나요?",병사의 아버지,"[""병사의 아버지""]",True,True,True,True,1.0
+Q502080_1,gpt4o,Movie,"영화 ""병사의 아버지""는 언제 개봉되었습니까?",병사의 아버지,"[""병사의 아버지""]",True,True,True,True,1.0
+Q502080_1,vanilla_mt,Movie,영화 ‘군인의 아버지’는 언제 출시되었습니까?,병사의 아버지,"[""병사의 아버지""]",False,False,False,False,0.6667
+Q502080_2,entity_aware_mt,Movie,영화의 아버지의 주요 주제는 무엇입니까?,병사의 아버지,"[""병사의 아버지""]",False,False,False,False,0.6667
+Q502080_2,gpt4o_mini,Movie,"영화 ""아버지의 병사""의 주요 주제는 무엇인가요?",병사의 아버지,"[""병사의 아버지""]",False,False,False,False,0.5
+Q502080_2,gpt4o,Movie,"영화 ""병사의 아버지""의 주요 주제는 무엇입니까?",병사의 아버지,"[""병사의 아버지""]",True,True,True,True,1.0
+Q502080_2,vanilla_mt,Movie,영화 ‘군인의 아버지’의 주제는 무엇인가?,병사의 아버지,"[""병사의 아버지""]",False,False,False,False,0.6667
+Q521659_0,entity_aware_mt,Fictional entity,봉고레 가족의 주요 목표는 무엇입니까?,봉고레 패밀리,"[""봉고레 패밀리"", ""봉고레 패밀리""]",False,False,False,False,0.5
+Q521659_0,gpt4o_mini,Fictional entity,봉골라 가족의 주요 목표는 무엇인가요?,봉고레 패밀리,"[""봉고레 패밀리"", ""봉고레 패밀리""]",False,False,False,False,0.1667
+Q521659_0,gpt4o,Fictional entity,봉고레 패밀리의 주된 목표는 무엇입니까?,봉고레 패밀리,"[""봉고레 패밀리"", ""봉고레 패밀리""]",True,True,True,True,1.0
+Q521659_0,vanilla_mt,Fictional entity,Vongola 가족의 주요 목표는 무엇입니까?,봉고레 패밀리,"[""봉고레 패밀리"", ""봉고레 패밀리""]",False,False,False,False,0.0
+Q538250_0,entity_aware_mt,Person,크림슨 애벤저는 동맹국이 있습니까?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저"", ""크림슨 어벤저""]",False,False,False,False,0.5
+Q538250_0,gpt4o_mini,Person,크림슨 어벤저에게 동료가 있나요?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저"", ""크림슨 어벤저""]",True,True,True,True,1.0
+Q538250_0,gpt4o,Person,크림슨 어벤저에게 동맹이 있나요?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저"", ""크림슨 어벤저""]",True,True,True,True,1.0
+Q538250_0,vanilla_mt,Person,Crimson Avenger는 동맹국이 있습니까?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저"", ""크림슨 어벤저""]",False,False,False,False,0.0
+Q538250_2,entity_aware_mt,Person,크림슨 애벤저의 슈퍼파워는 무엇입니까?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저""]",False,False,False,False,0.5
+Q538250_2,gpt4o_mini,Person,크림슨 어벤져의 슈퍼파워는 무엇인가요?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저""]",False,False,False,False,0.8333
+Q538250_2,gpt4o,Person,크림슨 어벤저의 초능력은 무엇입니까?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저""]",True,True,True,True,1.0
+Q538250_2,vanilla_mt,Person,Crimson Avenger의 슈퍼파워는 무엇입니까?,크림슨 어벤저,"[""크림슨 어벤저"", ""크림슨 어벤저""]",False,False,False,False,0.0
+Q552179_0,entity_aware_mt,Fictional entity,하일브론의 유령과 관련된 범죄 장면에서 발견 된 DNA에 대한 놀라운 발견은 무엇입니까?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령"", ""하일브론의 유령""]",True,True,True,True,1.0
+Q552179_0,gpt4o_mini,Fictional entity,하일브론의 팬텀과 관련된 범죄 현장에서 발견된 DNA에 대한 놀라운 발견은 무엇이었나요?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령"", ""하일브론의 유령""]",False,False,False,False,0.7143
+Q552179_0,gpt4o,Fictional entity,하일브론의 유령과 관련된 범죄 현장에서 발견된 DNA에 대한 놀라운 발견은 무엇이었나요?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령"", ""하일브론의 유령""]",True,True,True,True,1.0
+Q552179_0,vanilla_mt,Fictional entity,Heilbronn의 환상과 관련된 범죄 장면에서 발견 된 DNA에 대한 놀라운 발견은 무엇입니까?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령"", ""하일브론의 유령""]",False,False,False,False,0.1429
+Q552179_2,entity_aware_mt,Fictional entity,하일브론의 유령이 존재하지 않았다는 것을 언제 알게 되었습니까?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령""]",True,True,True,True,1.0
+Q552179_2,gpt4o_mini,Fictional entity,헤일브론의 유령이 존재하지 않았던 것으로 알려지게 된 것은 언제인가요?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령""]",False,False,False,False,0.8571
+Q552179_2,gpt4o,Fictional entity,하일브론의 유령이 존재하지 않는다는 것이 언제부터 알려졌습니까?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령""]",True,True,True,True,1.0
+Q552179_2,vanilla_mt,Fictional entity,헤일브론의 환상이 존재하지 않았다는 것을 언제 알게 되었습니까?,하일브론의 유령,"[""하일브론의 유령"", ""하일브론의 유령""]",False,False,False,False,0.5714
+Q56451707_0,entity_aware_mt,TV series,TV 시리즈 '나인룸'에서 얼마나 많은 에피소드가 있습니까?,나인룸,"[""나인룸"", ""나인룸"", ""나인룸""]",True,True,True,True,1.0
+Q56451707_0,gpt4o_mini,TV series,TV 시리즈 '룸 No. 9'에는 몇 개의 에피소드가 있나요?,나인룸,"[""나인룸"", ""나인룸"", ""나인룸""]",False,False,False,False,0.3333
+Q56451707_0,gpt4o,TV series,'나인룸' TV 시리즈는 총 몇 개의 에피소드가 있나요?,나인룸,"[""나인룸"", ""나인룸"", ""나인룸""]",True,True,True,True,1.0
+Q56451707_0,vanilla_mt,TV series,TV 시리즈 'Room No. 9'에서 얼마나 많은 에피소드가 있습니까?,나인룸,"[""나인룸"", ""나인룸"", ""나인룸""]",False,False,False,False,0.3333
+Q56457360_0,entity_aware_mt,TV series,TV 시리즈에는 얼마나 많은 에피소드가 있으므로 나는 안티 팬과 결혼했습니다 (드라마)?,그래서 나는 안티팬과 결혼했다,"[""그래서 나는 안티팬과 결혼했다""]",False,False,False,False,0.6923
+Q56457360_0,gpt4o_mini,TV series,"TV 시리즈 ""그래서 나는 안티팬과 결혼했다""에는 몇 개의 에피소드가 있나요?",그래서 나는 안티팬과 결혼했다,"[""그래서 나는 안티팬과 결혼했다""]",True,True,True,True,1.0
+Q56457360_0,gpt4o,TV series,'그래서 나는 안티팬과 결혼했다'는 총 몇 화인가요?,그래서 나는 안티팬과 결혼했다,"[""그래서 나는 안티팬과 결혼했다""]",True,True,True,True,1.0
+Q56457360_0,vanilla_mt,TV series,TV 시리즈에서 얼마나 많은 에피소드가 있습니까 그래서 나는 반 팬과 결혼합니까?,그래서 나는 안티팬과 결혼했다,"[""그래서 나는 안티팬과 결혼했다""]",False,False,False,False,0.3846
+Q571559_1,entity_aware_mt,Person,라울 드 로렌은 어떤 역할을 했습니까?,라울 드 로렌,"[""라울 드 로렌"", ""라울 드 로렌 공작는 어떤 역할을 했나요?""]",True,True,True,True,1.0
+Q571559_1,gpt4o_mini,Person,루돌프 로렌 공작은 어떤 역할을 했나요?,라울 드 로렌,"[""라울 드 로렌"", ""라울 드 로렌 공작는 어떤 역할을 했나요?""]",False,False,False,False,0.5
+Q571559_1,gpt4o,Person,"루돌프, 로레인 공작은 어떤 직위를 맡았습니까?",라울 드 로렌,"[""라울 드 로렌"", ""라울 드 로렌 공작는 어떤 역할을 했나요?""]",False,False,False,False,0.2
+Q571559_1,vanilla_mt,Person,"루돌프, 로레나 공작은 어떤 역할을 했습니까?",라울 드 로렌,"[""라울 드 로렌"", ""라울 드 로렌 공작는 어떤 역할을 했나요?""]",False,False,False,False,0.375
+Q573426_0,entity_aware_mt,Artwork,어떤 색상이 프로세스의 지도자에 사용되고 있습니까?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 국장""]",False,False,False,False,0.2857
+Q573426_0,gpt4o_mini,Artwork,프로이센의 문장에서는 어떤 색상이 사용되나요?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 국장""]",False,False,False,False,0.7143
+Q573426_0,gpt4o,Artwork,프로이센의 문장에서 사용된 색상은 무엇인가요?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 국장""]",False,False,False,False,0.7143
+Q573426_0,vanilla_mt,Artwork,프루시아의 옷장에 사용되는 색상은 무엇입니까?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 국장""]",False,False,False,False,0.1429
+Q573426_1,entity_aware_mt,Artwork,프루센의 지도자는 어떻게 국가의 역사와 가치를 상징했습니까?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했는가?""]",False,False,False,False,0.2857
+Q573426_1,gpt4o_mini,Artwork,프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했습니까?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했는가?""]",False,False,False,False,0.9231
+Q573426_1,gpt4o,Artwork,프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했나요?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했는가?""]",False,False,False,False,0.9231
+Q573426_1,vanilla_mt,Artwork,프루시아의 무기 코트는 어떻게 국가의 역사와 가치를 상징했습니까?,프로이센의 국장,"[""프로이센의 국장"", ""프로이센의 문장은 그 나라의 역사와 가치를 어떻게 상징했는가?""]",False,False,False,False,0.2692
+Q581426_1,entity_aware_mt,Artwork,핏빛자오선의 예술 작품의 저자는 누구입니까?,핏빛자오선,"[""핏빛자오선"", ""핏빛자오선""]",True,True,True,True,1.0
+Q581426_1,gpt4o_mini,Artwork,"""블러드 메리디안""의 저자는 누구인가요?",핏빛자오선,"[""핏빛자오선"", ""핏빛자오선""]",False,False,False,False,0.2
+Q581426_1,gpt4o,Artwork,"""블러드 메리디언""의 저자는 누구입니까?",핏빛자오선,"[""핏빛자오선"", ""핏빛자오선""]",False,False,False,False,0.2
+Q581426_1,vanilla_mt,Artwork,Blood Meridian의 저자는 누구입니까?,핏빛자오선,"[""핏빛자오선"", ""핏빛자오선""]",False,False,False,False,0.2
+Q58773_0,entity_aware_mt,Person,브라운슈바이크 공작 카를 빌헬름 페르디난트의 몇 가지 눈에 띄는 성과는 무엇입니까?,브라운슈바이크 공작 카를 빌헬름 페르디난트,"[""브라운슈바이크 공작 카를 빌헬름 페르디난트"", ""브라운슈바이크 공작 카를 빌헬름 페르디난트""]",True,True,True,True,1.0
+Q58773_0,gpt4o_mini,Person,"찰스 윌리엄 페르디난트, 브런부르크-볼펜뷔텔 공작의 주목할 만한 업적은 무엇이었나요?",브라운슈바이크 공작 카를 빌헬름 페르디난트,"[""브라운슈바이크 공작 카를 빌헬름 페르디난트"", ""브라운슈바이크 공작 카를 빌헬름 페르디난트""]",False,False,False,False,0.2632
+Q58773_0,gpt4o,Person,찰스 윌리엄 페르디난드 브라운슈바이크뷔텔 공작의 주목할 만한 업적은 무엇이었나요?,브라운슈바이크 공작 카를 빌헬름 페르디난트,"[""브라운슈바이크 공작 카를 빌헬름 페르디난트"", ""브라운슈바이크 공작 카를 빌헬름 페르디난트""]",False,False,False,False,0.3684
+Q58773_0,vanilla_mt,Person,"찰스 윌리엄 페르디난드 (Charles William Ferdinand, Duke of Brunswick-Wolfenbüttel)의 주목할만한 성과는 무엇이었습니까?",브라운슈바이크 공작 카를 빌헬름 페르디난트,"[""브라운슈바이크 공작 카를 빌헬름 페르디난트"", ""브라운슈바이크 공작 카를 빌헬름 페르디난트""]",False,False,False,False,0.2105
+Q59346_1,entity_aware_mt,Movie,샤도우 헌터스: 뼈의 도시가 언제 풀려났습니까?,섀도우 헌터스: 뼈의 도시,"[""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시.""]",False,False,False,False,0.9
+Q59346_1,gpt4o_mini,Movie,"""모탈 인스트루먼트: 뼈의 도시""는 언제 개봉되었나요?",섀도우 헌터스: 뼈의 도시,"[""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시.""]",False,False,False,False,0.4
+Q59346_1,gpt4o,Movie,섀도우 헌터스: 뼈의 도시(영화)는 언제 개봉했나요?,섀도우 헌터스: 뼈의 도시,"[""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시.""]",True,True,True,True,1.0
+Q59346_1,vanilla_mt,Movie,Mortal Instruments: City of Bones는 언제 출시되었습니까?,섀도우 헌터스: 뼈의 도시,"[""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시"", ""섀도우 헌터스: 뼈의 도시.""]",False,False,False,False,0.1
+Q599191_2,entity_aware_mt,Artwork,타지크 소련 사회주의 공화국의 지휘관의 디자인 뒤에있는 아티스트는 누구입니까?,타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?,"[""타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?"", ""타지크 소비에트 사회주의 공화국의 국장""]",False,False,False,False,0.4706
+Q599191_2,gpt4o_mini,Artwork,타지키스탄 소비에트 사회주의 공화국의 엠블럼 디자인 뒤에 있던 아티스트는 누구인가요?,타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?,"[""타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?"", ""타지크 소비에트 사회주의 공화국의 국장""]",False,False,False,False,0.7059
+Q599191_2,gpt4o,Artwork,타지크 소비에트 사회주의 공화국의 엠블럼 디자인을 담당한 예술가는 누구였습니까?,타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?,"[""타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?"", ""타지크 소비에트 사회주의 공화국의 국장""]",False,False,False,False,0.8824
+Q599191_2,vanilla_mt,Artwork,타지크 소련 사회주의 공화국의 상징의 디자인 뒤에있는 아티스트는 누구입니까?,타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?,"[""타직 소비에트 사회주의 공화국 엠블럼 디자인의 배후에 있는 예술가는 누구였습니까?"", ""타지크 소비에트 사회주의 공화국의 국장""]",False,False,False,False,0.4706
+Q60992353_0,entity_aware_mt,TV series,시리즈는 언제 처음 출간되었습니까?,진나라 서사시,"[""진나라 서사시"", ""진나라 서사시"", ""대진부"", ""대진부""]",False,False,False,False,0.1667
+Q60992353_0,gpt4o_mini,TV series,진나라 서사시가 처음 방영된 것은 언제인가요?,진나라 서사시,"[""진나라 서사시"", ""진나라 서사시"", ""대진부"", ""대진부""]",True,True,True,True,1.0
+Q60992353_0,gpt4o,TV series,진시황 에픽 시리즈는 언제 처음 방영되었나요?,진나라 서사시,"[""진나라 서사시"", ""진나라 서사시"", ""대진부"", ""대진부""]",False,False,False,False,0.3333
+Q60992353_0,vanilla_mt,TV series,Qin Dynasty Epic 시리즈는 언제 처음 방송되었습니까?,진나라 서사시,"[""진나라 서사시"", ""진나라 서사시"", ""대진부"", ""대진부""]",False,False,False,False,0.1667
+Q616491_0,entity_aware_mt,Movie,영화 사랑 위드 더 프로퍼 스트레인저의 주요 스타는 누구입니까?,러브 위드 더 프로퍼 스트레인저,"[""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저""]",False,False,False,False,0.8462
+Q616491_0,gpt4o_mini,Movie,"영화 ""사랑, 그 적절한 낯선 사람""의 주요 출연자는 누구인가요?",러브 위드 더 프로퍼 스트레인저,"[""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저""]",False,False,False,False,0.0769
+Q616491_0,gpt4o,Movie,"영화 ""사랑하는 사람과의 제대로 된 사랑""의 주인공은 누구인가요?",러브 위드 더 프로퍼 스트레인저,"[""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저""]",False,False,False,False,0.0769
+Q616491_0,vanilla_mt,Movie,영화 ‘좋은 낯선 사람과 사랑’의 주인공은 누구인가?,러브 위드 더 프로퍼 스트레인저,"[""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저"", ""러브 위드 더 프로퍼 스트레인저""]",False,False,False,False,0.0769
+Q643999_2,entity_aware_mt,Artwork,영국의 지도자는 어떤 역사적 의미를 가지고 있습니까?,잉글랜드의 국장,"[""잉글랜드의 국장"", ""잉글랜드의 국장""]",False,False,False,False,0.1429
+Q643999_2,gpt4o_mini,Artwork,영국의 왕실 문장은 어떤 역사적 의미를 가지고 있습니까?,잉글랜드의 국장,"[""잉글랜드의 국장"", ""잉글랜드의 국장""]",False,False,False,False,0.1429
+Q643999_2,gpt4o,Artwork,영국 왕실 문장의 역사적 중요성은 무엇인가요?,잉글랜드의 국장,"[""잉글랜드의 국장"", ""잉글랜드의 국장""]",False,False,False,False,0.1429
+Q643999_2,vanilla_mt,Artwork,영국의 왕실 무기는 어떤 역사적 의미를 가지고 있습니까?,잉글랜드의 국장,"[""잉글랜드의 국장"", ""잉글랜드의 국장""]",False,False,False,False,0.1429
+Q644677_1,entity_aware_mt,Place of worship,어떤 종류의 명소가 셰흐자데 모스크입니까?,셰흐자데 모스크,"[""셰흐자데 모스크"", ""셰흐자데 모스크""]",True,True,True,True,1.0
+Q644677_1,gpt4o_mini,Place of worship,Şehzade 모스크는 어떤 유형의 랜드마크인가요?,셰흐자데 모스크,"[""셰흐자데 모스크"", ""셰흐자데 모스크""]",False,False,False,False,0.4286
+Q644677_1,gpt4o,Place of worship,쉐자데 모스크는 어떤 유형의 랜드마크입니까?,셰흐자데 모스크,"[""셰흐자데 모스크"", ""셰흐자데 모스크""]",False,False,False,False,0.7143
+Q644677_1,vanilla_mt,Place of worship,어떤 종류의 명소가 Şehzade 모스크입니까?,셰흐자데 모스크,"[""셰흐자데 모스크"", ""셰흐자데 모스크""]",False,False,False,False,0.4286
+Q6535598_1,entity_aware_mt,Artwork,깨어있는 괴물의 종류는 무엇입니까?,깨어난 괴물의 장르는 무엇인가요?,"[""깨어난 괴물의 장르는 무엇인가요?"", ""익스팬스: 깨어난 괴물"", ""리바이어던 웨이크""]",False,False,False,False,0.2222
+Q6535598_1,gpt4o_mini,Artwork,레바이던 웨이크스의 장르는 무엇인가요?,깨어난 괴물의 장르는 무엇인가요?,"[""깨어난 괴물의 장르는 무엇인가요?"", ""익스팬스: 깨어난 괴물"", ""리바이어던 웨이크""]",False,False,False,False,0.6429
+Q6535598_1,gpt4o,Artwork,리바이어던 어웨이크스의 장르는 무엇인가요?,깨어난 괴물의 장르는 무엇인가요?,"[""깨어난 괴물의 장르는 무엇인가요?"", ""익스팬스: 깨어난 괴물"", ""리바이어던 웨이크""]",False,False,False,False,0.6429
+Q6535598_1,vanilla_mt,Artwork,Leviathan Wakes의 발음을 Leviathan Wakes [en],깨어난 괴물의 장르는 무엇인가요?,"[""깨어난 괴물의 장르는 무엇인가요?"", ""익스팬스: 깨어난 괴물"", ""리바이어던 웨이크""]",False,False,False,False,0.0714
+Q660082_1,entity_aware_mt,Place of worship,멜크 수도원은 어떤 종류의 장소입니까?,멜크 수도원,"[""멜크 수도원"", ""멜크 수도원"", ""멜크 수도원""]",True,True,True,True,1.0
+Q660082_1,gpt4o_mini,Place of worship,멜크 수도원은 어떤 종류의 장소인가요?,멜크 수도원,"[""멜크 수도원"", ""멜크 수도원"", ""멜크 수도원""]",True,True,True,True,1.0
+Q660082_1,gpt4o,Place of worship,멜크 수도원은 어떤 종류의 장소인가요?,멜크 수도원,"[""멜크 수도원"", ""멜크 수도원"", ""멜크 수도원""]",True,True,True,True,1.0
+Q660082_1,vanilla_mt,Place of worship,어떤 종류의 장소는 Melk Abbey입니까?,멜크 수도원,"[""멜크 수도원"", ""멜크 수도원"", ""멜크 수도원""]",False,False,False,False,0.0
+Q683632_1,entity_aware_mt,Place of worship,제네 모스크는 어떤 종류의 건물입니까?,젠네 모스크,"[""젠네 모스크"", ""젠네 모스크""]",False,False,False,False,0.8
+Q683632_1,gpt4o_mini,Place of worship,젠네 대모스크는 어떤 종류의 건물인가요?,젠네 모스크,"[""젠네 모스크"", ""젠네 모스크""]",False,False,False,False,0.6
+Q683632_1,gpt4o,Place of worship,젠네 대모스크는 어떤 종류의 건물입니까?,젠네 모스크,"[""젠네 모스크"", ""젠네 모스크""]",False,False,False,False,0.6
+Q683632_1,vanilla_mt,Place of worship,제네의 위대한 모스크는 어떤 종류의 건물입니까?,젠네 모스크,"[""젠네 모스크"", ""젠네 모스크""]",False,False,False,False,0.6
+Q6856266_0,entity_aware_mt,TV series,TV 시리즈 구미호 : 여우누이의 주인공은 누구입니까?,구미호: 여우누이뎐,"[""구미호: 여우누이뎐"", ""구미호: 여우누이뎐""]",False,False,False,False,0.875
+Q6856266_0,gpt4o_mini,TV series,"TV 시리즈 ""원한: 구미호의 반란""의 주요 배우는 누구인가요?",구미호: 여우누이뎐,"[""구미호: 여우누이뎐"", ""구미호: 여우누이뎐""]",False,False,False,False,0.375
+Q6856266_0,gpt4o,TV series,TV 시리즈 '구미호: 반란의 한'의 주요 배우는 누구인가요?,구미호: 여우누이뎐,"[""구미호: 여우누이뎐"", ""구미호: 여우누이뎐""]",False,False,False,False,0.375
+Q6856266_0,vanilla_mt,TV series,Grudge: The Revolt of Gumiho TV 시리즈의 주인공은 누구입니까?,구미호: 여우누이뎐,"[""구미호: 여우누이뎐"", ""구미호: 여우누이뎐""]",False,False,False,False,0.125
+Q685741_1,entity_aware_mt,Movie,빵집의 아내가 언제 풀려났습니까?,제빵사의 아내,"[""제빵사의 아내""]",False,False,False,False,0.5
+Q685741_1,gpt4o_mini,Movie,"""The Baker's Wife""는 언제 개봉되었나요?",제빵사의 아내,"[""제빵사의 아내""]",False,False,False,False,0.1667
+Q685741_1,gpt4o,Movie,"""제빵사의 아내""는 언제 개봉되었나요?",제빵사의 아내,"[""제빵사의 아내""]",True,True,True,True,1.0
+Q685741_1,vanilla_mt,Movie,베이커의 아내가 언제 풀려났습니까?,제빵사의 아내,"[""제빵사의 아내""]",False,False,False,False,0.5
+Q702847_0,entity_aware_mt,TV series,언제 텔레비전 시리즈 붕붕차차가 처음 방송되었습니까?,붕붕차차,"[""붕붕차차"", ""붕붕차차""]",True,True,True,True,1.0
+Q702847_0,gpt4o_mini,TV series,TV 시리즈 부부 차차는 언제 처음 방영되었나요?,붕붕차차,"[""붕붕차차"", ""붕붕차차""]",False,False,False,False,0.5
+Q702847_0,gpt4o,TV series,TV 시리즈 부부차차는 언제 처음 방영되었나요?,붕붕차차,"[""붕붕차차"", ""붕붕차차""]",False,False,False,False,0.5
+Q702847_0,vanilla_mt,TV series,TV 시리즈 Bubu Chacha는 언제 처음 방송되었습니까?,붕붕차차,"[""붕붕차차"", ""붕붕차차""]",False,False,False,False,0.0
+Q717605_1,entity_aware_mt,TV series,일본 TV 시리즈의 주요 캐릭터는 14 세의 어머니는 누구입니까?,14세의 어머니,"[""14세의 어머니"", ""14세의 어머니"", ""14세의 어머니""]",False,False,True,True,1.0
+Q717605_1,gpt4o_mini,TV series,일본 TV 시리즈 「14세의 엄마」의 주요 캐릭터는 누구인가요?,14세의 어머니,"[""14세의 어머니"", ""14세의 어머니"", ""14세의 어머니""]",False,False,False,False,0.5714
+Q717605_1,gpt4o,TV series,일본 TV 시리즈 '14살의 엄마'의 주요 등장인물은 누구인가요?,14세의 어머니,"[""14세의 어머니"", ""14세의 어머니"", ""14세의 어머니""]",False,False,False,False,0.2857
+Q717605_1,vanilla_mt,TV series,일본 텔레비전 시리즈 14Sai No Haha의 주인공은 누구입니까?,14세의 어머니,"[""14세의 어머니"", ""14세의 어머니"", ""14세의 어머니""]",False,False,False,False,0.2857
+Q7190160_1,entity_aware_mt,Musical work,Scriabin의 소나타 시리즈에서 피아노 소나타 6번의 숫자는 무엇입니까?,피아노 소나타 6번,"[""피아노 소나타 6번"", ""피아노 소나타 6번"", ""피아노 소나타 6번""]",True,True,True,True,1.0
+Q7190160_1,gpt4o_mini,Musical work,스크리아빈의 소나타 시리즈에서 피아노 소나타 6번은 무엇 번째 소나타인가요?,피아노 소나타 6번,"[""피아노 소나타 6번"", ""피아노 소나타 6번"", ""피아노 소나타 6번""]",True,True,True,True,1.0
+Q7190160_1,gpt4o,Musical work,스크리아빈 소나타 시리즈에서 피아노 소나타 6번은 몇 번입니까?,피아노 소나타 6번,"[""피아노 소나타 6번"", ""피아노 소나타 6번"", ""피아노 소나타 6번""]",True,True,True,True,1.0
+Q7190160_1,vanilla_mt,Musical work,Scriabin의 소나타 시리즈에서 Piano Sonata No. 6의 숫자는 무엇입니까?,피아노 소나타 6번,"[""피아노 소나타 6번"", ""피아노 소나타 6번"", ""피아노 소나타 6번""]",False,False,False,False,0.375
+Q73804850_1,entity_aware_mt,Movie,영화 7번 방의 기적은 무엇입니까?,7번방의 기적,"[""7번방의 기적"", ""7번방의 기적""]",False,False,True,True,1.0
+Q73804850_1,gpt4o_mini,Movie,"영화 ""7번 방의 선물""의 장르는 드라마입니다.",7번방의 기적,"[""7번방의 기적"", ""7번방의 기적""]",False,False,False,False,0.6667
+Q73804850_1,gpt4o,Movie,"영화 ""7번방의 선물""의 장르는 무엇인가요?",7번방의 기적,"[""7번방의 기적"", ""7번방의 기적""]",False,False,False,False,0.6667
+Q73804850_1,vanilla_mt,Movie,'Cell No. 7'에 해당되는 글 1건,7번방의 기적,"[""7번방의 기적"", ""7번방의 기적""]",False,False,False,False,0.1667
+Q740088_0,entity_aware_mt,Musical work,틸 오일렌슈피겔의 즐거운 농담에 대한 간략한 설명을 제공 할 수 있습니까?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난"", ""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.6154
+Q740088_0,gpt4o_mini,Musical work,틸 울렌슈피겔의 즐거운 장난에 대한 간단한 설명을 제공할 수 있습니다.,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난"", ""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.3846
+Q740088_0,gpt4o,Musical work,틸 오일렌슈피겔의 유쾌한 장난들에 대한 간단한 설명을 제공해주세요.,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난"", ""틸 오일렌슈피겔의 유쾌한 장난""]",True,True,True,True,1.0
+Q740088_0,vanilla_mt,Musical work,Till Eulenspiegel의 Merry Pranks에 대한 간략한 설명을 제공 할 수 있습니까?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난"", ""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.0769
+Q740088_2,entity_aware_mt,Musical work,틸 오일렌슈피겔의 즐거운 농담은 무엇입니까?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.6154
+Q740088_2,gpt4o_mini,Musical work,틸 우렌슈피겔의 유쾌한 장난은 어떤 장르인가요?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.7692
+Q740088_2,gpt4o,Musical work,틸 오일렌슈피겔의 유쾌한 장난의 장르는 무엇인가요?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난""]",True,True,True,True,1.0
+Q740088_2,vanilla_mt,Musical work,Till Eulenspiegel의 Merry Pranks의 종류는 무엇입니까?,틸 오일렌슈피겔의 유쾌한 장난,"[""틸 오일렌슈피겔의 유쾌한 장난""]",False,False,False,False,0.0769
+Q741033_0,entity_aware_mt,Artwork,아가타 크리스티 (Agatha Christie)의 아트워크 백주의 악마는 어떤 종류에 속합니까?,백주의 악마,"[""백주의 악마"", ""태양 아래의 악""]",True,True,True,True,1.0
+Q741033_0,gpt4o_mini,Artwork,"아가사 크리스티의 작품 ""태양 아래의 악""은 어떤 장르에 속하나요?",백주의 악마,"[""백주의 악마"", ""태양 아래의 악""]",False,True,False,True,1.0
+Q741033_0,gpt4o,Artwork,"아가사 크리스티의 작품 ""태양 아래의 악마""는 어떤 장르에 속합니까?",백주의 악마,"[""백주의 악마"", ""태양 아래의 악""]",False,True,False,True,1.0
+Q741033_0,vanilla_mt,Artwork,아가타 크리스티(Agatha Christie)의 ‘태양 아래의 악’은 어떤 종류의 예술 작품인가?,백주의 악마,"[""백주의 악마"", ""태양 아래의 악""]",False,True,False,True,1.0
+Q748786_1,entity_aware_mt,Food,과일은 어떻게 유출되나요?,간유,"[""간유""]",False,False,False,False,0.5
+Q748786_1,gpt4o_mini,Food,대구 간유는 어떻게 추출되나요?,간유,"[""간유""]",True,True,True,True,1.0
+Q748786_1,gpt4o,Food,대구 간유는 어떻게 추출되나요?,간유,"[""간유""]",True,True,True,True,1.0
+Q748786_1,vanilla_mt,Food,코드 간 기름은 어떻게 추출되나요?,간유,"[""간유""]",False,False,False,False,0.5
+Q757660_2,entity_aware_mt,Artwork,빛나는 구름의 나라가 소설인가?,선홍빛 구름의 나라,"[""선홍빛 구름의 나라""]",False,False,False,False,0.625
+Q757660_2,gpt4o_mini,Artwork,'붉은 구름의 땅'은 소설인가요?,선홍빛 구름의 나라,"[""선홍빛 구름의 나라""]",False,False,False,False,0.375
+Q757660_2,gpt4o,Artwork,《붉은 구름의 땅》은 소설인가요?,선홍빛 구름의 나라,"[""선홍빛 구름의 나라""]",False,False,False,False,0.375
+Q757660_2,vanilla_mt,Artwork,Crimson Clouds의 땅은 소설인가요?,선홍빛 구름의 나라,"[""선홍빛 구름의 나라""]",False,False,False,False,0.125
+Q767453_0,entity_aware_mt,Person,블랙 볼트는 어떤 슈퍼 히어로 팀에 속하는가?,블랙 볼트,"[""블랙 볼트"", ""블랙볼트"", ""블랙 볼트""]",True,True,True,True,1.0
+Q767453_0,gpt4o_mini,Person,블랙 볼트는 어떤 마블 슈퍼히어로 팀에 소속되어 있나요?,블랙 볼트,"[""블랙 볼트"", ""블랙볼트"", ""블랙 볼트""]",True,True,True,True,1.0
+Q767453_0,gpt4o,Person,블랙 볼트는 어떤 마블 슈퍼히어로 팀에 속해 있습니까?,블랙 볼트,"[""블랙 볼트"", ""블랙볼트"", ""블랙 볼트""]",True,True,True,True,1.0
+Q767453_0,vanilla_mt,Person,마블 슈퍼 히어로 팀이 블랙 볼트에 속하는 팀은 무엇입니까?,블랙 볼트,"[""블랙 볼트"", ""블랙볼트"", ""블랙 볼트""]",True,True,True,True,1.0
+Q7756256_0,entity_aware_mt,Artwork,위대한 인종의 멸종 속에서 전달되는 눈에 띄는 주제나 메시지가 있습니까?,위대한 인종의 소멸,"[""위대한 인종의 소멸"", ""위대한 인종의 소멸"", ""위대한 인종의 소멸""]",False,False,False,False,0.75
+Q7756256_0,gpt4o_mini,Artwork,"""The Passing of the Great Race""에서 전달되는 주목할 만한 주제나 메시지가 있나요?",위대한 인종의 소멸,"[""위대한 인종의 소멸"", ""위대한 인종의 소멸"", ""위대한 인종의 소멸""]",False,False,False,False,0.125
+Q7756256_0,gpt4o,Artwork,《위대한 종족의 소멸》에서 전해지는 중요한 주제나 메시지가 있나요?,위대한 인종의 소멸,"[""위대한 인종의 소멸"", ""위대한 인종의 소멸"", ""위대한 인종의 소멸""]",False,False,False,False,0.375
+Q7756256_0,vanilla_mt,Artwork,위대한 경주의 통과에 주목할만한 주제나 메시지가 있습니까?,위대한 인종의 소멸,"[""위대한 인종의 소멸"", ""위대한 인종의 소멸"", ""위대한 인종의 소멸""]",False,False,False,False,0.375
+Q7760898_0,entity_aware_mt,TV series,언제 텔레비전에서 처음 방송되었습니까?,대국굴기,"[""대국굴기""]",False,False,False,False,0.0
+Q7760898_0,gpt4o_mini,TV series,"""The Rise of the Great Powers""가 처음 방송된 것은 언제인가요?",대국굴기,"[""대국굴기""]",False,False,False,False,0.0
+Q7760898_0,gpt4o,TV series,《강대국의 흥망》이 처음 방영된 날짜는 언제입니까?,대국굴기,"[""대국굴기""]",False,False,False,False,0.5
+Q7760898_0,vanilla_mt,TV series,위대한 권력의 상승은 언제 처음으로 텔레비전에서 방송되었습니까?,대국굴기,"[""대국굴기""]",False,False,False,False,0.25
+Q80355_0,entity_aware_mt,Artwork,코린토 신자들에게 보내는 첫 번째 성경에는 얼마나 많은 장들이 있습니까?,코린토 신자들에게 보낸 첫째 서간,"[""코린토 신자들에게 보낸 첫째 서간"", ""코린토 신자들에게 보낸 첫째 서간""]",False,False,False,False,0.6429
+Q80355_0,gpt4o_mini,Artwork,고린도전서에는 몇 개의 장이 있나요?,코린토 신자들에게 보낸 첫째 서간,"[""코린토 신자들에게 보낸 첫째 서간"", ""코린토 신자들에게 보낸 첫째 서간""]",False,False,False,False,0.0714
+Q80355_0,gpt4o,Artwork,고린도전서에는 총 몇 장이 있습니까?,코린토 신자들에게 보낸 첫째 서간,"[""코린토 신자들에게 보낸 첫째 서간"", ""코린토 신자들에게 보낸 첫째 서간""]",False,False,False,False,0.0714
+Q80355_0,vanilla_mt,Artwork,코린티아인들에게 보내는 첫 번째 편지에는 몇 장이 있습니까?,코린토 신자들에게 보낸 첫째 서간,"[""코린토 신자들에게 보낸 첫째 서간"", ""코린토 신자들에게 보낸 첫째 서간""]",False,False,False,False,0.2857
+Q837005_0,entity_aware_mt,Person,자이로 게루스의 성격을 어떻게 묘사할 것인가?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.4286
+Q837005_0,gpt4o_mini,Person,자이로 기어루스를 어떻게 묘사하겠습니까?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",True,True,True,True,1.0
+Q837005_0,gpt4o,Person,자이로 기어루스의 성격을 어떻게 묘사할 수 있을까요?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",True,True,True,True,1.0
+Q837005_0,vanilla_mt,Person,당신은 Gyro Gearloose의 성격을 어떻게 묘사 할 것인가?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.1429
+Q837005_2,entity_aware_mt,Person,자이로 지루스의 점령은 무엇입니까?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.4286
+Q837005_2,gpt4o_mini,Person,지로 기어루스의 직업은 무엇인가요?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.7143
+Q837005_2,gpt4o,Person,자이로 기어루즈의 직업은 무엇인가요?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.8571
+Q837005_2,vanilla_mt,Person,Gyro Gearloose의 점령은 무엇입니까?,자이로 기어루스,"[""자이로 기어루스"", ""자이로 기어루스""]",False,False,False,False,0.0
+Q840837_0,entity_aware_mt,TV series,러블리 왕국 다큐멘터리에서 나타난 사람들에 의해 직면 한 도전 중 일부는 무엇입니까?,다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?,"[""다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.1
+Q840837_0,gpt4o_mini,TV series,다큐멘터리 '자신의 나라를 만드는 방법'에 등장한 사람들이 겪었던 몇 가지 도전 과제는 무엇이었나요?,다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?,"[""다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.25
+Q840837_0,gpt4o,TV series,"다큐멘터리 ""How to Start Your Own Country""에 등장하는 사람들이 직면한 몇 가지 도전 과제는 무엇인가요?",다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?,"[""다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.74
+Q840837_0,vanilla_mt,TV series,자신의 나라를 시작하는 방법에 대한 다큐멘터리에서 보여주는 사람들에 의해 직면 한 도전 중 일부는 무엇입니까?,다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?,"[""다큐멘터리 How to Start Your Own Country에 등장하는 사람들은 어떤 어려움에 직면했습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.5833
+Q840837_2,entity_aware_mt,TV series,라블리 왕국 TV 시리즈에서 인터뷰 한 주요 인물은 누구입니까?,TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?,"[""TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.1304
+Q840837_2,gpt4o_mini,TV series,"TV 시리즈 ""자신의 나라 만드는 법""에서 인터뷰한 주요 인물들은 누구인가요?",TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?,"[""TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.25
+Q840837_2,gpt4o,TV series,"TV 시리즈 ""How to Start Your Own Country""에서 인터뷰한 주요 인물들은 누구였나요?",TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?,"[""TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.7609
+Q840837_2,vanilla_mt,TV series,TV 시리즈 How to Start Your Own Country에서 인터뷰 한 주요 인물은 누구입니까?,TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?,"[""TV 시리즈 How to Start Your Own Country에서 인터뷰한 핵심 인물은 누구였습니까?"", ""나만의 국가를 시작하는 방법"", ""자신의 국가를 시작하는 방법""]",False,False,False,False,0.7609
+Q849348_0,entity_aware_mt,Place of worship,어느 나라에 크세로포타무 수도원이 있습니까?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",True,True,True,True,1.0
+Q849348_0,gpt4o_mini,Place of worship,제로포타무 수도원이 있는 나라는 어디인가요?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.7778
+Q849348_0,gpt4o,Place of worship,세로포타무 수도원은 어느 나라에 있습니까?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.8889
+Q849348_0,vanilla_mt,Place of worship,어느 나라에 있는 Xeropotamou 수도원?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.3333
+Q849348_1,entity_aware_mt,Place of worship,크세로포타무 수도원은 어떤 종류의 장소입니까?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",True,True,True,True,1.0
+Q849348_1,gpt4o_mini,Place of worship,제록포타무 수도원은 어떤 장소인가요?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.6667
+Q849348_1,gpt4o,Place of worship,제로포타모우 수도원은 어떤 종류의 장소입니까?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.3333
+Q849348_1,vanilla_mt,Place of worship,어떤 종류의 장소는 Xeropotamou 수도원입니까?,크세로포타무 수도원,"[""크세로포타무 수도원"", ""크세로포타무 수도원""]",False,False,False,False,0.3333
+Q850042_2,entity_aware_mt,Place of worship,살라 대성당에 누가 묻혔는가?,웁살라 대성당,"[""웁살라 대성당"", ""웁살라 대성당""]",False,False,False,False,0.8333
+Q850042_2,gpt4o_mini,Place of worship,윱살라 대성당에 묻힌 사람은 누구입니까?,웁살라 대성당,"[""웁살라 대성당"", ""웁살라 대성당""]",False,False,False,False,0.8333
+Q850042_2,gpt4o,Place of worship,우프살라 대성당에는 누가 묻혀 있나요?,웁살라 대성당,"[""웁살라 대성당"", ""웁살라 대성당""]",False,False,False,False,0.8333
+Q850042_2,vanilla_mt,Place of worship,누가 우프살라 성당에 묻혀 있습니까?,웁살라 대성당,"[""웁살라 대성당"", ""웁살라 대성당""]",False,False,False,False,0.3333
+Q877510_0,entity_aware_mt,Book,정신 현상학은 읽기 어려운 것으로 간주되는가?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",True,True,True,True,1.0
+Q877510_0,gpt4o_mini,Book,정신현상학은 어려운 독서로 여겨지나요?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,True,True,1.0
+Q877510_0,gpt4o,Book,『정신현상학』은 읽기 어렵다고 여겨지나요?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,True,True,1.0
+Q877510_0,vanilla_mt,Book,영의 현상학은 읽기 어려운 것으로 간주되었습니까?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,False,False,0.6
+Q877510_2,entity_aware_mt,Book,Hegel의 정신 현상학에서 어떤 철학적 아이디어가 탐구되고 있습니까?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",True,True,True,True,1.0
+Q877510_2,gpt4o_mini,Book,헤겔의 『정신현상학』에서 탐구되는 철학적 아이디어는 무엇인가요?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,True,True,1.0
+Q877510_2,gpt4o,Book,"헤겔의 『정신현상학』에서 탐구되는 철학적 사상들에는 변증법, 자의식의 발전, 주인-노예 변증법, 절대지 등의 개념들이 포함됩니다.",정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,True,True,1.0
+Q877510_2,vanilla_mt,Book,Hegel의 The Phenomenology of Spirit에서 어떤 철학적 아이디어가 탐구되고 있습니까?,정신 현상학,"[""정신 현상학"", ""정신 현상학"", ""정신 현상학""]",False,False,False,False,0.2
+Q911413_1,entity_aware_mt,Place of worship,시모노페트라 수도원은 어떤 장소입니까?,시모노페트라 수도원,"[""시모노페트라 수도원"", ""시모노페트라 수도원"", ""시모노페트라 수도원""]",True,True,True,True,1.0
+Q911413_1,gpt4o_mini,Place of worship,사이모노페트라 수도원은 어떤 장소인가요?,시모노페트라 수도원,"[""시모노페트라 수도원"", ""시모노페트라 수도원"", ""시모노페트라 수도원""]",False,False,False,False,0.8889
+Q911413_1,gpt4o,Place of worship,시모노페트라 수도원은 어떤 종류의 장소인가요?,시모노페트라 수도원,"[""시모노페트라 수도원"", ""시모노페트라 수도원"", ""시모노페트라 수도원""]",True,True,True,True,1.0
+Q911413_1,vanilla_mt,Place of worship,어떤 종류의 장소는 Simonopetra 수도원입니까?,시모노페트라 수도원,"[""시모노페트라 수도원"", ""시모노페트라 수도원"", ""시모노페트라 수도원""]",False,False,False,False,0.3333
+Q937164_1,entity_aware_mt,Fictional entity,신화에서 판도라 상자를 열어주는 의미는 무엇입니까?,판도라의 상자,"[""판도라의 상자"", ""판도라의 상자"", ""판도라의 상자""]",False,False,False,False,0.5
+Q937164_1,gpt4o_mini,Fictional entity,판도라의 상자를 여는 것의 중요성은 신화에서 무엇인가요?,판도라의 상자,"[""판도라의 상자"", ""판도라의 상자"", ""판도라의 상자""]",True,True,True,True,1.0
+Q937164_1,gpt4o,Fictional entity,신화에서 판도라의 상자를 여는 것의 의미는 무엇입니까?,판도라의 상자,"[""판도라의 상자"", ""판도라의 상자"", ""판도라의 상자""]",True,True,True,True,1.0
+Q937164_1,vanilla_mt,Fictional entity,신화에서 Pandora의 상자를 열어주는 의미는 무엇입니까?,판도라의 상자,"[""판도라의 상자"", ""판도라의 상자"", ""판도라의 상자""]",False,False,False,False,0.5
+Q939440_1,entity_aware_mt,Person,신화에서 용 왕의 역할은 무엇입니까?,용왕,"[""용왕"", ""용왕"", ""용왕""]",False,False,True,True,1.0
+Q939440_1,gpt4o_mini,Person,용왕의 신화에서의 역할은 무엇인가요?,용왕,"[""용왕"", ""용왕"", ""용왕""]",True,True,True,True,1.0
+Q939440_1,gpt4o,Person,신화에서 용왕의 역할은 무엇인가요?,용왕,"[""용왕"", ""용왕"", ""용왕""]",True,True,True,True,1.0
+Q939440_1,vanilla_mt,Person,신화에서 드래곤 왕의 역할은 무엇입니까?,용왕,"[""용왕"", ""용왕"", ""용왕""]",False,False,False,False,0.5
+Q955581_0,entity_aware_mt,Musical work,파우스트 서곡의 주제는 무엇입니까?,파우스트 서곡,"[""파우스트 서곡""]",True,True,True,True,1.0
+Q955581_0,gpt4o_mini,Musical work,파우스트 서곡의 주제는 무엇인가요?,파우스트 서곡,"[""파우스트 서곡""]",True,True,True,True,1.0
+Q955581_0,gpt4o,Musical work,파우스트 서곡의 주제는 무엇인가요?,파우스트 서곡,"[""파우스트 서곡""]",True,True,True,True,1.0
+Q955581_0,vanilla_mt,Musical work,Faust Overture의 주제는 무엇입니까?,파우스트 서곡,"[""파우스트 서곡""]",False,False,False,False,0.0
+Q957666_2,entity_aware_mt,Artwork,변형법적 이성 비판에서 탐구되는 몇 가지 핵심 주제는 무엇입니까?,변증법적 이성 비판,"[""변증법적 이성 비판"", ""변증법적 이성 비판"", ""변증법적 이성 비판""]",False,False,False,False,0.75
+Q957666_2,gpt4o_mini,Artwork,변증법적 이성 비판에서 탐구되는 주요 주제는 무엇인가요?,변증법적 이성 비판,"[""변증법적 이성 비판"", ""변증법적 이성 비판"", ""변증법적 이성 비판""]",True,True,True,True,1.0
+Q957666_2,gpt4o,Artwork,『변증법적 이성 비판』에서 탐구된 주요 주제들은 무엇인가요?,변증법적 이성 비판,"[""변증법적 이성 비판"", ""변증법적 이성 비판"", ""변증법적 이성 비판""]",True,True,True,True,1.0
+Q957666_2,vanilla_mt,Artwork,Dialectical Reason의 비판에서 탐구한 몇 가지 핵심 주제는 무엇입니까?,변증법적 이성 비판,"[""변증법적 이성 비판"", ""변증법적 이성 비판"", ""변증법적 이성 비판""]",False,False,False,False,0.25
+Q963586_2,entity_aware_mt,Artwork,쌀과 소금의 시대는 언제 발표되었습니까?,쌀과 소금의 시대,"[""쌀과 소금의 시대""]",True,True,True,True,1.0
+Q963586_2,gpt4o_mini,Artwork,《쌀과 소금의 시간》은 언제 출판되었나요?,쌀과 소금의 시대,"[""쌀과 소금의 시대""]",False,False,False,False,0.8571
+Q963586_2,gpt4o,Artwork,《쌀과 소금의 시대》는 언제 출판되었습니까?,쌀과 소금의 시대,"[""쌀과 소금의 시대""]",True,True,True,True,1.0
+Q963586_2,vanilla_mt,Artwork,쌀과 소금의 해는 언제 출판되었습니까?,쌀과 소금의 시대,"[""쌀과 소금의 시대""]",False,False,False,False,0.7143
+Q97403910_2,entity_aware_mt,TV series,중독 비즈니스 TV 시리즈의 형식은 무엇입니까?,중독의 비즈니스,"[""중독의 비즈니스""]",False,False,False,False,0.5714
+Q97403910_2,gpt4o_mini,TV series,"""마약의 비즈니스"" TV 시리즈의 형식은 무엇인가요?",중독의 비즈니스,"[""중독의 비즈니스""]",False,False,False,False,0.7143
+Q97403910_2,gpt4o,TV series,마약의 비즈니스 TV 시리즈의 형식은 무엇인가요?,중독의 비즈니스,"[""중독의 비즈니스""]",False,False,False,False,0.7143
+Q97403910_2,vanilla_mt,TV series,비즈니스 오브 마약 TV 시리즈의 형식은 무엇입니까?,중독의 비즈니스,"[""중독의 비즈니스""]",False,False,False,False,0.5714
+Q975568_2,entity_aware_mt,Place of worship,티엔무 성전은 얼마나 오래되나요?,티엔무 사원,"[""티엔무 사원"", ""티엔무 사원"", ""티엔무 사원""]",False,False,False,False,0.6
+Q975568_2,gpt4o_mini,Place of worship,Thiên 뮈 사원은 얼마나 오래되었나요?,티엔무 사원,"[""티엔무 사원"", ""티엔무 사원"", ""티엔무 사원""]",False,False,False,False,0.4
+Q975568_2,gpt4o,Place of worship,티엔무 사원은 얼마나 오래되었나요?,티엔무 사원,"[""티엔무 사원"", ""티엔무 사원"", ""티엔무 사원""]",True,True,True,True,1.0
+Q975568_2,vanilla_mt,Place of worship,성전은 얼마나 오래된가요?,티엔무 사원,"[""티엔무 사원"", ""티엔무 사원"", ""티엔무 사원""]",False,False,False,False,0.0

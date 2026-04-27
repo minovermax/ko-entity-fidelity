@@ -1,0 +1,5 @@
+model_name,scope,example_count,corpus_bleu,average_sentence_bleu,average_sentence_chrf,normalized_reference_exact_match_rate
+entity_aware_mt,overall,595,20.782,37.5829,45.2962,0.0151
+gpt4o,overall,595,24.6824,40.5902,54.0695,0.0975
+gpt4o_mini,overall,595,19.547,38.5006,51.6181,0.0824
+vanilla_mt,overall,595,10.9669,29.0806,32.8787,0.0034

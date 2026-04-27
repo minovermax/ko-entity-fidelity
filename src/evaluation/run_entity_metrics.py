@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 from collections import defaultdict
 from pathlib import Path
 
@@ -13,10 +14,31 @@ ROOT = Path(__file__).resolve().parents[2]
 INPUT_PATH = ROOT / "data" / "processed" / "validation_ko_merged.jsonl"
 OUTPUT_DIR = ROOT / "outputs" / "metrics"
 
-MODEL_FIELDS = {
-    "gpt4o": "gpt4o_prediction",
-    "gpt4o_mini": "gpt4o_mini_prediction",
-}
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input-path", type=Path, default=INPUT_PATH)
+    parser.add_argument(
+        "--model-field",
+        action="append",
+        default=[],
+        help="Prediction field to score. Repeat for multiple fields. Defaults to auto-detected *_prediction fields.",
+    )
+    parser.add_argument(
+        "--output-prefix",
+        default="",
+        help="Optional filename prefix for outputs, e.g. all_models",
+    )
+    return parser.parse_args()
+
+
+def discover_model_fields(records: list[dict[str, object]]) -> dict[str, str]:
+    if not records:
+        return {}
+    prediction_fields = [
+        key for key in records[0].keys() if isinstance(key, str) and key.endswith("_prediction")
+    ]
+    return {field.removesuffix("_prediction"): field for field in sorted(prediction_fields)}
 
 
 def contains_exact_mention(prediction: str, mentions: list[str]) -> bool:
@@ -63,8 +85,25 @@ def aggregate_group(model_name: str, rows: list[dict[str, object]], group_name: 
     }
 
 
+def output_path(filename: str, prefix: str) -> Path:
+    if prefix:
+        return OUTPUT_DIR / f"{prefix}_{filename}"
+    return OUTPUT_DIR / filename
+
+
 def main() -> None:
-    records = load_jsonl(INPUT_PATH)
+    args = parse_args()
+    records = load_jsonl(args.input_path)
+    model_fields = discover_model_fields(records)
+    if args.model_field:
+        requested = {
+            field.removesuffix("_prediction"): field if field.endswith("_prediction") else f"{field}_prediction"
+            for field in args.model_field
+        }
+        model_fields = {name: field for name, field in requested.items() if field in model_fields.values()}
+    if not model_fields:
+        raise SystemExit(f"No prediction fields found in {args.input_path}")
+
     by_example_rows: list[dict[str, object]] = []
     grouped_rows: dict[tuple[str, str], list[dict[str, object]]] = defaultdict(list)
     overall_rows: dict[str, list[dict[str, object]]] = defaultdict(list)
@@ -73,7 +112,7 @@ def main() -> None:
         primary_entity_type = (record.get("entity_types") or ["Unknown"])[0]
         primary_mention = record.get("reference_mention", "")
         all_mentions = record.get("reference_mentions") or []
-        for model_name, field_name in MODEL_FIELDS.items():
+        for model_name, field_name in model_fields.items():
             prediction = record.get(field_name, "")
             row = {
                 "id": record["id"],
@@ -107,13 +146,17 @@ def main() -> None:
         for (model_name, primary_entity_type), rows in sorted(grouped_rows.items())
     ]
 
-    write_csv(OUTPUT_DIR / "entity_metrics_by_example.csv", by_example_rows)
-    write_csv(OUTPUT_DIR / "entity_metrics_overall.csv", overall_output)
-    write_csv(OUTPUT_DIR / "entity_metrics_by_entity_type.csv", by_entity_type_output)
+    by_example_path = output_path("entity_metrics_by_example.csv", args.output_prefix)
+    overall_path = output_path("entity_metrics_overall.csv", args.output_prefix)
+    by_entity_type_path = output_path("entity_metrics_by_entity_type.csv", args.output_prefix)
 
-    print(f"Saved {OUTPUT_DIR.relative_to(ROOT) / 'entity_metrics_by_example.csv'}")
-    print(f"Saved {OUTPUT_DIR.relative_to(ROOT) / 'entity_metrics_overall.csv'}")
-    print(f"Saved {OUTPUT_DIR.relative_to(ROOT) / 'entity_metrics_by_entity_type.csv'}")
+    write_csv(by_example_path, by_example_rows)
+    write_csv(overall_path, overall_output)
+    write_csv(by_entity_type_path, by_entity_type_output)
+
+    print(f"Saved {by_example_path.relative_to(ROOT)}")
+    print(f"Saved {overall_path.relative_to(ROOT)}")
+    print(f"Saved {by_entity_type_path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

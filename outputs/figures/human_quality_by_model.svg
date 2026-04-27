@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="702" height="370" viewBox="0 0 702 370">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="28" font-family="Arial, sans-serif" font-size="18" fill="#1f2321">Human Quality Labels by Model</text>
+<text x="24" y="46" font-family="Arial, sans-serif" font-size="11" fill="#5c655f">Counts of Korean human judgments for each quality category</text>
+<rect x="150" y="20" width="12" height="12" rx="2" fill="#d0624a"/>
+<text x="168" y="30" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o</text>
+<rect x="278" y="20" width="12" height="12" rx="2" fill="#5b7f4a"/>
+<text x="296" y="30" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">gpt4o_mini</text>
+<text x="24" y="86" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">correct</text>
+<rect x="150" y="72" width="520.00" height="10" rx="4" fill="#d0624a"/>
+<text x="678.00" y="81" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 118</text>
+<rect x="150" y="90" width="273.22" height="10" rx="4" fill="#5b7f4a"/>
+<text x="431.22" y="99" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 62</text>
+<text x="24" y="120" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">acceptable_alias</text>
+<rect x="150" y="106" width="185.08" height="10" rx="4" fill="#d0624a"/>
+<text x="343.08" y="115" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 42</text>
+<rect x="150" y="124" width="207.12" height="10" rx="4" fill="#5b7f4a"/>
+<text x="365.12" y="133" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 47</text>
+<text x="24" y="154" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">partial_entity_error</text>
+<rect x="150" y="140" width="66.10" height="10" rx="4" fill="#d0624a"/>
+<text x="224.10" y="149" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 15</text>
+<rect x="150" y="158" width="132.20" height="10" rx="4" fill="#5b7f4a"/>
+<text x="290.20" y="167" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 30</text>
+<text x="24" y="188" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">wrong_rendering_strategy</text>
+<rect x="150" y="174" width="83.73" height="10" rx="4" fill="#d0624a"/>
+<text x="241.73" y="183" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 19</text>
+<rect x="150" y="192" width="202.71" height="10" rx="4" fill="#5b7f4a"/>
+<text x="360.71" y="201" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 46</text>
+<text x="24" y="222" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">incorrect_entity</text>
+<rect x="150" y="208" width="17.63" height="10" rx="4" fill="#d0624a"/>
+<text x="175.63" y="217" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 4</text>
+<rect x="150" y="226" width="48.47" height="10" rx="4" fill="#5b7f4a"/>
+<text x="206.47" y="235" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 11</text>
+<text x="24" y="256" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">hallucinated_entity</text>
+<rect x="150" y="242" width="0.00" height="10" rx="4" fill="#d0624a"/>
+<text x="158.00" y="251" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 0</text>
+<rect x="150" y="260" width="13.22" height="10" rx="4" fill="#5b7f4a"/>
+<text x="171.22" y="269" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 3</text>
+<text x="24" y="290" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">omitted_entity</text>
+<rect x="150" y="276" width="8.81" height="10" rx="4" fill="#d0624a"/>
+<text x="166.81" y="285" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o: 2</text>
+<rect x="150" y="294" width="4.41" height="10" rx="4" fill="#5b7f4a"/>
+<text x="162.41" y="303" font-family="Arial, sans-serif" font-size="10" fill="#1f2321">gpt4o_mini: 1</text>
+</svg>

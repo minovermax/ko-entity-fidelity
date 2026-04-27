@@ -1,0 +1,81 @@
+id,model_name,primary_entity_type,probability_acceptable,predicted_acceptable,gold_acceptable,human_acceptance_label,sentence_chrf,any_reference_mention_normalized_match
+Q1389239_0,gpt4o,Book,0.9693,1,1,acceptable,79.9683,True
+Q1389239_0,gpt4o_mini,Book,0.4293,0,1,acceptable,59.27,False
+Q1074831_0,gpt4o,Book series,0.9009,1,1,acceptable,34.3743,True
+Q1074831_0,gpt4o_mini,Book series,0.3569,0,0,borderline,66.3398,False
+Q486606_1,gpt4o,Food,0.9492,1,1,acceptable,48.3086,True
+Q486606_1,gpt4o_mini,Food,0.41,0,0,borderline,63.8461,False
+Q59783_1,gpt4o,Movie,0.3421,0,1,acceptable,14.248,False
+Q59783_1,gpt4o_mini,Movie,0.8331,1,1,acceptable,44.2506,True
+Q894347_0,gpt4o,Food,0.5052,1,0,borderline,29.9054,False
+Q894347_0,gpt4o_mini,Food,0.9209,1,1,acceptable,72.0011,True
+Q6856266_2,gpt4o,TV series,0.8144,1,1,acceptable,33.5569,True
+Q6856266_2,gpt4o_mini,TV series,0.2263,0,0,unacceptable,49.8541,False
+Q756800_0,gpt4o,Food,0.4653,0,0,borderline,23.674,False
+Q756800_0,gpt4o_mini,Food,0.8882,1,1,acceptable,56.1199,True
+Q641378_0,gpt4o,Artwork,0.9019,1,1,acceptable,19.7931,True
+Q641378_0,gpt4o_mini,Artwork,0.1787,0,0,borderline,9.1202,False
+Q2570624_0,gpt4o,Landmark,0.8468,1,1,acceptable,61.842,False
+Q2570624_0,gpt4o_mini,Landmark,0.9973,1,1,acceptable,100.0,True
+Q564288_0,gpt4o,Person,0.6146,1,1,acceptable,50.8379,False
+Q564288_0,gpt4o_mini,Person,0.9618,1,1,acceptable,78.0831,True
+Q85867753_2,gpt4o,TV series,0.8558,1,1,acceptable,46.4819,True
+Q85867753_2,gpt4o_mini,TV series,0.0889,0,0,borderline,3.592,False
+Q3492886_0,gpt4o,Artwork,0.9299,1,1,acceptable,53.2474,True
+Q3492886_0,gpt4o_mini,Artwork,0.2384,0,1,acceptable,16.4829,False
+Q35051_0,gpt4o,Food,0.9385,1,1,acceptable,54.9277,True
+Q35051_0,gpt4o_mini,Food,0.4121,0,0,unacceptable,41.5925,False
+Q732489_0,gpt4o,Landmark,0.9812,1,1,acceptable,33.4153,True
+Q732489_0,gpt4o_mini,Landmark,0.6969,1,1,acceptable,67.9358,False
+Q260988_0,gpt4o,Musical work,0.6543,1,1,acceptable,31.5168,False
+Q260988_0,gpt4o_mini,Musical work,0.964,1,1,acceptable,63.6448,True
+Q1044613_1,gpt4o,Landmark,0.9857,1,1,acceptable,84.5724,True
+Q1044613_1,gpt4o_mini,Landmark,0.6789,1,1,acceptable,70.727,False
+Q563102_2,gpt4o,Place of worship,0.9023,1,1,acceptable,37.8453,True
+Q563102_2,gpt4o_mini,Place of worship,0.2808,0,1,acceptable,39.3825,False
+Q440784_2,gpt4o,Artwork,0.9143,1,0,borderline,51.2916,True
+Q440784_2,gpt4o_mini,Artwork,0.3059,0,0,unacceptable,39.4252,False
+Q21511960_0,gpt4o,Book,0.5734,1,0,unacceptable,64.4197,False
+Q21511960_0,gpt4o_mini,Book,0.6076,1,0,unacceptable,83.6919,False
+Q1504526_0,gpt4o,Fictional entity,0.9269,1,1,acceptable,49.4443,True
+Q1504526_0,gpt4o_mini,Fictional entity,0.2838,0,1,acceptable,53.4484,False
+Q1769466_2,gpt4o,Artwork,0.26,0,0,unacceptable,1.2255,False
+Q1769466_2,gpt4o_mini,Artwork,0.7642,1,0,borderline,20.2714,True
+Q850042_0,gpt4o,Place of worship,0.9299,1,1,acceptable,49.8041,True
+Q850042_0,gpt4o_mini,Place of worship,0.3191,0,1,acceptable,53.8348,False
+Q1147583_0,gpt4o,Artwork,0.8552,1,0,borderline,13.3161,True
+Q1147583_0,gpt4o_mini,Artwork,0.241,0,0,unacceptable,7.337,False
+Q911413_1,gpt4o,Place of worship,0.987,1,1,acceptable,98.8594,True
+Q911413_1,gpt4o_mini,Place of worship,0.5187,1,1,acceptable,92.2643,False
+Q6856266_1,gpt4o,TV series,0.8713,1,1,acceptable,49.2961,True
+Q6856266_1,gpt4o_mini,TV series,0.1275,0,0,unacceptable,18.6513,False
+Q16305809_1,gpt4o,Food,0.6402,1,1,acceptable,74.3768,False
+Q16305809_1,gpt4o_mini,Food,0.4813,0,1,acceptable,75.6544,False
+Q1545841_2,gpt4o,Movie,0.4676,0,0,borderline,65.8093,False
+Q1545841_2,gpt4o_mini,Movie,0.9564,1,1,acceptable,70.8843,True
+Q164652_2,gpt4o,Musical work,0.9761,1,0,borderline,67.1222,True
+Q164652_2,gpt4o_mini,Musical work,0.3771,0,0,borderline,22.5449,False
+Q143042_0,gpt4o,Place of worship,0.9174,1,1,acceptable,58.7746,True
+Q143042_0,gpt4o_mini,Place of worship,0.3055,0,1,acceptable,65.462,False
+Q14654_2,gpt4o,Book,0.9636,1,1,acceptable,66.5737,True
+Q14654_2,gpt4o_mini,Book,0.9494,1,1,acceptable,71.9441,True
+Q894347_1,gpt4o,Food,0.5527,1,1,acceptable,49.0786,False
+Q894347_1,gpt4o_mini,Food,0.2743,0,0,borderline,20.3267,False
+Q492936_0,gpt4o,TV series,0.9663,1,1,acceptable,78.9308,True
+Q492936_0,gpt4o_mini,TV series,0.1747,0,0,borderline,38.5795,False
+Q162331_2,gpt4o,Movie,0.91,1,1,acceptable,63.6773,True
+Q162331_2,gpt4o_mini,Movie,0.3512,0,0,unacceptable,66.8989,False
+Q162935_2,gpt4o,Musical work,0.6751,1,1,acceptable,35.5229,False
+Q162935_2,gpt4o_mini,Musical work,0.9376,1,1,acceptable,46.3156,True
+Q58773_2,gpt4o,Person,0.5838,1,1,acceptable,52.0653,False
+Q58773_2,gpt4o_mini,Person,0.4866,0,0,unacceptable,46.5304,False
+Q3393961_2,gpt4o,Food,0.5259,1,1,acceptable,42.8215,False
+Q3393961_2,gpt4o_mini,Food,0.375,0,1,acceptable,48.3263,False
+Q11271903_1,gpt4o,Fictional entity,0.6656,1,1,acceptable,89.0024,False
+Q11271903_1,gpt4o_mini,Fictional entity,0.2847,0,1,acceptable,50.3991,False
+Q486606_2,gpt4o,Food,0.9952,1,1,acceptable,100.0,True
+Q486606_2,gpt4o_mini,Food,0.9542,1,1,acceptable,85.6733,True
+Q154240_0,gpt4o,Person,0.5099,1,1,acceptable,26.5406,False
+Q154240_0,gpt4o_mini,Person,0.3949,0,1,acceptable,38.7107,False
+Q2265406_0,gpt4o,Food,0.5229,1,1,acceptable,52.4746,False
+Q2265406_0,gpt4o_mini,Food,0.4782,0,0,borderline,76.0769,False

@@ -1,0 +1,15 @@
+{
+  "source_input": "data/processed/validation_ko_with_baselines.jsonl",
+  "random_seed": 4650,
+  "split_method": "stratified deterministic holdout by primary entity type",
+  "official_hidden_test_note": "data/processed/test_ko.jsonl has no targets and cannot be scored locally.",
+  "dev": {
+    "record_count": 595,
+    "output_jsonl": "data/processed/local_dev_ko_with_baselines.jsonl"
+  },
+  "test": {
+    "record_count": 150,
+    "output_jsonl": "data/processed/local_test_ko_with_baselines.jsonl"
+  },
+  "entity_type_count_csv": "outputs/metrics/local_eval_split_counts.csv"
+}
