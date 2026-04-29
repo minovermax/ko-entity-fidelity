@@ -198,12 +198,14 @@ outputs/metrics/inter_annotator_agreement.csv
 docs/notes/inter_annotator_agreement.md
 ```
 
+The current overlap round has been completed on 30 examples. The strongest agreement is on concrete model-output labels such as entity correctness; the more interpretive Korean rendering-strategy labels have lower agreement.
+
 ## Important Caveats
 
 - Do not interpret local test results as official SemEval hidden-test results.
 - The metric scripts are lightweight and reproducible, but they do not reproduce the full official COMET/M-ETA setup.
 - The entity-aware baseline depends on Wikidata labels and string replacement, so it may inherit label or matching errors.
-- Inter-annotator agreement should be reported only after the overlap round is complete.
+- Inter-annotator agreement is based on a 30-example overlap set, so treat it as a consistency check rather than a definitive reliability study.
 
 ## Primary Artifacts
 

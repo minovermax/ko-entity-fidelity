@@ -497,6 +497,39 @@ Qualitative examples:
    - the project now includes pretrained MT and entity-aware baselines
    - the project now also includes an optional tiny supervised acceptability classifier
 
+## 2026-04-28 Update: Overlap Agreement Merged
+
+What changed:
+
+- fetched remote branches and found two agreement exports:
+  - `origin/annotate-minseo`
+  - `origin/overlap-siwan`
+- merged both into `main`
+- added:
+  - `data/human_eval/overlap/annotator_exports/minseo_annotations.csv`
+  - `data/human_eval/overlap/annotator_exports/siwan_annotations.csv`
+- ran `python3 src/analysis/compute_inter_annotator_agreement.py`
+- generated:
+  - `outputs/metrics/inter_annotator_agreement.csv`
+  - `docs/notes/inter_annotator_agreement.md`
+- updated the final report draft with the agreement interpretation
+
+Agreement highlights:
+
+- overlap examples scored: 30
+- `gpt4o_entity_correct`: 83.3% agreement, kappa 0.635
+- `gpt4o_mini_entity_correct`: 73.3% agreement, kappa 0.5556
+- `gpt4o_metric_likely_miss`: 83.3% agreement, kappa 0.625
+- `gpt4o_mini_metric_likely_miss`: 73.3% agreement, kappa 0.5349
+- `preferred_model`: 66.7% agreement, kappa 0.5253
+- `target_rendering_strategy`: 40.0% agreement, kappa 0.194
+
+Interpretation:
+
+- agreement is stronger on concrete model-output correctness judgments
+- agreement is weaker on abstract Korean rendering-strategy judgments
+- this supports the final story that English-to-Korean entity fidelity is strategy-dependent and partly interpretive, not reducible to exact mention matching
+
 ### Missing
 
 - final analysis narrative connecting:
@@ -504,7 +537,7 @@ Qualitative examples:
   - metric failures
   - entity-type-specific patterns
 - final representative example set for the report body / appendix
-- optional overlap annotation completion if an inter-annotator agreement number becomes necessary
+- final integration of agreement numbers into the polished report and slides
 
 ## Recommended Next Steps
 
@@ -532,10 +565,10 @@ These should be the next implementation steps, in order.
    - disagreement breakdown by entity type
    - reuse the new SVGs and summary CSVs where possible
 
-4. Optionally add a small overlap set later
-   - the 30-example overlap set is already built
-   - Minseo and Siwan need to annotate it only if an inter-annotator agreement section becomes necessary
-   - then run `python3 src/analysis/compute_inter_annotator_agreement.py`
+4. Integrate overlap agreement into the final write-up
+   - use the concrete model-output agreement numbers as reliability evidence
+   - use lower strategy-label agreement as evidence that Korean rendering decisions are interpretive
+   - frame the 30-example overlap set as a consistency check, not a definitive reliability study
 
 ## Best Immediate Next Task
 
@@ -569,7 +602,7 @@ That will turn the exported analysis artifacts into the clearest material for th
 - Do not call the local test split an official SemEval hidden test result.
 - Do not claim the project relies on off-the-shelf NER; the final pipeline uses benchmark-provided entity metadata and reference mentions.
 - The human annotation stage is complete for the main 200-example subset.
-- There is currently no overlap subset, so do not claim inter-annotator agreement.
+- The overlap agreement round is complete. Report it as a 30-example consistency check.
 - No additional model training is required for the core project.
 - If a professor asks for explicit training, the clean add-on is a tiny classifier, not MT fine-tuning.
 - Keep updating this file with:

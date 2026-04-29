@@ -1,6 +1,6 @@
 # Final Report Todo
 
-This is the work we can do while waiting for the 30-example overlap annotation round.
+This is the remaining work after the 30-example overlap annotation round.
 
 ## Ready Now
 
@@ -18,22 +18,32 @@ This is the work we can do while waiting for the 30-example overlap annotation r
   - qualitative examples
   - conclusion
 
-## Waiting On Overlap Annotation
+## Completed Overlap Annotation
 
-- Merge Minseo overlap export.
-- Merge Siwan overlap export.
-- Confirm both exports are from the fresh overlap sheet, not the earlier accidental reused-example sheet.
-- Run:
+- Merged Minseo overlap export from `origin/annotate-minseo`.
+- Merged Siwan overlap export from `origin/overlap-siwan`.
+- Confirmed both exports contain 30 annotation rows.
+- Ran:
 
 ```bash
 python3 src/analysis/compute_inter_annotator_agreement.py
 ```
 
-- Add agreement numbers to:
-  - `docs/final_report_draft.md`
-  - final report
-  - slides, if useful
-- Remove the explicit agreement placeholder paragraph from the report draft after numbers are inserted.
+- Wrote:
+  - `outputs/metrics/inter_annotator_agreement.csv`
+  - `docs/notes/inter_annotator_agreement.md`
+- Added agreement interpretation to `docs/final_report_draft.md`.
+
+## Agreement Numbers To Use
+
+- `gpt4o_entity_correct`: 83.3% agreement, kappa 0.635
+- `gpt4o_mini_entity_correct`: 73.3% agreement, kappa 0.5556
+- `gpt4o_metric_likely_miss`: 83.3% agreement, kappa 0.625
+- `gpt4o_mini_metric_likely_miss`: 73.3% agreement, kappa 0.5349
+- `preferred_model`: 66.7% agreement, kappa 0.5253
+- `target_rendering_strategy`: 40.0% agreement, kappa 0.194
+
+Use the contrast between concrete model-output agreement and lower strategy-label agreement as evidence that Korean entity rendering is interpretive.
 
 ## Final Claim To Preserve
 
@@ -43,5 +53,6 @@ python3 src/analysis/compute_inter_annotator_agreement.py
 
 - Do not claim official SemEval hidden-test performance.
 - Do not claim full official M-ETA/COMET reproduction.
+- Do not overstate inter-annotator agreement. The overlap set is 30 examples and should be framed as a consistency check.
 - Do not claim the project relies on off-the-shelf NER.
 - Do not present the classifier as the main contribution.

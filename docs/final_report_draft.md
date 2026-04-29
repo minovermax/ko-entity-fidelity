@@ -69,9 +69,11 @@ For human evaluation, two Korean annotators labeled a 200-example subset. Each e
 - whether the automatic metric is likely to miss the issue
 - preferred model
 
-The main annotation round is non-overlapping. We are currently collecting a separate 30-example overlap set to compute inter-annotator agreement. The overlap examples are fresh validation examples outside the original 200-example annotation subset.
+The main annotation round is non-overlapping, so we collected a separate 30-example overlap set using fresh validation examples outside the original 200-example annotation subset. This overlap round gives a consistency check without changing the main human-evaluation split.
 
-**Agreement placeholder:** once both overlap exports are complete, run `python3 src/analysis/compute_inter_annotator_agreement.py` and replace this paragraph with the percent agreement / Cohen's kappa results.
+Agreement was strongest on concrete model-output judgments. For `gpt4o`, annotators agreed on entity correctness for 83.3% of examples, with Cohen's kappa 0.635. For `gpt4o_mini`, entity-correctness agreement was 73.3%, with kappa 0.5556. They also agreed on whether the automatic metric was likely to miss an issue 83.3% of the time for `gpt4o` and 73.3% for `gpt4o_mini`.
+
+Agreement was lower on the more interpretive Korean rendering decisions: target rendering strategy had 40.0% agreement and kappa 0.194, while adaptation-needed judgments had 60.0% agreement and kappa 0.1589. We interpret this as additional evidence that Korean entity fidelity is partly subjective and strategy-dependent, especially when the correct output may involve translation, transliteration, preservation, official titles, or cultural adaptation.
 
 ## 6. Automatic Metric Results
 
