@@ -1,0 +1,5 @@
+input_path,split,model_name,example_count,prediction_field,m_eta_correct,m_eta_total,m_eta_missing_predictions,m_eta,comet_score,comet_model,comet_status,comet_missing_predictions,final_hmean_comet_meta
+data/processed/local_test_ko_with_baselines.jsonl,test,entity_aware_mt,150,entity_aware_mt_prediction,47,150,0,31.3333,89.4729,Unbabel/wmt22-comet-da,ok,0,46.4129
+data/processed/local_test_ko_with_baselines.jsonl,test,gpt4o,150,gpt4o_prediction,72,150,0,48.0,92.705,Unbabel/wmt22-comet-da,ok,0,63.2506
+data/processed/local_test_ko_with_baselines.jsonl,test,gpt4o_mini,150,gpt4o_mini_prediction,54,150,0,36.0,91.6067,Unbabel/wmt22-comet-da,ok,0,51.6876
+data/processed/local_test_ko_with_baselines.jsonl,test,vanilla_mt,150,vanilla_mt_prediction,11,150,0,7.3333,84.7982,Unbabel/wmt22-comet-da,ok,0,13.4992

@@ -1,0 +1,13 @@
+model_name,any_reference_mention_normalized_match,human_acceptance_label,count,model_total,mention_match_total,proportion_within_model,proportion_within_mention_match
+gpt4o,True,acceptable,108,200,118,0.54,0.9153
+gpt4o,True,borderline,10,200,118,0.05,0.0847
+gpt4o,True,unacceptable,0,200,118,0.0,0.0
+gpt4o,False,acceptable,52,200,82,0.26,0.6341
+gpt4o,False,borderline,20,200,82,0.1,0.2439
+gpt4o,False,unacceptable,10,200,82,0.05,0.122
+gpt4o_mini,True,acceptable,46,200,47,0.23,0.9787
+gpt4o_mini,True,borderline,1,200,47,0.005,0.0213
+gpt4o_mini,True,unacceptable,0,200,47,0.0,0.0
+gpt4o_mini,False,acceptable,63,200,153,0.315,0.4118
+gpt4o_mini,False,borderline,65,200,153,0.325,0.4248
+gpt4o_mini,False,unacceptable,25,200,153,0.125,0.1634

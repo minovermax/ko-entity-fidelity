@@ -1,5 +1,5 @@
-preferred_model,count,rate
-gpt4o,96,0.48
-gpt4o_mini,41,0.205
-tie,41,0.205
-neither,22,0.11
+preferred_model,count,total,proportion,rate
+gpt4o,96,200,0.48,0.48
+gpt4o_mini,41,200,0.205,0.205
+tie,41,200,0.205,0.205
+neither,22,200,0.11,0.11

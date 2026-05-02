@@ -1,0 +1,7 @@
+model_name,human_acceptance_label,count,total,proportion
+gpt4o,acceptable,160,200,0.8
+gpt4o,borderline,30,200,0.15
+gpt4o,unacceptable,10,200,0.05
+gpt4o_mini,acceptable,109,200,0.545
+gpt4o_mini,borderline,66,200,0.33
+gpt4o_mini,unacceptable,25,200,0.125

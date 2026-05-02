@@ -15,10 +15,11 @@ The project uses the Korean portion of the SemEval-2025 Entity-Aware Machine Tra
 - A vanilla pretrained MT baseline
 - A Wikidata-label entity-aware MT baseline
 - General MT metrics and entity-sensitive mention metrics
+- Official-style local COMET / M-ETA evaluation
 - A 200-example Korean human evaluation set
 - A separate 30-example overlap annotation workflow for inter-annotator agreement
 - Report-ready summary tables, figures, and qualitative examples
-- A draft report and notes for final analysis
+- A draft report, manuscript-support notes, and reproducible issue log
 
 ## Project Shape
 
@@ -94,6 +95,17 @@ Human evaluation on 200 examples:
 
 Key finding: entity-aware conditioning improves mention fidelity over vanilla MT, but human judgments show that surface metrics still miss Korean-specific alias, transliteration, official-title, and adaptation decisions.
 
+Official-style COMET / M-ETA on the local held-out test:
+
+| system | COMET | M-ETA | harmonic mean |
+| --- | ---: | ---: | ---: |
+| `gpt4o` | 92.7050 | 48.0000 | 63.2506 |
+| `gpt4o_mini` | 91.6067 | 36.0000 | 51.6876 |
+| `entity_aware_mt` | 89.4729 | 31.3333 | 46.4129 |
+| `vanilla_mt` | 84.7982 | 7.3333 | 13.4992 |
+
+These COMET / M-ETA scores follow the public EA-MT evaluation logic on the local validation-derived test split. They are not official SemEval hidden-test scores.
+
 ## Reproducing The Pipeline
 
 Run commands from the repository root.
@@ -151,7 +163,23 @@ Compare metrics against human judgments:
 python3 src/analysis/compare_metrics_vs_human.py
 python3 src/analysis/build_final_report_artifacts.py
 python3 src/analysis/select_representative_examples.py
+python3 src/analysis/build_paper_support_artifacts.py
 ```
+
+Run local COMET / M-ETA evaluation:
+
+```bash
+python3 -m pip install --user unbabel-comet==2.2.4
+python3 src/evaluation/run_comet_meta_eval.py --run-comet --gpus 0 --batch-size 8 --num-workers 1
+```
+
+This writes:
+
+```text
+outputs/metrics/comet_meta_results.csv
+```
+
+The script uses `Unbabel/wmt22-comet-da` for COMET. For M-ETA, it follows the public EA-MT logic: a prediction is entity-correct when any gold reference mention appears in the prediction after casefolding.
 
 Optional diagnostic classifier:
 
@@ -203,17 +231,25 @@ The current overlap round has been completed on 30 examples. The strongest agree
 ## Important Caveats
 
 - Do not interpret local test results as official SemEval hidden-test results.
-- The metric scripts are lightweight and reproducible, but they do not reproduce the full official COMET/M-ETA setup.
+- COMET / M-ETA results are official-style local scores on the validation-derived held-out split, not leaderboard results.
+- The lightweight mention-match and metric-human disagreement analyses are reproducible diagnostics, not replacements for the official shared-task scorer.
 - The entity-aware baseline depends on Wikidata labels and string replacement, so it may inherit label or matching errors.
 - Inter-annotator agreement is based on a 30-example overlap set, so treat it as a consistency check rather than a definitive reliability study.
 
 ## Primary Artifacts
 
+- `AGENTS.md`
+- `docs/codex_issue_log.md`
+- `docs/paper_support.md`
 - `docs/final_report_draft.md`
 - `docs/notes/results_memo.md`
 - `docs/notes/baselines.md`
 - `docs/notes/local_evaluation.md`
 - `docs/notes/representative_examples.md`
 - `outputs/metrics/local_eval_model_summary.csv`
+- `outputs/metrics/comet_meta_results.csv`
+- `outputs/metrics/human_acceptability_summary.csv`
+- `outputs/metrics/mention_match_confusion.csv`
+- `outputs/metrics/stat_tests.csv`
 - `outputs/metrics/metric_human_summary.csv`
 - `outputs/metrics/disagreement_cases.csv`

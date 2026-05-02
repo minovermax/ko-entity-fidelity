@@ -1,0 +1,9 @@
+model_name,metric_likely_miss,count,total,proportion
+gpt4o,yes,43,200,0.215
+gpt4o,no,127,200,0.635
+gpt4o,maybe,30,200,0.15
+gpt4o,blank,0,200,0.0
+gpt4o_mini,yes,81,200,0.405
+gpt4o_mini,no,77,200,0.385
+gpt4o_mini,maybe,42,200,0.21
+gpt4o_mini,blank,0,200,0.0

@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="664" height="414" viewBox="0 0 664 414">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="24" y="28" font-family="Arial, sans-serif" font-size="18" fill="#1f2321">Korean Rendering Strategy Distribution</text>
-<text x="24" y="46" font-family="Arial, sans-serif" font-size="11" fill="#5c655f">Target rendering strategy selected by annotators for each example</text>
-<line x1="72" y1="322" x2="632" y2="322" stroke="#c9cfcb" stroke-width="1"/>
-<rect x="72.00" y="62.00" width="122.00" height="260.00" rx="4" fill="#d0624a"/>
-<text x="133.00" y="54.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">104</text>
-<text x="133.00" y="344.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">translate</text>
-<rect x="218.00" y="157.00" width="122.00" height="165.00" rx="4" fill="#5b7f4a"/>
-<text x="279.00" y="149.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">66</text>
-<text x="279.00" y="344.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">transliterate</text>
-<rect x="364.00" y="259.50" width="122.00" height="62.50" rx="4" fill="#7c6aa6"/>
-<text x="425.00" y="251.50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">25</text>
-<text x="425.00" y="344.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">adapt</text>
-<rect x="510.00" y="309.50" width="122.00" height="12.50" rx="4" fill="#8c8f91"/>
-<text x="571.00" y="301.50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">5</text>
-<text x="571.00" y="344.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1f2321">preserve</text>
+<text x="24" y="32" font-family="Arial, sans-serif" font-size="18" fill="#202422">Target Rendering Strategy Distribution</text>
+<text x="24" y="52" font-family="Arial, sans-serif" font-size="12" fill="#5d665f">Human target-strategy labels over 200 examples</text>
+<line x1="78" y1="290" x2="660" y2="290" stroke="#d7ddd8"/>
+<rect x="78" y="80.00" width="82" height="210.00" rx="4" fill="#5c7d8b"/>
+<text x="119.0" y="72.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#202422">104</text>
+<text x="119.0" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#202422">translate</text>
+<rect x="204" y="156.73" width="82" height="133.27" rx="4" fill="#5c7d8b"/>
+<text x="245.0" y="148.73" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#202422">66</text>
+<text x="245.0" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#202422">transliterate</text>
+<rect x="330" y="239.52" width="82" height="50.48" rx="4" fill="#5c7d8b"/>
+<text x="371.0" y="231.52" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#202422">25</text>
+<text x="371.0" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#202422">adapt</text>
+<rect x="456" y="279.90" width="82" height="10.10" rx="4" fill="#5c7d8b"/>
+<text x="497.0" y="271.90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#202422">5</text>
+<text x="497.0" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#202422">preserve</text>
 </svg>
